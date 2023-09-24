@@ -1,20 +1,43 @@
-import { BrowserRouter } from "react-router-dom";
 import {
+  createBrowserRouter,
+  RouterProvider,
+  BrowserRouter
+} from "react-router-dom";
 
-  Navbar,
+import Main from "./pages/Main";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Designers from "./pages/Designers";
+import Visit from "./pages/Visit";
 
-} from "./components";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
+  },
+  {
+    path: "/designers",
+    element: <Designers />,
+  },
+  {
+    path: "/visit",
+    element: <Visit />,
+  },
+]);
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
-          
-        </div>
-      </div>
-    </BrowserRouter>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 };
 
