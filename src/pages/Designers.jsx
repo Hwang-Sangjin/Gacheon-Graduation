@@ -13,6 +13,7 @@ const Designers = () => {
           >
             <motion.div variants={textVariant()}>
               <h2 className={`${styles.sectionHeadText}`}>Designers</h2>
+              <p className={`${styles.sectionSubText} `}>2023 Gachon University Industrial Design Dept. Graduation Exhibition</p>
             </motion.div>
           </div>
         </section>
