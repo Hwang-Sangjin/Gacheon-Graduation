@@ -2,6 +2,8 @@ import { Navbar } from "../components/index";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
+import DesignerNavbar from "../components/DesignerNavbar";
+
 const Designers = () => {
   return (
     <div className="relative z-0 bg-primary">
@@ -13,7 +15,10 @@ const Designers = () => {
           >
             <motion.div variants={textVariant()}>
               <h2 className={`${styles.sectionHeadText}`}>Designers</h2>
-              <p className={`${styles.sectionSubText} `}>2023 Gachon University Industrial Design Dept. Graduation Exhibition</p>
+              <p className={`${styles.sectionSubText} `}>
+                2023 Gachon University Industrial Design Dept. Graduation
+                Exhibition
+              </p>
             </motion.div>
           </div>
         </section>
