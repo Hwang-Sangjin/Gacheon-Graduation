@@ -5,7 +5,7 @@ const DesignerNavbar = ({ selectedCategory, setSelectedCategory }) => {
     setSelectedCategory(category);
   };
 
-  const catetories = ["All", "Comittee", "Product", "Space"];
+  const catetories = ["All", "Committee", "Product", "Space"];
 
   return (
     <div>

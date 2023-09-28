@@ -4,6 +4,10 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import DesignerNavbar from "../components/DesignerNavbar";
 import { useState, useEffect } from "react";
+import AllDesigners from "../components/AllDesigners";
+import Committee from "../components/CommitteeDesigners";
+import MainProduct from "../components/MainProductDesigners";
+import SpaceDesigners from "../components/SpaceDesigners";
 
 const Designers = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -31,7 +35,9 @@ const Designers = () => {
               selectedCategory={selectedCategory}
               setSelectedCategory={setSelectedCategory}
             />
+            {selectedCategory==='All'? <AllDesigners/> : selectedCategory==='Committee'? <Committee/>:selectedCategory==='Product'? <MainProduct/>:<SpaceDesigners/>}
           </div>
+          
         </section>
       </div>
     </div>
