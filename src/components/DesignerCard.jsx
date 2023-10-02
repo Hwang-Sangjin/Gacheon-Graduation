@@ -5,7 +5,7 @@ const DesignerCard = ({title, data}) => {
                 {title}
             </div>
             <div>
-                {data}
+                {data.Name_kor}
             </div>
         </div>
     )

@@ -8,7 +8,8 @@ const AllDesigners = () => {
             
             <div className="mt-10 flex flex-wrap gap-7">
             {AllDeisngersData.map((name) => {
-                console.log(DesignersData[name])
+                console.log(name,DesignersData[name])
+                if(name===" ") return;
                 return (
                     name==="KimGeonRyeong"?
                     <DesignerCard title="All_Prompts" data={DesignersData[name]}/> :

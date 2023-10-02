@@ -223,6 +223,16 @@ export const navLinks = [
       Image_BW :KimGeonRyeong_BW,
       Image_Color:KimGeonRyeong_Color,  
     },
+    LeeJongWon:{
+      Name_kor : "이 종원",
+      Name_eng : "LEE JONGWON",
+      Role : "Product designer",
+      Email : "idojwlee@gmail.com",
+      Link_insta : "",
+      Link_Behance : "",
+      Image_BW :KimGeonRyeong_BW,
+      Image_Color:KimGeonRyeong_Color,  
+    },
     LeeHongKyu:{
       Name_kor : "이 홍규",
       Name_eng : "LEE HONGKYU",
@@ -303,6 +313,16 @@ export const navLinks = [
       Image_BW :KimGeonRyeong_BW,
       Image_Color:KimGeonRyeong_Color,  
     },
+    " ":{
+      Name_kor : "홍 동영",
+      Name_eng : "HONG DONGYOUNG",
+      Role : "Product designer",
+      Email : "hy1527@gmail.com",
+      Link_insta : "",
+      Link_Behance : "",
+      Image_BW :KimGeonRyeong_BW,
+      Image_Color:KimGeonRyeong_Color,  
+    }
   }
 
   const AllDeisngersData = [
@@ -338,8 +358,7 @@ export const navLinks = [
     "ChoiJaeHo",
     "HwangJuHyeok",
     "HongDongYoung",
-    "Photographer. JEON HAEIN",
-    "Developer. JIN"
+    
   ]
 
   export {DesignersData, AllDeisngersData};
