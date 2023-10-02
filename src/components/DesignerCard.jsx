@@ -1,6 +1,13 @@
-const DesignerCard = ({title, name}) => {
+const DesignerCard = ({title, data}) => {
     return(
-        <div>Designer Card</div>
+        <div>
+            <div>
+                {title}
+            </div>
+            <div>
+                {data}
+            </div>
+        </div>
     )
 }
 
