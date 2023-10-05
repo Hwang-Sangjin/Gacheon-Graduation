@@ -2,7 +2,7 @@ const DesignerCard = ({ title, data }) => {
   return (
     <div>
       <div>{title}</div>
-      <div className="w-1/4">
+      <div className="md:w-2/3" >
         <img src={data.Image_BW} />
         <div>{data.Name_kor}</div>
         <div>{data.Name_eng}</div>

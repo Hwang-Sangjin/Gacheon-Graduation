@@ -22,7 +22,7 @@ const Designers = () => {
         <Navbar />
         <section className="relative w-full h-screen mx-auto">
           <div
-            className={`${styles.paddingX} relative inset-0 top-[120px] max-w-7xl mx-auto flex flex-col items-start gap-5`}
+            className={`px-12 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
           >
             <motion.div variants={textVariant()}>
               <h2 className={`${styles.sectionHeadText}`}>Designers</h2>

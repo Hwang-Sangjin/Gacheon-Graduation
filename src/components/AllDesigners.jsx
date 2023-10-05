@@ -4,11 +4,9 @@ import { AllDeisngersData,DesignersData } from "../constants"
 
 const AllDesigners = () => {
     return(
-        <div>
-            
-            <div className="mt-10 flex flex-wrap gap-7">
+        <div className="mt-10 flex  flex-wrap gap-7">
+            <div className="mt-10 grid md:grid-cols-4 gap-1 sm:grid-cols-2">
             {AllDeisngersData.map((name) => {
-                console.log(name,DesignersData[name])
                 if(name===" ") return;
                 return (
                     name==="KimGeonRyeong"?
