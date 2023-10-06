@@ -20,9 +20,9 @@ const Designers = () => {
     <div className="relative z-0 bg-primary">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
-        <section className="relative w-full h-screen mx-auto">
+        <section className="relative h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 ">
           <div
-            className={`px-12 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
+            className={`px-2 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
           >
             <motion.div variants={textVariant()}>
               <h2 className={`${styles.sectionHeadText}`}>Designers</h2>
@@ -35,9 +35,16 @@ const Designers = () => {
               selectedCategory={selectedCategory}
               setSelectedCategory={setSelectedCategory}
             />
-            {selectedCategory==='All'? <AllDesigners/> : selectedCategory==='Committee'? <Committee/>:selectedCategory==='Product'? <MainProduct/>:<SpaceDesigners/>}
+            {selectedCategory === "All" ? (
+              <AllDesigners />
+            ) : selectedCategory === "Committee" ? (
+              <Committee />
+            ) : selectedCategory === "Product" ? (
+              <MainProduct />
+            ) : (
+              <SpaceDesigners />
+            )}
           </div>
-          
         </section>
       </div>
     </div>

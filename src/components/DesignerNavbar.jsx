@@ -13,7 +13,7 @@ const DesignerNavbar = ({ selectedCategory, setSelectedCategory }) => {
         {catetories.map((category) => {
           return category === selectedCategory ? (
             <div
-              className="mx-1 my-2 bg-black flex px-4 py-0.5 rounded-md"
+              className="mx-1 my-2 bg-black flex px-2 py-0.5 rounded-md"
               key={category.id}
               onClick={() => ChangeCategory(category)}
             >
@@ -23,7 +23,7 @@ const DesignerNavbar = ({ selectedCategory, setSelectedCategory }) => {
             </div>
           ) : (
             <div
-              className="mx-1 my-2 flex px-4 py-0.5"
+              className="mx-1 my-2 flex px-2 py-0.5"
               key={category.id}
               onClick={() => ChangeCategory(category)}
             >
