@@ -131,6 +131,16 @@
   transform: translateZ(0);
 }
 
+.designer-card {
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.designer-card:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
