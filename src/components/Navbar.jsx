@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { styles } from "../styles";
 import { logo, menu, close } from "../assets";
 import { navLinks } from "../constants";
@@ -9,24 +9,27 @@ import Marquee from "react-fast-marquee";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const navigate = useNavigate();
+
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center px-12 mx-auto">
-        <Link
-          to="/"
-          className="flex items-center gap-2"
+        <img
+          src={logo}
+          alt="logo"
+          className="w-36 h-9 object-contain"
           onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
+            navigate("/");
           }}
-        >
-          <img src={logo} alt="logo" className="w-36 h-9 object-contain" />
-        </Link>
-        <Marquee direction="right" className="mx-8">
-          2023 Gachon University Industrial Design Dept. Graduation Exhibition
-        </Marquee>
+        />
+        <div className="mx-5 hidden sm:flex sm:flex-[2_2_0%]">
+          <Marquee direction="right" speed={100} className="tracking-wider">
+            2023 Gachon University Industrial Design Dept. Graduation Exhibition
+          </Marquee>
+        </div>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
