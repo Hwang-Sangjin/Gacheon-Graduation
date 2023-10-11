@@ -15,11 +15,11 @@ const Navbar = () => {
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
-      <div className="w-full flex justify-between items-center px-12 mx-auto">
+      <div className="w-full flex justify-between items-center px-2 sm:px-12 mx-auto">
         <img
           src={logo}
           alt="logo"
-          className="w-36 h-9 object-contain"
+          className="sm:w-36 h-9 object-contain"
           onClick={() => {
             navigate("/");
           }}

@@ -17,7 +17,7 @@ const DesignerNavbar = ({ selectedCategory, setSelectedCategory }) => {
               key={category.id}
               onClick={() => ChangeCategory(category)}
             >
-              <li key={category.id} className="text-[#FFF16F] text-3xl">
+              <li key={category.id} className="text-[#FFF16F] text-sm md:text-3xl ">
                 ({category})
               </li>
             </div>
@@ -27,7 +27,7 @@ const DesignerNavbar = ({ selectedCategory, setSelectedCategory }) => {
               key={category.id}
               onClick={() => ChangeCategory(category)}
             >
-              <li key={category.id} className="text-3xl">
+              <li key={category.id} className="text-sm md:text-3xl">
                 ({category})
               </li>
             </div>

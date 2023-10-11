@@ -22,13 +22,14 @@ const Designers = () => {
         <Navbar />
         <section className="relative h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 ">
           <div
-            className={`px-12 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
+            className={`px-2 sm:px-12 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
           >
             <motion.div variants={textVariant()}>
-              <h2 className={`${styles.sectionHeadText}`}>Designers</h2>
-              <p className={`${styles.sectionSubText} `}>
-                2023 Gachon University Industrial Design Dept. Graduation
-                Exhibition
+              <h2 className="text-black font-black text-[60px]">Designers</h2>
+              <p className="text-[12px] text-secondary">
+                2023 Gachon University 
+                <br/>
+                Industrial Design Dept. Graduation Exhibition
               </p>
             </motion.div>
             <DesignerNavbar
