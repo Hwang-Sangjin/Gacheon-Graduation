@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { logo, menu, close } from "../assets";
 import { navLinks } from "../constants";
+import Marquee from "react-fast-marquee";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -23,13 +24,16 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-36 h-9 object-contain" />
         </Link>
+        <Marquee direction="right" className="mx-8">
+          2023 Gachon University Industrial Design Dept. Graduation Exhibition
+        </Marquee>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              }  text-[18px] font-medium `}
               onClick={() => setActive(link.title)}
             >
               <a href={`/${link.id}`}>{link.title}</a>
@@ -40,7 +44,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            className="w-[28px] h-[28px] object-contain "
             onClick={() => setToggle(!toggle)}
           />
           <div
