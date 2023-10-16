@@ -1,5 +1,33 @@
-import KimGeonRyeong_BW from "../assets/designer/kimgeonryeong/kimgeonryeong_bw.jpg";
-import KimGeonRyeong_Color from "../assets/designer/kimgeonryeong/KimGeonRyeong_Color.jpg";
+import KimGeonRyeong_Color from "../assets/designer/KimGeonRyeong/KimGeonRyeong_color.jpg";
+import KimGoEun_Color from "../assets/designer/KimGoEun/KimGoEun_color.jpg.jpg"
+import KimDongJun_Color from "../assets/designer/KimDongJun/KimDongJun_color.jpg"
+import KimYaeJu_Color from "../assets/designer/KimYaeJu/KimYaeJu_color.jpg"
+import KimYunHa_Color from "../assets/designer/KimYunHa/KimYunHa_color.jpg"
+import KimJiHwan_Color from "../assets/designer/KimJiHwan/KimJiHwan_color.jpg"
+import NamMinJi_Color from "../assets/designer/NamMinJi/NamMinJi_color.jpg"
+import ParkChangMin_Color from "../assets/designer/ParkChangMin/ParkChangMin_color.jpg"
+import BakSeungEun_Color from "../assets/designer/BakSeungEun/BakSeungEun_color.jpg"
+import SeoAReum_Color from "../assets/designer/SeoAReum/SeoAReum_color.jpg"
+import ShinDongYeop_Color from "../assets/designer/ShinDongYeop/ShinDongYeop_color.jpg"
+import ShinJiWoo_Color from "../assets/designer/ShinJiWoo/ShinJiWoo_color.jpg"
+import SimMinSeop_Color from "../assets/designer/SimMinSeop/SimMinSeop_color.jpg"
+import AnMyoungJi_Color from "../assets/designer/AnMyoungJi/AnMyoungJi_color.jpg"
+import YangJiWon_Color from "../assets/designer/YangJiWon/YangJiWon_color.jpg"
+import YangHyeSeon_Color from "../assets/designer/YangHyeSeon/YangHyeSeon_color.jpg"
+import WonHanJu_Color from "../assets/designer/WonHanJu/WonHanJu_color.jpg"
+import YooDongJae_Color from "../assets/designer/YooDongJae/YooDongJae_color.jpg"
+import YuAJung_Color from "../assets/designer/YuAJung/YuAJung_color.jpg"
+import YuJiHui_Color from "../assets/designer/YuJiHui/YuJiHui_color.jpg"
+import LeeJongWon_Color from "../assets/designer/LeeJongWon/LeeJongWon_color.jpg"
+import LeeHongKyu_Color from "../assets/designer/LeeHongKyu/LeeHongKyu_color.jpg"
+import JangSeoJin_Color from "../assets/designer/JangSeoJin/JangSeoJin_color.jpg"
+import JunSeWon_Color from "../assets/designer/JunSeWon/JunSeWon_color.jpg"
+import JuYoonWoo_Color from "../assets/designer/JuYoonWoo/JuYoonWoo_color.jpg"
+import ChoiDaIn_Color from "../assets/designer/ChoiDaIn/ChoiDaIn_color.jpg"
+import ChoiJaeHo_Color from "../assets/designer/ChoiJaeHo/ChoiJaeHo_color.jpg"
+import HwangJuHyeok_Color from "../assets/designer/HwangJuHyeok/HwangJuHyeok_color.jpg"
+import HongDongYoung_Color from "../assets/designer/HongDongYoung/HongDongYoung_color.jpg"
+
 
 export const navLinks = [
   {
@@ -28,7 +56,6 @@ const DesignersData = {
     Email: "kasias9810@gmail.com",
     Link_insta: "https://www.instagram.com/louivuit_gr/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
     Image_Color: KimGeonRyeong_Color,
   },
   KimGoEun: {
@@ -38,8 +65,8 @@ const DesignersData = {
     Email: "3470604@gmail.com",
     Link_insta: "https://www.instagram.com/eun_9.21/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+
+    Image_Color: KimGoEun_Color,
   },
   KimDongJun: {
     Name_kor: "김동준",
@@ -48,8 +75,8 @@ const DesignersData = {
     Email: "hellodongjun@gmail.com",
     Link_insta: "https://www.instagram.com/gundalssi_/",
     Link_Behance: "https://www.behance.net/gundalssi",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+
+    Image_Color: KimDongJun_Color,
   },
   KimYaeJu: {
     Name_kor: "김 예주",
@@ -58,8 +85,8 @@ const DesignersData = {
     Email: "sally2629@naver.com",
     Link_insta: "https://www.instagram.com/belle_la_official/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+
+    Image_Color: KimYaeJu_Color,
   },
   KimYunHa: {
     Name_kor: "김 윤하",
@@ -68,8 +95,7 @@ const DesignersData = {
     Email: "ssp04322@gmail.com",
     Link_insta: "https://www.instagram.com/silkstone_look/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: KimYunHa_Color,
   },
   KimJiHwan: {
     Name_kor: "김 지환",
@@ -78,8 +104,7 @@ const DesignersData = {
     Email: "kioo3022@naver.com",
     Link_insta: "https://www.instagram.com/ji_on.33/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: KimJiHwan_Color,
   },
   NamMinJi: {
     Name_kor: "남 민지",
@@ -88,8 +113,7 @@ const DesignersData = {
     Email: "rkfud724@naver.com",
     Link_insta: "https://www.instagram.com/ryeong724/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: NamMinJi_Color,
   },
   ParkChangMin: {
     Name_kor: "박 창민",
@@ -98,8 +122,7 @@ const DesignersData = {
     Email: "changminp816@naver.com",
     Link_insta: "https://www.instagram.com/qkrckdals_/",
     Link_Behance: "https://www.behance.net/changminp8c347",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: ParkChangMin_Color,
   },
   BakSeungEun: {
     Name_kor: "백 승은",
@@ -108,8 +131,7 @@ const DesignersData = {
     Email: "sebaiktool@gmail.com",
     Link_insta: "https://www.instagram.com/100seungeun100/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: BakSeungEun_Color,
   },
   SeoAReum: {
     Name_kor: "서 아름",
@@ -118,8 +140,7 @@ const DesignersData = {
     Email: "sar981101@naver.com",
     Link_insta: "https://www.instagram.com/dkfma_daily/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: SeoAReum_Color,
   },
   ShinDongYeop: {
     Name_kor: "신 동엽",
@@ -128,8 +149,7 @@ const DesignersData = {
     Email: "waid9@naver.com",
     Link_insta: "https://www.instagram.com/shin_dydydy/",
     Link_Behance: "https://www.behance.net/shindydy",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: ShinDongYeop_Color,
   },
   ShinJiWoo: {
     Name_kor: "신 지우",
@@ -138,8 +158,7 @@ const DesignersData = {
     Email: "jiwoo4401@gmail.com",
     Link_insta: "https://www.instagram.com/ziuly__/",
     Link_Behance: "https://www.instagram.com/owlfactory_official/",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: ShinJiWoo_Color,
   },
   SimMinSeop: {
     Name_kor: "심 민섭",
@@ -148,8 +167,7 @@ const DesignersData = {
     Email: "owlfactory1009@naver.com",
     Link_insta: "",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: SimMinSeop_Color,
   },
   AnMyoungJi: {
     Name_kor: "안 명지",
@@ -158,8 +176,7 @@ const DesignersData = {
     Email: "comfymj20@gmail.com",
     Link_insta: "",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: AnMyoungJi_Color,
   },
   YangJiWon: {
     Name_kor: "양 지원",
@@ -168,8 +185,7 @@ const DesignersData = {
     Email: "csz5hj8979@gmail.com",
     Link_insta: "https://www.instagram.com/zionezero/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: YangJiWon_Color,
   },
   YangHyeSeon: {
     Name_kor: "양 혜선",
@@ -178,8 +194,7 @@ const DesignersData = {
     Email: "sju05030@naver.comm",
     Link_insta: "https://www.instagram.com/heeeeysun/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: YangHyeSeon_Color,
   },
   WonHanJu: {
     Name_kor: "원 한주",
@@ -188,8 +203,7 @@ const DesignersData = {
     Email: "wonhanjoo@gmail.com",
     Link_insta: "https://www.instagram.com/1hanj00/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: WonHanJu_Color,
   },
   YooDongJae: {
     Name_kor: "유 동재",
@@ -198,8 +212,7 @@ const DesignersData = {
     Email: "nlosnfin22@gmail.com",
     Link_insta: "https://www.instagram.com/devdz__/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: YooDongJae_Color,
   },
   YuAJung: {
     Name_kor: "유 아정",
@@ -208,8 +221,7 @@ const DesignersData = {
     Email: "jujusj0421@naver.com",
     Link_insta: "https://www.instagram.com/a_jung.e/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: YuAJung_Color,
   },
   YuJiHui: {
     Name_kor: "유 지희",
@@ -218,8 +230,7 @@ const DesignersData = {
     Email: "sarahyou@icloud.com",
     Link_insta: "",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: YuJiHui_Color,
   },
   LeeJongWon: {
     Name_kor: "이 종원",
@@ -228,8 +239,7 @@ const DesignersData = {
     Email: "idojwlee@gmail.com",
     Link_insta: "https://www.instagram.com/lee_jw_98/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: LeeJongWon_Color,
   },
   LeeHongKyu: {
     Name_kor: "이 홍규",
@@ -238,8 +248,7 @@ const DesignersData = {
     Email: "qwerty03096@gmail.com",
     Link_insta: "https://www.instagram.com/konkkiuu/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: LeeHongKyu_Color,
   },
   JangSeoJin: {
     Name_kor: "장 서진",
@@ -248,8 +257,7 @@ const DesignersData = {
     Email: "seojinswork@gmail.com",
     Link_insta: "https://www.instagram.com/seojins_work/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: JangSeoJin_Color,
   },
   JunSeWon: {
     Name_kor: "전 세원",
@@ -258,8 +266,7 @@ const DesignersData = {
     Email: "swjw0619@naver.com",
     Link_insta: "https://www.instagram.com/lustig_circle/",
     Link_Behance: "https://www.behance.net/swjw0619bbd3",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: JunSeWon_Color,
   },
   JuYoonWoo: {
     Name_kor: "주 윤우",
@@ -268,8 +275,7 @@ const DesignersData = {
     Email: "wndbsdn28@naver.com",
     Link_insta: "https://www.instagram.com/j__yw/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: JuYoonWoo_Color,
   },
   ChoiDaIn: {
     Name_kor: "최 다인",
@@ -278,8 +284,7 @@ const DesignersData = {
     Email: "dain2090@naver.com",
     Link_insta: "https://www.instagram.com/c_d_ai_n/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: ChoiDaIn_Color,
   },
   ChoiJaeHo: {
     Name_kor: "최 재호",
@@ -288,8 +293,7 @@ const DesignersData = {
     Email: "zmsdkdlwogh@naver.com",
     Link_insta: "https://www.instagram.com/jaeho.id/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: ChoiJaeHo_Color,
   },
   HwangJuHyeok: {
     Name_kor: "황 주혁",
@@ -298,8 +302,7 @@ const DesignersData = {
     Email: "hyeok12267@gmail.com",
     Link_insta: "https://www.instagram.com/jhjhjh__97/",
     Link_Behance: "https://www.behance.net/jhhwang122b2c2",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: HwangJuHyeok_Color,
   },
   HongDongYoung: {
     Name_kor: "홍 동영",
@@ -308,8 +311,7 @@ const DesignersData = {
     Email: "hy1527@gmail.com",
     Link_insta: "https://www.instagram.com/hong_d_y/",
     Link_Behance: "https://www.behance.net/hong_d_y",
-    Image_BW: KimGeonRyeong_BW,
-    Image_Color: KimGeonRyeong_Color,
+    Image_Color: HongDongYoung_Color,
   },
   " ": {
     Name_kor: "홍 동영",
@@ -318,7 +320,7 @@ const DesignersData = {
     Email: "hy1527@gmail.com",
     Link_insta: "https://www.instagram.com/im_haen/",
     Link_Behance: "",
-    Image_BW: KimGeonRyeong_BW,
+    Image_BW: KimGeonRyeong_Color,
     Image_Color: KimGeonRyeong_Color,
   },
 };
