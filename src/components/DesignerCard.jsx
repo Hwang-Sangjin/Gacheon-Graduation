@@ -1,16 +1,24 @@
-const DesignerCard = ({ title, data }) => {
+import { motion } from "framer-motion";
+import { fadeIn, textVariant } from "../utils/motion";
+import { Tilt } from "react-tilt";
+const DesignerCard = ({ title, data, index }) => {
   return (
-    <div>
-      <div className="h-[2rem] text-3xl mb-4">{title}</div>
-      <div className="md:w-3/4 sm:w-1/5">
-        <img className="designer-card" src={data.Image_Color} />
-        <div>{data.Name_kor}</div>
-        <div>{data.Name_eng}</div>
-        <div>{data.Role}</div>
-        <div>Email {data.Email}</div>
-        <div>Link {data.Name_kor}</div>
-      </div>
-    </div>
+    <Tilt className=" w-full">
+      <motion.div
+        variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+        className="w-full rounded-[20px] "
+      >
+        <div className="h-[2rem] text-3xl mb-4">{title}</div>
+        <div className="md:w-3/4 sm:w-1/5">
+          <img className="designer-card" src={data.Image_Color} />
+          <div>{data.Name_kor}</div>
+          <div>{data.Name_eng}</div>
+          <div>{data.Role}</div>
+          <div>Email {data.Email}</div>
+          <div>Link {data.Name_kor}</div>
+        </div>
+      </motion.div>
+    </Tilt>
   );
 };
 
