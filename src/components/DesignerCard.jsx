@@ -6,6 +6,9 @@ const DesignerCard = ({ title, data, index }) => {
     <Tilt className=" w-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
         className="w-full rounded-[20px] "
       >
         <div className="h-[2rem] text-3xl mb-4">{title}</div>
