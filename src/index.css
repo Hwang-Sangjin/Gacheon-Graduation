@@ -73,7 +73,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Pretendard", sans-serif;
   scroll-behavior: smooth;
   color-scheme: white;
 }
@@ -196,7 +195,7 @@
   transition: 0.5s ease;
 }
 .designer-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   filter: grayscale(0%);
 }
 

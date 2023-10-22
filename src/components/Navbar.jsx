@@ -25,7 +25,7 @@ const Navbar = () => {
           }}
         />
         <div className="mx-5 hidden sm:flex sm:flex-[2_2_0%]">
-          <Marquee direction="right" speed={100} className="tracking-wider">
+          <Marquee direction="right" speed={100} className="tracking-wider font-['Hack-Regular']">
             2023 Gachon University Industrial Design Dept. Graduation Exhibition
           </Marquee>
         </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              }  text-[18px] font-medium `}
+              }  text-[18px] font-['Hack-Regular']`}
               onClick={() => setActive(link.title)}
             >
               <a href={`/${link.id}`}>{link.title}</a>

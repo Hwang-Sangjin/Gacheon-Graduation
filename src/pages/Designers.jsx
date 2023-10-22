@@ -25,11 +25,9 @@ const Designers = () => {
             className={`px-2 sm:px-12 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
           >
             <motion.div variants={textVariant()}>
-              <h2 className="text-black font-black text-[60px]">Designers</h2>
-              <p className="text-[12px] text-secondary">
-                2023 Gachon University 
-                <br/>
-                Industrial Design Dept. Graduation Exhibition
+              <h2 className="font-['Hack-Bold'] font-black text-[60px]">Designers</h2>
+              <p className="text-[12px] text-secondary font-['Hack-Regular']">
+                2023 Gachon University Industrial Design Dept. Graduation Exhibition
               </p>
             </motion.div>
             <DesignerNavbar
