@@ -398,4 +398,11 @@ const AllDeisngersData = [
   "Jin"
 ];
 
-export { DesignersData, AllDeisngersData };
+const CommitteeDeisngersData = [
+  "KimDongJun",
+  " ",
+  "KimGeonRyeong",
+  "LeeJongWon"
+];
+
+export { DesignersData, AllDeisngersData, CommitteeDeisngersData };
