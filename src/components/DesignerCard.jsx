@@ -7,7 +7,7 @@ import BlogImg from '../assets/Blog.jpg';
 
 const DesignerCard = ({ title, data, index }) => {
   return (
-    <Tilt className="w-full mb-2">
+    <Tilt className="w-full mb-8">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         initial={{ opacity: 0 }}
