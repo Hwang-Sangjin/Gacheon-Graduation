@@ -1,9 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @font-face {
-  font-family: "Pretendard";
+  font-family: "Pretendard-Bold";
   font-weight: 50;
   src: url("./fonts/Pretendard-Bold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-Black";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-Black.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-ExtraBold";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-ExtraBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-ExtraLight";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-ExtraLight.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-Light";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-Light.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-Medium";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-Medium.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-SemiBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard-Thin";
+  font-weight: 50;
+  src: url("./fonts/Pretendard-Thin.otf") format("truetype");
+}
+@font-face {
+  font-family: "Hack-Bold";
+  font-weight: 50;
+  src: url("./fonts/Hack-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hack-BoldItalic";
+  font-weight: 50;
+  src: url("./fonts/Hack-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hack-Italic";
+  font-weight: 50;
+  src: url("./fonts/Hack-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hack-Regular";
+  font-weight: 50;
+  src: url("./fonts/Hack-Regular.ttf") format("truetype");
 }
 @tailwind base;
 @tailwind components;

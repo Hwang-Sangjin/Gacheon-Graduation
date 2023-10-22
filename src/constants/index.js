@@ -69,7 +69,7 @@ const DesignersData = {
     Image_Color: KimGoEun_Color,
   },
   KimDongJun: {
-    Name_kor: "김동준",
+    Name_kor: "김 동준",
     Name_eng: "KIM DONGJUN",
     Role: "3D Graphic designer",
     Email: "hellodongjun@gmail.com",
