@@ -1,33 +1,32 @@
 import KimGeonRyeong_Color from "../assets/designer/KimGeonRyeong/KimGeonRyeong_color.jpg";
-import KimGoEun_Color from "../assets/designer/KimGoEun/KimGoEun_color.jpg.jpg"
-import KimDongJun_Color from "../assets/designer/KimDongJun/KimDongJun_color.jpg"
-import KimYaeJu_Color from "../assets/designer/KimYaeJu/KimYaeJu_color.jpg"
-import KimYunHa_Color from "../assets/designer/KimYunHa/KimYunHa_color.jpg"
-import KimJiHwan_Color from "../assets/designer/KimJiHwan/KimJiHwan_color.jpg"
-import NamMinJi_Color from "../assets/designer/NamMinJi/NamMinJi_color.jpg"
-import ParkChangMin_Color from "../assets/designer/ParkChangMin/ParkChangMin_color.jpg"
-import BakSeungEun_Color from "../assets/designer/BakSeungEun/BakSeungEun_color.jpg"
-import SeoAReum_Color from "../assets/designer/SeoAReum/SeoAReum_color.jpg"
-import ShinDongYeop_Color from "../assets/designer/ShinDongYeop/ShinDongYeop_color.jpg"
-import ShinJiWoo_Color from "../assets/designer/ShinJiWoo/ShinJiWoo_color.jpg"
-import SimMinSeop_Color from "../assets/designer/SimMinSeop/SimMinSeop_color.jpg"
-import AnMyoungJi_Color from "../assets/designer/AnMyoungJi/AnMyoungJi_color.jpg"
-import YangJiWon_Color from "../assets/designer/YangJiWon/YangJiWon_color.jpg"
-import YangHyeSeon_Color from "../assets/designer/YangHyeSeon/YangHyeSeon_color.jpg"
-import WonHanJu_Color from "../assets/designer/WonHanJu/WonHanJu_color.jpg"
-import YooDongJae_Color from "../assets/designer/YooDongJae/YooDongJae_color.jpg"
-import YuAJung_Color from "../assets/designer/YuAJung/YuAJung_color.jpg"
-import YuJiHui_Color from "../assets/designer/YuJiHui/YuJiHui_color.jpg"
-import LeeJongWon_Color from "../assets/designer/LeeJongWon/LeeJongWon_color.jpg"
-import LeeHongKyu_Color from "../assets/designer/LeeHongKyu/LeeHongKyu_color.jpg"
-import JangSeoJin_Color from "../assets/designer/JangSeoJin/JangSeoJin_color.jpg"
-import JunSeWon_Color from "../assets/designer/JunSeWon/JunSeWon_color.jpg"
-import JuYoonWoo_Color from "../assets/designer/JuYoonWoo/JuYoonWoo_color.jpg"
-import ChoiDaIn_Color from "../assets/designer/ChoiDaIn/ChoiDaIn_color.jpg"
-import ChoiJaeHo_Color from "../assets/designer/ChoiJaeHo/ChoiJaeHo_color.jpg"
-import HwangJuHyeok_Color from "../assets/designer/HwangJuHyeok/HwangJuHyeok_color.jpg"
-import HongDongYoung_Color from "../assets/designer/HongDongYoung/HongDongYoung_color.jpg"
-
+import KimGoEun_Color from "../assets/designer/KimGoEun/KimGoEun_color.jpg.jpg";
+import KimDongJun_Color from "../assets/designer/KimDongJun/KimDongJun_color.jpg";
+import KimYaeJu_Color from "../assets/designer/KimYaeJu/KimYaeJu_color.jpg";
+import KimYunHa_Color from "../assets/designer/KimYunHa/KimYunHa_color.jpg";
+import KimJiHwan_Color from "../assets/designer/KimJiHwan/KimJiHwan_color.jpg";
+import NamMinJi_Color from "../assets/designer/NamMinJi/NamMinJi_color.jpg";
+import ParkChangMin_Color from "../assets/designer/ParkChangMin/ParkChangMin_color.jpg";
+import BakSeungEun_Color from "../assets/designer/BakSeungEun/BakSeungEun_color.jpg";
+import SeoAReum_Color from "../assets/designer/SeoAReum/SeoAReum_color.jpg";
+import ShinDongYeop_Color from "../assets/designer/ShinDongYeop/ShinDongYeop_color.jpg";
+import ShinJiWoo_Color from "../assets/designer/ShinJiWoo/ShinJiWoo_color.jpg";
+import SimMinSeop_Color from "../assets/designer/SimMinSeop/SimMinSeop_color.jpg";
+import AnMyoungJi_Color from "../assets/designer/AnMyoungJi/AnMyoungJi_color.jpg";
+import YangJiWon_Color from "../assets/designer/YangJiWon/YangJiWon_color.jpg";
+import YangHyeSeon_Color from "../assets/designer/YangHyeSeon/YangHyeSeon_color.jpg";
+import WonHanJu_Color from "../assets/designer/WonHanJu/WonHanJu_color.jpg";
+import YooDongJae_Color from "../assets/designer/YooDongJae/YooDongJae_color.jpg";
+import YuAJung_Color from "../assets/designer/YuAJung/YuAJung_color.jpg";
+import YuJiHui_Color from "../assets/designer/YuJiHui/YuJiHui_color.jpg";
+import LeeJongWon_Color from "../assets/designer/LeeJongWon/LeeJongWon_color.jpg";
+import LeeHongKyu_Color from "../assets/designer/LeeHongKyu/LeeHongKyu_color.jpg";
+import JangSeoJin_Color from "../assets/designer/JangSeoJin/JangSeoJin_color.jpg";
+import JunSeWon_Color from "../assets/designer/JunSeWon/JunSeWon_color.jpg";
+import JuYoonWoo_Color from "../assets/designer/JuYoonWoo/JuYoonWoo_color.jpg";
+import ChoiDaIn_Color from "../assets/designer/ChoiDaIn/ChoiDaIn_color.jpg";
+import ChoiJaeHo_Color from "../assets/designer/ChoiJaeHo/ChoiJaeHo_color.jpg";
+import HwangJuHyeok_Color from "../assets/designer/HwangJuHyeok/HwangJuHyeok_color.jpg";
+import HongDongYoung_Color from "../assets/designer/HongDongYoung/HongDongYoung_color.jpg";
 
 export const navLinks = [
   {
@@ -361,7 +360,7 @@ const DesignersData = {
   },
 };
 
-const AllDeisngersData = [
+const AllDesignersData = [
   "KimGeonRyeong",
   "KimGoEun",
   "KimDongJun",
@@ -395,14 +394,75 @@ const AllDeisngersData = [
   "HwangJuHyeok",
   "HongDongYoung",
   "JeonHaeIn",
-  "Jin"
+  "Jin",
 ];
 
-const CommitteeDeisngersData = [
+const CommitteeDesignersData = [
   "KimDongJun",
   " ",
   "KimGeonRyeong",
-  "LeeJongWon"
+  "LeeJongWon",
+  "ShinDongYeop",
+  "KimGoEun",
+  "SeoAReum",
+  "YuAJung",
+  " ",
+  "SimMinSeop",
+  "HwangJuHyeok",
+  "LeeHongKyu",
+  "AnMyoungJi",
+  "KimYaeJu",
+  " ",
+  "JuYoonWoo",
+  "JeonHaeIn",
+  "Jin",
 ];
 
-export { DesignersData, AllDeisngersData, CommitteeDeisngersData };
+const ProductDesignersData = [
+  "KimGeonRyeong",
+  "KimGoEun",
+  "KimDongJun",
+  "KimJiHwan",
+  "BakSeungEun",
+  "ShinDongYeop",
+  "ShinJiWoo",
+  "SimMinSeop",
+  "AnMyoungJi",
+  "YangHyeSeon",
+  "WonHanJu",
+  "YooDongJae",
+  "YuAJung",
+  "YuJiHui",
+  "LeeJongWon",
+  "LeeHongKyu",
+  "JangSeoJin",
+  "JunSeWon",
+  "JuYoonWoo",
+  "ChoiDaIn",
+  "ChoiJaeHo",
+  "HwangJuHyeok",
+  "HongDongYoung",
+  "JeonHaeIn",
+  "Jin",
+];
+
+const SpaceDesignersData = [
+  "KimYaeJu",
+  "KimYunHa",
+  " ",
+  "NamMinJi",
+  "ParkChangMin",
+  " ",
+  "SeoAReum",
+  "YangJiWon",
+  "JeonHaeIn",
+  "Jin",
+];
+
+export {
+  DesignersData,
+  AllDesignersData,
+  CommitteeDesignersData,
+  ProductDesignersData,
+  SpaceDesignersData,
+};
