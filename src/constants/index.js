@@ -442,6 +442,7 @@ const ProductDesignersData = [
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
+  " ",
   "JeonHaeIn",
   "Jin",
 ];
