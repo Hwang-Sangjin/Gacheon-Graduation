@@ -6,6 +6,7 @@ import BehanceImg from '../assets/Behance.jpg';
 import BlogImg from '../assets/Blog.jpg';
 
 const DesignerCard = ({ title, data, index }) => {
+
   return (
     <Tilt className="w-full mb-8">
       <motion.div
