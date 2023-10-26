@@ -14,7 +14,6 @@ const Visit = () => {
             <motion.div variants={textVariant()}>
               <h2 className="text-black font-black text-[60px]">Visit</h2>
             </motion.div>
-            
           </div>
         </section>
       </div>

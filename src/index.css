@@ -199,12 +199,12 @@
   filter: grayscale(0%);
 }
 
-.backdrop{
+.backdrop {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  width:100%;
+  width: 100%;
   background: #000000e1;
   display: flex;
   align-items: center;
@@ -215,7 +215,7 @@
   width: clamp(50%, 700px, 90%);
   height: min(50%, 300px);
 
-  margin:auto;
+  margin: auto;
   padding: 0 2rem;
   border-radius: 12px;
   display: flex;
@@ -300,7 +300,7 @@
   }
 }
 
-.cursor {
+/* .cursor {
   width: 30px;
   height: 30px;
   background-color: #ffffff;
@@ -317,4 +317,4 @@
 
 * {
   cursor: none;
-}
+} */
