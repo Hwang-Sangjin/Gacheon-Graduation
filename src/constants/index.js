@@ -51,6 +51,7 @@ const DesignersData = {
   KimGeonRyeong: {
     Name_kor: "김 건령",
     Name_eng: "KIM GEONRYEONG",
+    Name_tag: "KimGeonRyeong",
     Role: "Product designer",
     Email: "kasias9810@gmail.com",
     Link_insta: "https://www.instagram.com/louivuit_gr/",
@@ -61,6 +62,7 @@ const DesignersData = {
   KimGoEun: {
     Name_kor: "김 고은",
     Name_eng: "KIM GOEUN",
+    Name_tag: "KimGoEun",
     Role: "Product designer",
     Email: "3470604@gmail.com",
     Link_insta: "https://www.instagram.com/eun_9.21/",
@@ -71,6 +73,7 @@ const DesignersData = {
   KimDongJun: {
     Name_kor: "김 동준",
     Name_eng: "KIM DONGJUN",
+    Name_tag: "KimDongJun",
     Role: "3D Graphic designer",
     Email: "hellodongjun@gmail.com",
     Link_insta: "https://www.instagram.com/gundalssi_/",
@@ -81,6 +84,7 @@ const DesignersData = {
   KimYaeJu: {
     Name_kor: "김 예주",
     Name_eng: "KIM YAEJU",
+    Name_tag: "KimYaeJu",
     Role: "Space designer",
     Email: "sally2629@naver.com",
     Link_insta: "https://www.instagram.com/belle_la_official/",
@@ -91,6 +95,7 @@ const DesignersData = {
   KimYunHa: {
     Name_kor: "김 윤하",
     Name_eng: "KIM YUNHA",
+    Name_tag: "KimYunHa",
     Role: "Space designer",
     Email: "ssp04322@gmail.com",
     Link_insta: "https://www.instagram.com/silkstone_look/",
@@ -101,6 +106,7 @@ const DesignersData = {
   KimJiHwan: {
     Name_kor: "김 지환",
     Name_eng: "KIM YAEJU",
+    Name_tag: "KimJiHwan",
     Role: "Graphic designer",
     Email: "kioo3022@naver.com",
     Link_insta: "https://www.instagram.com/ji_on.33/",
@@ -111,6 +117,7 @@ const DesignersData = {
   NamMinJi: {
     Name_kor: "남 민지",
     Name_eng: "NAM MINJI",
+    Name_tag: "NamMinJi",
     Role: "Space designer",
     Email: "rkfud724@naver.com",
     Link_insta: "https://www.instagram.com/ryeong724/",
@@ -121,6 +128,7 @@ const DesignersData = {
   ParkChangMin: {
     Name_kor: "박 창민",
     Name_eng: "PARK CHANGMIN",
+    Name_tag: "ParkChangMin",
     Role: "Transportation designer",
     Email: "changminp816@naver.com",
     Link_insta: "https://www.instagram.com/qkrckdals_/",
@@ -131,6 +139,7 @@ const DesignersData = {
   BakSeungEun: {
     Name_kor: "백 승은",
     Name_eng: "BAK SEUNGEUN",
+    Name_tag: "BakSeungEun",
     Role: "Product designer",
     Email: "sebaiktool@gmail.com",
     Link_insta: "https://www.instagram.com/100seungeun100/",
@@ -141,6 +150,7 @@ const DesignersData = {
   SeoAReum: {
     Name_kor: "서 아름",
     Name_eng: "SEO AREUM",
+    Name_tag: "SeoAReum",
     Role: "Spatial designer",
     Email: "sar981101@naver.com",
     Link_insta: "https://www.instagram.com/dkfma_daily/",
@@ -151,6 +161,7 @@ const DesignersData = {
   ShinDongYeop: {
     Name_kor: "신 동엽",
     Name_eng: "SHIN DONGYEOP",
+    Name_tag: "ShinDongYeop",
     Role: "Graphic designer",
     Email: "waid9@naver.com",
     Link_insta: "https://www.instagram.com/shin_dydydy/",
@@ -161,6 +172,7 @@ const DesignersData = {
   ShinJiWoo: {
     Name_kor: "신 지우",
     Name_eng: "SHIN JIWOO",
+    Name_tag: "ShinJiWoo",
     Role: "Product designer",
     Email: "jiwoo4401@gmail.com",
     Link_insta: "https://www.instagram.com/ziuly__/",
@@ -171,6 +183,7 @@ const DesignersData = {
   SimMinSeop: {
     Name_kor: "심 민섭",
     Name_eng: "SIM MINSEOP",
+    Name_tag: "SimMinSeop",
     Role: "Art Toy artist",
     Email: "owlfactory1009@naver.com",
     Link_insta: "https://www.instagram.com/owlfactory_official/",
@@ -181,6 +194,7 @@ const DesignersData = {
   AnMyoungJi: {
     Name_kor: "안 명지",
     Name_eng: "AN MYOUNGJI",
+    Name_tag: "AnMyoungJi",
     Role: "Product designer",
     Email: "comfymj20@gmail.com",
     Link_insta: "",
@@ -191,6 +205,7 @@ const DesignersData = {
   YangJiWon: {
     Name_kor: "양 지원",
     Name_eng: "YANG JIWON",
+    Name_tag: "YangJiWon",
     Role: "Space designer",
     Email: "csz5hj8979@gmail.com",
     Link_insta: "https://www.instagram.com/zionezero/",
@@ -201,6 +216,7 @@ const DesignersData = {
   YangHyeSeon: {
     Name_kor: "양 혜선",
     Name_eng: "YANG HYESEON",
+    Name_tag: "YangHyeSeon",
     Role: "Product designer",
     Email: "sju05030@naver.comm",
     Link_insta: "https://www.instagram.com/heeeeysun/",
@@ -211,6 +227,7 @@ const DesignersData = {
   WonHanJu: {
     Name_kor: "원 한주",
     Name_eng: "WON HANJU",
+    Name_tag: "WonHanJu",
     Role: "Product designer",
     Email: "wonhanjoo@gmail.com",
     Link_insta: "https://www.instagram.com/1hanj00/",
@@ -221,6 +238,7 @@ const DesignersData = {
   YooDongJae: {
     Name_kor: "유 동재",
     Name_eng: "YOO DONGJAE",
+    Name_tag: "YooDongJae",
     Role: "Product designer",
     Email: "nlosnfin22@gmail.com",
     Link_insta: "https://www.instagram.com/devdz__/",
@@ -231,6 +249,7 @@ const DesignersData = {
   YuAJung: {
     Name_kor: "유 아정",
     Name_eng: "YU AJUNG",
+    Name_tag: "YuAJung",
     Role: "Product designer",
     Email: "jujusj0421@naver.com",
     Link_insta: "https://www.instagram.com/a_jung.e/",
@@ -241,6 +260,7 @@ const DesignersData = {
   YuJiHui: {
     Name_kor: "유 지희",
     Name_eng: "YU JIHUI",
+    Name_tag: "YuJiHui",
     Role: "Product designer",
     Email: "sarahyou@icloud.com",
     Link_insta: "",
@@ -251,6 +271,7 @@ const DesignersData = {
   LeeJongWon: {
     Name_kor: "이 종원",
     Name_eng: "LEE JONGWON",
+    Name_tag: "LeeJongWon",
     Role: "Product designer",
     Email: "idojwlee@gmail.com",
     Link_insta: "https://www.instagram.com/lee_jw_98/",
@@ -261,6 +282,7 @@ const DesignersData = {
   LeeHongKyu: {
     Name_kor: "이 홍규",
     Name_eng: "LEE HONGKYU",
+    Name_tag: "LeeHongKyu",
     Role: "Product designer",
     Email: "qwerty03096@gmail.com",
     Link_insta: "https://www.instagram.com/konkkiuu/",
@@ -271,6 +293,7 @@ const DesignersData = {
   JangSeoJin: {
     Name_kor: "장 서진",
     Name_eng: "JANG SEOJIN",
+    Name_tag: "JangSeoJin",
     Role: "Product designer",
     Email: "seojinswork@gmail.com",
     Link_insta: "https://www.instagram.com/seojins_work/",
@@ -281,6 +304,7 @@ const DesignersData = {
   JunSeWon: {
     Name_kor: "전 세원",
     Name_eng: "JUN SEWON",
+    Name_tag: "JunSeWon",
     Role: "Product designer",
     Email: "swjw0619@naver.com",
     Link_insta: "https://www.instagram.com/lustig_circle/",
@@ -291,6 +315,7 @@ const DesignersData = {
   JuYoonWoo: {
     Name_kor: "주 윤우",
     Name_eng: "JU YOONWOO",
+    Name_tag: "JuYoonWoo",
     Role: "3D Graphic designer",
     Email: "wndbsdn28@naver.com",
     Link_insta: "https://www.instagram.com/j__yw/",
@@ -301,6 +326,7 @@ const DesignersData = {
   ChoiDaIn: {
     Name_kor: "최 다인",
     Name_eng: "CHOI DAIN",
+    Name_tag: "ChoiDaIn",
     Role: "Product designer",
     Email: "dain2090@naver.com",
     Link_insta: "https://www.instagram.com/c_d_ai_n/",
@@ -311,6 +337,7 @@ const DesignersData = {
   ChoiJaeHo: {
     Name_kor: "최 재호",
     Name_eng: "CHOI JAEHO",
+    Name_tag: "ChoiJaeHo",
     Role: "Product designer",
     Email: "zmsdkdlwogh@naver.com",
     Link_insta: "https://www.instagram.com/jaeho.id/",
@@ -321,6 +348,7 @@ const DesignersData = {
   HwangJuHyeok: {
     Name_kor: "황 주혁",
     Name_eng: "HWANG JUHYEOK",
+    Name_tag: "HwangJuHyeok",
     Role: "Product designer",
     Email: "hyeok12267@gmail.com",
     Link_insta: "https://www.instagram.com/jhjhjh__97/",
@@ -331,6 +359,7 @@ const DesignersData = {
   HongDongYoung: {
     Name_kor: "홍 동영",
     Name_eng: "HONG DONGYOUNG",
+    Name_tag: "HongDongYoung",
     Role: "Product designer",
     Email: "hy1527@gmail.com",
     Link_insta: "https://www.instagram.com/hong_d_y/",
@@ -341,6 +370,7 @@ const DesignersData = {
   JeonHaeIn: {
     Name_kor: "전 해인",
     Name_eng: "JEON HAEIN",
+    Name_tag: "JeonHaeIn",
     Role: "Photographer.",
     Email: "hy1527@gmail.com",
     Link_insta: "https://www.instagram.com/im_haen/",
@@ -351,6 +381,7 @@ const DesignersData = {
   Jin: {
     Name_kor: "황 상진",
     Name_eng: "JIN",
+    Name_tag: "Jin",
     Role: "Developer.",
     Email: "aosdb5640@naver.com",
     Link_insta: "https://www.instagram.com/eudaimoniajin/",

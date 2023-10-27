@@ -19,7 +19,7 @@ const style = {
   bgcolor: "background.paper", // Change to whatever color you want
   border: "2px solid #000",
   boxShadow: 24,
-  p: 4
+  p: 4,
 };
 
 const dropIn = {
@@ -104,25 +104,25 @@ const DesignerCard = ({ title, data, index }) => {
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
-        className="backdrop orange-gradient"
+        className="backdrop"
         style={{ backdropFilter: "blur(5px)" }}
       >
         <motion.div
-            onClick={(e) => e.stopPropagation()}  
-            className="modal"
-            variants={dropIn}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-          >
+          onClick={(e) => e.stopPropagation()}
+          className="modal"
+          variants={dropIn}
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+        >
           <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography>
-        </Box>
+            <Typography id="modal-modal-title" variant="h6" component="h2">
+              {data.Name_tag}
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+              Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+            </Typography>
+          </Box>
         </motion.div>
       </Modal>
     </Tilt>
