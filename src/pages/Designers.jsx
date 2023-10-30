@@ -8,6 +8,7 @@ import AllDesigners from "../components/AllDesigners";
 import Committee from "../components/CommitteeDesigners";
 import MainProduct from "../components/MainProductDesigners";
 import SpaceDesigners from "../components/SpaceDesigners";
+import Preloader from "../components/Preloader";
 
 const Designers = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -18,6 +19,7 @@ const Designers = () => {
 
   return (
     <div className="relative z-0 bg-primary">
+      <Preloader/>
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <section className="relative h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 ">

@@ -64,8 +64,7 @@ const App = () => {
   return (
     <>
       <RouterProvider router={router} />
-      <motion.div className="cursor" variants={variants} animate="default" />
-    </>
+          </>
   );
 };
 

@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import Preloader from "../components/Preloader";
 
 const Main = () => {
+
+  
   return (
     <div className="relative z-0 bg-primary">
             <Preloader/>
