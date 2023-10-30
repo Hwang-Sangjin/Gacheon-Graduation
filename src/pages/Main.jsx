@@ -2,9 +2,12 @@ import { Navbar } from "../components/index";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
+import Preloader from "../components/Preloader";
+
 const Main = () => {
   return (
     <div className="relative z-0 bg-primary">
+            <Preloader/>
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <section className="relative h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 ">

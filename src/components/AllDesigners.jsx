@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
+import Preloader from "./Preloader";
 
 const style = {
   position: "absolute",
@@ -22,6 +23,7 @@ const style = {
 const AllDesigners = () => {
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
+
       <div className="grid grid-cols-2 sm:grid-cols-4">
         {AllDesignersData.map((name, index) => {
           if (name === " ") return;

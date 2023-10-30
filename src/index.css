@@ -212,9 +212,9 @@
 }
 
 .modal {
-  width: clamp(50%, 700px, 90%);
-  height: min(50%, 700px);
-
+  width: clamp(50%, 1400px, 70%);
+  height: min(50%, 700px, 50%);
+  background-color: #00cea8;
   margin: auto;
   padding: 0 2rem;
   border-radius: 12px;

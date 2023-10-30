@@ -3,17 +3,7 @@ import Typography from "@mui/material/Typography";
 
 import { motion } from "framer-motion";
 
-const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 400,
-    bgcolor: "background.paper", // Change to whatever color you want
-    border: "2px solid #000",
-    boxShadow: 24,
-    p: 4,
-  };
+
 
 const dropIn = {
     hidden: {
@@ -41,20 +31,30 @@ const DesignerModal = ({data}) => {
 
         <motion.div
           onClick={(e) => e.stopPropagation()}
-          className="modal"
+          className="relative rounded-2xl shadow dark:bg-gray-700 flex flex-row"
           variants={dropIn}
           initial="hidden"
           animate="visible"
           exit="exit"
         >
-          <Box sx={style}>
-            <Typography id="modal-modal-title" variant="h6" component="h2">
-              {data.Name_tag}
-            </Typography>
-            <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-            </Typography>
-          </Box>
+          <img src={data.Image_Full} className="w-80">
+            
+          </img>
+          <div className="flex flex-col rounded-2xl w-80 bg-[#FFF16F]">
+            <div className="inline-flex rounded-xl justify-center m-4 px-7 w-12 font-['Pretendard-Medium'] bg-white">ICON</div>
+            <div className="basis-1/2 ">1</div>
+            <div className="basis-1/2">2</div>
+          </div>
+          <div className="flex flex-col w-[40rem] ">
+            <div className="basis-1/2 rounded-2xl bg-[#E4E4E4]">
+              <div className="inline-flex rounded-xl justify-center m-4 px-7 w-12 font-['Pretendard-Medium'] bg-white">COMMENT</div>
+              <div>1</div>
+            </div>
+            <div className="basis-1/2 rounded-2xl flex bg-[#BEBEBE]">
+              <div className="basis-1/2">1</div>
+              <div className="basis-1/2">2</div>
+            </div>
+          </div>
         </motion.div>
        
     )

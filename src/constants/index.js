@@ -1,5 +1,5 @@
 import KimGeonRyeong_Color from "../assets/designer/KimGeonRyeong/KimGeonRyeong_color.jpg";
-import KimGoEun_Color from "../assets/designer/KimGoEun/KimGoEun_color.jpg.jpg";
+import KimGoEun_Color from "../assets/designer/KimGoEun/KimGoEun_color.jpg";
 import KimDongJun_Color from "../assets/designer/KimDongJun/KimDongJun_color.jpg";
 import KimYaeJu_Color from "../assets/designer/KimYaeJu/KimYaeJu_color.jpg";
 import KimYunHa_Color from "../assets/designer/KimYunHa/KimYunHa_color.jpg";
@@ -27,6 +27,37 @@ import ChoiDaIn_Color from "../assets/designer/ChoiDaIn/ChoiDaIn_color.jpg";
 import ChoiJaeHo_Color from "../assets/designer/ChoiJaeHo/ChoiJaeHo_color.jpg";
 import HwangJuHyeok_Color from "../assets/designer/HwangJuHyeok/HwangJuHyeok_color.jpg";
 import HongDongYoung_Color from "../assets/designer/HongDongYoung/HongDongYoung_color.jpg";
+
+import KimGeonRyeong_Full from "../assets/designer/KimGeonRyeong/KimGeonRyeong_full.png";
+import KimGoEun_Full from "../assets/designer/KimGoEun/KimGoEun_full.png";
+import KimDongJun_Full from "../assets/designer/KimDongJun/KimDongJun_full.png";
+import KimYaeJu_Full from "../assets/designer/KimYaeJu/KimYaeJu_full.png";
+import KimYunHa_Full from "../assets/designer/KimYunHa/KimYunHa_full.png";
+import KimJiHwan_Full from "../assets/designer/KimJiHwan/KimJiHwan_full.png";
+import NamMinJi_Full from "../assets/designer/NamMinJi/NamMinJi_full.png";
+import ParkChangMin_Full from "../assets/designer/ParkChangMin/ParkChangMin_full.png";
+import BakSeungEun_Full from "../assets/designer/BakSeungEun/BakSeungEun_full.png";
+import SeoAReum_Full from "../assets/designer/SeoAReum/SeoAReum_full.png";
+import ShinDongYeop_Full from "../assets/designer/ShinDongYeop/ShinDongYeop_full.png";
+import ShinJiWoo_Full from "../assets/designer/ShinJiWoo/ShinJiWoo_full.png";
+import SimMinSeop_Full from "../assets/designer/SimMinSeop/SimMinSeop_full.png";
+import AnMyoungJi_Full from "../assets/designer/AnMyoungJi/AnMyoungJi_full.png";
+import YangJiWon_Full from "../assets/designer/YangJiWon/YangJiWon_full.png";
+import YangHyeSeon_Full from "../assets/designer/YangHyeSeon/YangHyeSeon_full.png";
+import WonHanJu_Full from "../assets/designer/WonHanJu/WonHanJu_full.png";
+import YooDongJae_Full from "../assets/designer/YooDongJae/YooDongJae_full.png";
+import YuAJung_Full from "../assets/designer/YuAJung/YuAJung_full.png";
+import YuJiHui_Full from "../assets/designer/YuJiHui/YuJiHui_full.png";
+import LeeJongWon_Full from "../assets/designer/LeeJongWon/LeeJongWon_full.png";
+import LeeHongKyu_Full from "../assets/designer/LeeHongKyu/LeeHongKyu_full.png";
+import JangSeoJin_Full from "../assets/designer/JangSeoJin/JangSeoJin_full.png";
+import JunSeWon_Full from "../assets/designer/JunSeWon/JunSeWon_full.png";
+import JuYoonWoo_Full from "../assets/designer/JuYoonWoo/JuYoonWoo_full.png";
+import ChoiDaIn_Full from "../assets/designer/ChoiDaIn/ChoiDaIn_full.png";
+import ChoiJaeHo_Full from "../assets/designer/ChoiJaeHo/ChoiJaeHo_full.png";
+import HwangJuHyeok_Full from "../assets/designer/HwangJuHyeok/HwangJuHyeok_full.png";
+import HongDongYoung_Full from "../assets/designer/HongDongYoung/HongDongYoung_full.png";
+
 
 export const navLinks = [
   {
@@ -58,6 +89,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimGeonRyeong_Color,
+    Image_Full: KimGeonRyeong_Full
   },
   KimGoEun: {
     Name_kor: "김 고은",
@@ -69,6 +101,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimGoEun_Color,
+    Image_Full: KimGoEun_Full
   },
   KimDongJun: {
     Name_kor: "김 동준",
@@ -80,6 +113,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/gundalssi",
     Link_Blog: "",
     Image_Color: KimDongJun_Color,
+    Image_Full: KimDongJun_Full
   },
   KimYaeJu: {
     Name_kor: "김 예주",
@@ -91,6 +125,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimYaeJu_Color,
+    Image_Full: KimYaeJu_Full
   },
   KimYunHa: {
     Name_kor: "김 윤하",
@@ -102,6 +137,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimYunHa_Color,
+    Image_Full: KimYunHa_Full
   },
   KimJiHwan: {
     Name_kor: "김 지환",
@@ -113,6 +149,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimJiHwan_Color,
+    Image_Full: KimJiHwan_Full
   },
   NamMinJi: {
     Name_kor: "남 민지",
@@ -124,6 +161,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: NamMinJi_Color,
+    Image_Full: NamMinJi_Full
   },
   ParkChangMin: {
     Name_kor: "박 창민",
@@ -135,6 +173,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/changminp8c347",
     Link_Blog: "",
     Image_Color: ParkChangMin_Color,
+    Image_Full: ParkChangMin_Full
   },
   BakSeungEun: {
     Name_kor: "백 승은",
@@ -146,6 +185,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: BakSeungEun_Color,
+    Image_Full: BakSeungEun_Full
   },
   SeoAReum: {
     Name_kor: "서 아름",
@@ -157,6 +197,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: SeoAReum_Color,
+    Image_Full: SeoAReum_Full
   },
   ShinDongYeop: {
     Name_kor: "신 동엽",
@@ -168,6 +209,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/shindydy",
     Link_Blog: "",
     Image_Color: ShinDongYeop_Color,
+    Image_Full: ShinDongYeop_Full
   },
   ShinJiWoo: {
     Name_kor: "신 지우",
@@ -179,6 +221,7 @@ const DesignersData = {
     Link_Behance: "https://www.instagram.com/owlfactory_official/",
     Link_Blog: "",
     Image_Color: ShinJiWoo_Color,
+    Image_Full: ShinJiWoo_Full
   },
   SimMinSeop: {
     Name_kor: "심 민섭",
@@ -190,6 +233,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "https://www.owlfactory.co.kr/",
     Image_Color: SimMinSeop_Color,
+    Image_Full: SimMinSeop_Full
   },
   AnMyoungJi: {
     Name_kor: "안 명지",
@@ -201,6 +245,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: AnMyoungJi_Color,
+    Image_Full: AnMyoungJi_Full
   },
   YangJiWon: {
     Name_kor: "양 지원",
@@ -212,6 +257,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YangJiWon_Color,
+    Image_Full: YangJiWon_Full
   },
   YangHyeSeon: {
     Name_kor: "양 혜선",
@@ -223,6 +269,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YangHyeSeon_Color,
+    Image_Full: YangHyeSeon_Full
   },
   WonHanJu: {
     Name_kor: "원 한주",
@@ -234,6 +281,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: WonHanJu_Color,
+    Image_Full: WonHanJu_Full
   },
   YooDongJae: {
     Name_kor: "유 동재",
@@ -245,6 +293,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YooDongJae_Color,
+    Image_Full: YooDongJae_Full
   },
   YuAJung: {
     Name_kor: "유 아정",
@@ -256,6 +305,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YuAJung_Color,
+    Image_Full: YuAJung_Full
   },
   YuJiHui: {
     Name_kor: "유 지희",
@@ -267,6 +317,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YuJiHui_Color,
+    Image_Full: YuJiHui_Full
   },
   LeeJongWon: {
     Name_kor: "이 종원",
@@ -278,6 +329,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: LeeJongWon_Color,
+    Image_Full: LeeJongWon_Full
   },
   LeeHongKyu: {
     Name_kor: "이 홍규",
@@ -289,6 +341,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: LeeHongKyu_Color,
+    Image_Full: LeeHongKyu_Full
   },
   JangSeoJin: {
     Name_kor: "장 서진",
@@ -300,6 +353,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: JangSeoJin_Color,
+    Image_Full: JangSeoJin_Full
   },
   JunSeWon: {
     Name_kor: "전 세원",
@@ -311,6 +365,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/swjw0619bbd3",
     Link_Blog: "",
     Image_Color: JunSeWon_Color,
+    Image_Full: JunSeWon_Full
   },
   JuYoonWoo: {
     Name_kor: "주 윤우",
@@ -322,6 +377,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: JuYoonWoo_Color,
+    Image_Full: JuYoonWoo_Full
   },
   ChoiDaIn: {
     Name_kor: "최 다인",
@@ -333,6 +389,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: ChoiDaIn_Color,
+    Image_Full: ChoiDaIn_Full
   },
   ChoiJaeHo: {
     Name_kor: "최 재호",
@@ -344,6 +401,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: ChoiJaeHo_Color,
+    Image_Full: ChoiJaeHo_Full
   },
   HwangJuHyeok: {
     Name_kor: "황 주혁",
@@ -355,6 +413,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/jhhwang122b2c2",
     Link_Blog: "",
     Image_Color: HwangJuHyeok_Color,
+    Image_Full: HwangJuHyeok_Full
   },
   HongDongYoung: {
     Name_kor: "홍 동영",
@@ -366,6 +425,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/hong_d_y",
     Link_Blog: "",
     Image_Color: HongDongYoung_Color,
+    Image_Full: HongDongYoung_Full
   },
   JeonHaeIn: {
     Name_kor: "전 해인",
@@ -377,6 +437,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: "",
+    Image_Full: ""
   },
   Jin: {
     Name_kor: "황 상진",
@@ -388,6 +449,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: "",
+    Image_Full: ""
   },
 };
 
