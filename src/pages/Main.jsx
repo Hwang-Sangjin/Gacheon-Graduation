@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import Preloader from "../components/Preloader";
+import { Controller, Scene } from "react-scrollmagic";
 
 const Main = () => {
 
-  
+
   return (
     <div className="relative z-0 bg-primary">
             <Preloader/>
@@ -19,7 +20,15 @@ const Main = () => {
             <motion.div variants={textVariant()}>
               <h2 className="text-black font-black text-[60px]">Main</h2>
             </motion.div>
-            
+            <Controller>
+        <Scene duration="200%" triggerHook="onLeave" pin>
+          {progress => (
+            <div style={{ height: "100vh", position: "relative" }}>
+              <Sequence ref={ref} progress={progress} />
+            </div>
+          )}
+        </Scene>
+      </Controller>
           </div>
         </section>
       </div>
