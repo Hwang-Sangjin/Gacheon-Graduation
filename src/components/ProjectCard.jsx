@@ -8,24 +8,27 @@ import {useState} from "react";
 
 
 const ProjectCard = ({  type, data, index }) => {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const [text, setText] = useState(false);
+
 
   console.log(type,data)
-  
+
   return (
     
-    <Tilt className="w-full mb-8">
+    <Tilt className="w-full mb-10">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="w-full rounded-[20px] "
-        onClick={handleOpen}
+        className="w-full rounded-[20px]"
+        whileHover={() => setText(true)}
+        onHoverEnd={()=> setText(false)}
       >
-        
+        <div className="md:w-3/4 sm:w-1/5 relative text-center">
+            {type==="product"? <img className="designer-card w-full h-full" src={data.Image_Product} />: <img className="designer-card w-full h-full" src={data.Image_Space} />}
+            {text? <div className="absolute top-[45%] left-[40%]">{type==="product"? data.Title_Product: data.TitleSpace}</div>:null}
+        </div>
       </motion.div>
     </Tilt>
   );

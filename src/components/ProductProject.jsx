@@ -21,10 +21,10 @@ const ProductProject = () => {
 
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
-
       <div className="grid grid-cols-2 sm:grid-cols-4">
-        {ProductData.map((name, index) => {
-          <ProjectCard type={"product"} data={ProjectData[name]} />
+      {ProductData.map((name, index) => {
+          if (name === " ") return;
+          return <ProjectCard type="product" data={ProjectData[name]} />
         })}
       </div>
       <Footer />
