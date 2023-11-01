@@ -1,12 +1,8 @@
-import DesignerCard from "./DesignerCard";
+import ProjectCard from "./ProjectCard";
 import { motion, AnimatePresence } from "framer-motion";
-import { AllDesignersData, DesignersData } from "../constants";
+import { ProjectData,ProductData } from "../constants";
 import React, { useState } from "react";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
-import Preloader from "./Preloader";
+
 import Footer from "../components/Footer";
 
 const style = {
@@ -22,21 +18,13 @@ const style = {
 };
 
 const ProductProject = () => {
+
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
 
       <div className="grid grid-cols-2 sm:grid-cols-4">
-        {AllDesignersData.map((name, index) => {
-          if (name === " ") return;
-          return name === "KimGeonRyeong" ? (
-            <DesignerCard
-              title="All_Prompts"
-              data={DesignersData[name]}
-              index={index}
-            />
-          ) : (
-            <DesignerCard title="" data={DesignersData[name]} />
-          );
+        {ProductData.map((name, index) => {
+          <ProjectCard type={"product"} data={ProjectData[name]} />
         })}
       </div>
       <Footer />

@@ -866,4 +866,7 @@ export {
   CommitteeDesignersData,
   ProductDesignersData,
   SpaceDesignersData,
+  ProjectData,
+  ProductData,
+  SpaceData
 };
