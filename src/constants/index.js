@@ -88,6 +88,35 @@ import ChoiJaeHo_Product from "../assets/product_Image/ChoiJaeHo_Product.jpg";
 import HwangJuHyeok_Product from "../assets/product_Image/HwangJuHyeok_Product.jpg";
 import HongDongYoung_Product from "../assets/product_Image/HongDongYoung_Product.jpg";
 
+import KimGeonRyeong_Space from "../assets/space_Image/KimGeonRyeong_Space.jpg"
+import KimGoEun_Space from "../assets/space_Image/KimGoEun_Space.jpg";
+import KimDongJun_Space from "../assets/space_Image/KimDongJun_Space.jpg";
+import KimYaeJu_Space from "../assets/space_Image/KimYaeJu_Space.jpg";
+//import KimYunHa_Space from "../assets/space_Image/KimYunHa_Space.jpg";
+import KimJiHwan_Space from "../assets/space_Image/KimJiHwan_Space.jpg";
+import NamMinJi_Space from "../assets/space_Image/NamMinJi_Space.jpg";
+import ParkChangMin_Space from "../assets/space_Image/ParkChangMin_Space.jpg";
+import BakSeungEun_Space from "../assets/space_Image/BakSeungEun_Space.jpg";
+import SeoAReum_Space from "../assets/space_Image/SeoAReum_Space.jpg";
+import ShinDongYeop_Space from "../assets/space_Image/ShinDongYeop_Space.jpg";
+import ShinJiWoo_Space from "../assets/space_Image/ShinJiWoo_Space.jpg";
+import SimMinSeop_Space from "../assets/space_Image/SimMinSeop_Space.jpg";
+import AnMyoungJi_Space from "../assets/space_Image/AnMyoungJi_Space.jpg";
+import YangJiWon_Space from "../assets/space_Image/YangJiWon_Space.jpg";
+import YangHyeSeon_Space from "../assets/space_Image/YangHyeSeon_Space.jpg";
+import WonHanJu_Space from "../assets/space_Image/WonHanJu_Space.jpg";
+import YooDongJae_Space from "../assets/space_Image/YooDongJae_Space.jpg";
+import YuAJung_Space from "../assets/space_Image/YuAJung_Space.jpg";
+import YuJiHui_Space from "../assets/space_Image/YuJiHui_Space.jpg";
+import LeeJongWon_Space from "../assets/space_Image/LeeJongWon_Space.jpg";
+import LeeHongKyu_Space from "../assets/space_Image/LeeHongKyu_Space.jpg";
+//import JangSeoJin_Space from "../assets/space_Image/JangSeoJin_Space.jpg";
+import JunSeWon_Space from "../assets/space_Image/JunSeWon_Space.jpg";
+import JuYoonWoo_Space from "../assets/space_Image/JuYoonWoo_Space.jpg";
+import ChoiDaIn_Space from "../assets/space_Image/ChoiDaIn_Space.jpg";
+import ChoiJaeHo_Space from "../assets/space_Image/ChoiJaeHo_Space.jpg";
+import HwangJuHyeok_Space from "../assets/space_Image/HwangJuHyeok_Space.jpg";
+import HongDongYoung_Space from "../assets/space_Image/HongDongYoung_Space.jpg";
 
 
 export const navLinks = [
@@ -587,177 +616,177 @@ const SpaceDesignersData = [
 const ProjectData = {
   KimGeonRyeong: {
     Image_Product: KimGeonRyeong_Product,
-    Image_Space: ,
+    Image_Space: KimGeonRyeong_Space,
     Title_Product:"Ctrl + space",
-    TitleSpace:,
+    TitleSpace: "IKEA hereditas",
   },
   KimGoEun: {
     Image_Product: KimGoEun_Product,
-    Image_Space:,
+    Image_Space: KimGoEun_Space,
     Title_Product: "Sidekick",
-    TitleSpace:,
+    TitleSpace: "Meta Place",
   },
   KimDongJun: {
     Image_Product: KimDongJun_Product,
-    Image_Space:,
+    Image_Space: KimDongJun_Space,
     Title_Product: "AIplor",
-    TitleSpace:,
+    TitleSpace: "SPACE auction",
   },
   KimYaeJu: {
     Image_Product: KimYaeJu_Product,
-    Image_Space:,
+    Image_Space: KimYaeJu_Space,
     Title_Product: "Maeum",
-    TitleSpace:,
+    TitleSpace: "OTIUM Island",
   },
   KimYunHa: {
     Image_Product:" ",
-    Image_Space:,
+    Image_Space: " ",
     Title_Product:" ",
-    TitleSpace:,
+    TitleSpace: " ",
   },
   KimJiHwan: {
     Image_Product: KimJiHwan_Product,
-    Image_Space:,
+    Image_Space: KimJiHwan_Space,
     Title_Product: "Primal-HORA",
-    TitleSpace:,
+    TitleSpace: "Concept Art Studio",
   },
   NamMinJi: {
     Image_Product: NamMinJi_Product,
-    Image_Space:,
+    Image_Space: NamMinJi_Space,
     Title_Product: "Optimal Sleep",
-    TitleSpace:,
+    TitleSpace: "The Lara Gallery",
   },
   ParkChangMin: {
     Image_Product:" ",
-    Image_Space:,
+    Image_Space: ParkChangMin_Space,
     Title_Product:" ",
-    TitleSpace:,
+    TitleSpace: "Ferrari Vision EV",
   },
   BakSeungEun: {
     Image_Product: BakSeungEun_Product,
-    Image_Space:,
+    Image_Space: BakSeungEun_Space,
     Title_Product: "SelfTaste Plate",
-    TitleSpace:,
+    TitleSpace: "Music Library Park",
   },
   SeoAReum: {
     Image_Product: SeoAReum_Product,
-    Image_Space:,
+    Image_Space: SeoAReum_Space,
     Title_Product: "Fall Privention Shower Sink",
-    TitleSpace:,
+    TitleSpace: "5 Senses Kindergarten",
   },
   ShinDongYeop: {
     Image_Product: ShinDongYeop_Product,
-    Image_Space:,
+    Image_Space: ShinDongYeop_Space,
     Title_Product: "CE-Q Printer",
-    TitleSpace:,
+    TitleSpace: "Jiyong Kim Flagship Store",
   },
   ShinJiWoo: {
     Image_Product: ShinJiWoo_Product,
-    Image_Space:,
+    Image_Space: ShinJiWoo_Space,
     Title_Product: "In-ONE",
-    TitleSpace:,
+    TitleSpace: "AROMATICA Zero-Staion",
   },
   SimMinSeop: {
     Image_Product: SimMinSeop_Product,
-    Image_Space:,
+    Image_Space: SimMinSeop_Space,
     Title_Product: "OWL FACTORY™",
-    TitleSpace:,
+    TitleSpace: "OWL FACTORY™ DOONGZI",
   },
   AnMyoungJi: {
     Image_Product: AnMyoungJi_Product,
-    Image_Space:,
+    Image_Space: AnMyoungJi_Space,
     Title_Product: "Calóre",
-    TitleSpace:,
+    TitleSpace: "Pullagship store",
   },
   YangJiWon: {
     Image_Product: YangJiWon_Product,
-    Image_Space:,
+    Image_Space: YangJiWon_Space,
     Title_Product: "DoodleBuddy",
-    TitleSpace:,
+    TitleSpace: "Amorepacific Virtual Store",
   },
   YangHyeSeon: {
     Image_Product: YangHyeSeon_Product,
-    Image_Space:,
+    Image_Space: YangHyeSeon_Space,
     Title_Product: "House of Beans",
-    TitleSpace:,
+    TitleSpace: "Jungkwanjang Therapy House",
   },
   WonHanJu: {
     Image_Product: WonHanJu_Product,
-    Image_Space:,
+    Image_Space: WonHanJu_Space,
     Title_Product: "Qurio I",
-    TitleSpace:,
+    TitleSpace: "Mastercard Travel Store",
   },
   YooDongJae: {
     Image_Product: YooDongJae_Product,
-    Image_Space:,
+    Image_Space: YooDongJae_Space,
     Title_Product: "DEVNOX",
-    TitleSpace:,
+    TitleSpace: "PA:DO",
   },
   YuAJung: {
     Image_Product: YuAJung_Product,
-    Image_Space:,
+    Image_Space: YuAJung_Space,
     Title_Product: "Music maker",
-    TitleSpace:,
+    TitleSpace: "Astronomical observation",
   },
   YuJiHui: {
     Image_Product: YuJiHui_Product,
-    Image_Space:,
+    Image_Space: YuJiHui_Space,
     Title_Product: "Shopphing crony",
-    TitleSpace:,
+    TitleSpace: "Steam space",
   },
   LeeJongWon: {
     Image_Product: LeeJongWon_Product,
-    Image_Space:,
+    Image_Space: LeeJongWon_Space,
     Title_Product: "ReNet Project",
-    TitleSpace:,
+    TitleSpace: "CELLO Bike Culture Museum",
   },
   LeeHongKyu: {
     Image_Product: LeeHongKyu_Product,
-    Image_Space:,
+    Image_Space: LeeHongKyu_Space,
     Title_Product: "FORMUSE",
-    TitleSpace:,
+    TitleSpace: "INDIES",
   },
   JangSeoJin: {
     Image_Product: " ",
-    Image_Space:,
+    Image_Space:" ",
     Title_Product: " ",
-    TitleSpace:,
+    TitleSpace:" ",
   },
   JunSeWon: {
     Image_Product: JunSeWon_Product,
-    Image_Space:,
+    Image_Space: JunSeWon_Space,
     Title_Product: "BUSK",
-    TitleSpace:,
+    TitleSpace: "OSULLOC : 신선놀음",
   },
   JuYoonWoo: {
     Image_Product: JuYoonWoo_Product,
-    Image_Space:,
+    Image_Space: JuYoonWoo_Space,
     Title_Product: "Nova",
-    TitleSpace:,
+    TitleSpace: "Reallusion",
   },
   ChoiDaIn: {
     Image_Product: ChoiDaIn_Product,
-    Image_Space:,
+    Image_Space: ChoiDaIn_Space,
     Title_Product: "Doglasses",
-    TitleSpace:,
+    TitleSpace: "Doggy Park",
   },
   ChoiJaeHo: {
     Image_Product: ChoiJaeHo_Product,
-    Image_Space:,
+    Image_Space:ChoiJaeHo_Space,
     Title_Product: "Sync-me",
-    TitleSpace:,
+    TitleSpace: "UC.Fluffies",
   },
   HwangJuHyeok: {
     Image_Product: HwangJuHyeok_Product,
-    Image_Space:,
+    Image_Space: HwangJuHyeok_Space,
     Title_Product: "Tracer",
-    TitleSpace:,
+    TitleSpace: "Toss Brand Space",
   },
   HongDongYoung: {
     Image_Product: HongDongYoung_Product,
-    Image_Space:,
+    Image_Space: HongDongYoung_Space,
     Title_Product: "LAHAND",
-    TitleSpace:,
+    TitleSpace: "The ORCHESTRA",
   },
 };
 
@@ -791,6 +820,41 @@ const ProductData = [
   "ChoiDaIn",
   " ", 
   " ",
+  "ChoiJaeHo",
+  "HwangJuHyeok",
+  "HongDongYoung",
+]
+
+const SpaceData = [
+  "KimGeonRyeong",
+  "KimGoEun",
+  "KimDongJun",
+  "KimYaeJu",
+  " ",
+  "KimJiHwan",
+  " ",
+  "NamMinJi",
+  "ParkChangMin",
+  "BakSeungEun",
+  "SeoAReum",
+  "ShinDongYeop",
+  "ShinJiWoo",
+  "SimMinSeop",
+  "AnMyoungJi",
+  "YangJiWon",
+  "YangHyeSeon",
+  " ",
+  "WonHanJu",
+  "YooDongJae",
+  "YuAJung",
+  "YuJiHui",
+  "LeeJongWon",
+  "LeeHongKyu",
+  " ",
+  "JunSeWon",
+  "JuYoonWoo",
+  " ",
+  "ChoiDaIn",
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
