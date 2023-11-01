@@ -6,6 +6,8 @@ import { useState, useEffect } from "react";
 import Preloader from "../components/Preloader";
 import ProjectNavbar from "../components/ProjectNavbar";
 import Footer from "../components/Footer";
+import ProductProject from "../components/ProductProject";
+import SpaceProject from "../components/SpaceProject";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("Product");
@@ -43,10 +45,13 @@ const Projects = () => {
                   selectedCategory={selectedCategory}
                   setSelectedCategory={setSelectedCategory}
                 />
+                {selectedCategory === "Product" ? (
+                  <ProductProject />
+                ) : <SpaceProject/>
+                }
               </div>
             </section>
           </div>
-          <Footer />
         </div>
       )}
     </div>

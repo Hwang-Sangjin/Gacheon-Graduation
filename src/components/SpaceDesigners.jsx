@@ -1,4 +1,5 @@
 import DesignerCard from "./DesignerCard";
+import Footer from "../components/Footer";
 
 import { SpaceDesignersData, DesignersData } from "../constants";
 
@@ -19,6 +20,7 @@ const SpaceDesigners = () => {
           );
         })}
       </div>
+      <Footer/>
     </div>
   );
 };

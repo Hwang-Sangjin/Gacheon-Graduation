@@ -9,7 +9,7 @@ import Committee from "../components/CommitteeDesigners";
 import MainProduct from "../components/MainProductDesigners";
 import SpaceDesigners from "../components/SpaceDesigners";
 import Preloader from "../components/Preloader";
-import Footer from "../components/Footer";
+
 
 const Designers = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -59,7 +59,7 @@ const Designers = () => {
               </div>
             </section>
           </div>
-          <Footer />
+          
         </div>
       )}
     </div>

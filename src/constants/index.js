@@ -58,6 +58,37 @@ import ChoiJaeHo_Full from "../assets/designer/ChoiJaeHo/ChoiJaeHo_full.png";
 import HwangJuHyeok_Full from "../assets/designer/HwangJuHyeok/HwangJuHyeok_full.png";
 import HongDongYoung_Full from "../assets/designer/HongDongYoung/HongDongYoung_full.png";
 
+import KimGeonRyeong_Product from "../assets/product_Image/KimGeonRyeong_Product.jpg";
+import KimGoEun_Product from "../assets/product_Image/KimGoEun_Product.jpg";
+import KimDongJun_Product from "../assets/product_Image/KimDongJun_Product.jpg";
+import KimYaeJu_Product from "../assets/product_Image/KimYaeJu_Product.jpg";
+// import KimYunHa_Product from "../assets/product_Image/KimYunHa_Product.jpg";
+import KimJiHwan_Product from "../assets/product_Image/KimJiHwan_Product.jpg";
+import NamMinJi_Product from "../assets/product_Image/NamMinJi_Product.jpg";
+//import ParkChangMin_Product from "../assets/product_Image/ParkChangMin_Product.jpg";
+import BakSeungEun_Product from "../assets/product_Image/BakSeungEun_Product.jpg";
+import SeoAReum_Product from "../assets/product_Image/SeoAReum_Product.jpg";
+import ShinDongYeop_Product from "../assets/product_Image/ShinDongYeop_Product.jpg";
+import ShinJiWoo_Product from "../assets/product_Image/ShinJiWoo_Product.jpg";
+import SimMinSeop_Product from "../assets/product_Image/SimMinSeop_Product.jpg";
+import AnMyoungJi_Product from "../assets/product_Image/AnMyoungJi_Product.jpg";
+import YangJiWon_Product from "../assets/product_Image/YangJiWon_Product.jpg";
+import YangHyeSeon_Product from "../assets/product_Image/YangHyeSeon_Product.jpg";
+import WonHanJu_Product from "../assets/product_Image/WonHanJu_Product.jpg";
+import YooDongJae_Product from "../assets/product_Image/YooDongJae_Product.jpg";
+import YuAJung_Product from "../assets/product_Image/YuAJung_Product.jpg";
+import YuJiHui_Product from "../assets/product_Image/YuJiHui_Product.jpg";
+import LeeJongWon_Product from "../assets/product_Image/LeeJongWon_Product.jpg";
+import LeeHongKyu_Product from "../assets/product_Image/LeeHongKyu_Product.jpg";
+//import JangSeoJin_Product from "../assets/product_Image/JangSeoJin_Product.jpg";
+import JunSeWon_Product from "../assets/product_Image/JunSeWon_Product.jpg";
+import JuYoonWoo_Product from "../assets/product_Image/JuYoonWoo_Product.jpg";
+import ChoiDaIn_Product from "../assets/product_Image/ChoiDaIn_Product.jpg";
+import ChoiJaeHo_Product from "../assets/product_Image/ChoiJaeHo_Product.jpg";
+import HwangJuHyeok_Product from "../assets/product_Image/HwangJuHyeok_Product.jpg";
+import HongDongYoung_Product from "../assets/product_Image/HongDongYoung_Product.jpg";
+
+
 
 export const navLinks = [
   {
@@ -552,6 +583,218 @@ const SpaceDesignersData = [
   "JeonHaeIn",
   "Jin",
 ];
+
+const ProjectData = {
+  KimGeonRyeong: {
+    Image_Product: KimGeonRyeong_Product,
+    Image_Space: ,
+    Title_Product:"Ctrl + space",
+    TitleSpace:,
+  },
+  KimGoEun: {
+    Image_Product: KimGoEun_Product,
+    Image_Space:,
+    Title_Product: "Sidekick",
+    TitleSpace:,
+  },
+  KimDongJun: {
+    Image_Product: KimDongJun_Product,
+    Image_Space:,
+    Title_Product: "AIplor",
+    TitleSpace:,
+  },
+  KimYaeJu: {
+    Image_Product: KimYaeJu_Product,
+    Image_Space:,
+    Title_Product: "Maeum",
+    TitleSpace:,
+  },
+  KimYunHa: {
+    Image_Product:" ",
+    Image_Space:,
+    Title_Product:" ",
+    TitleSpace:,
+  },
+  KimJiHwan: {
+    Image_Product: KimJiHwan_Product,
+    Image_Space:,
+    Title_Product: "Primal-HORA",
+    TitleSpace:,
+  },
+  NamMinJi: {
+    Image_Product: NamMinJi_Product,
+    Image_Space:,
+    Title_Product: "Optimal Sleep",
+    TitleSpace:,
+  },
+  ParkChangMin: {
+    Image_Product:" ",
+    Image_Space:,
+    Title_Product:" ",
+    TitleSpace:,
+  },
+  BakSeungEun: {
+    Image_Product: BakSeungEun_Product,
+    Image_Space:,
+    Title_Product: "SelfTaste Plate",
+    TitleSpace:,
+  },
+  SeoAReum: {
+    Image_Product: SeoAReum_Product,
+    Image_Space:,
+    Title_Product: "Fall Privention Shower Sink",
+    TitleSpace:,
+  },
+  ShinDongYeop: {
+    Image_Product: ShinDongYeop_Product,
+    Image_Space:,
+    Title_Product: "CE-Q Printer",
+    TitleSpace:,
+  },
+  ShinJiWoo: {
+    Image_Product: ShinJiWoo_Product,
+    Image_Space:,
+    Title_Product: "In-ONE",
+    TitleSpace:,
+  },
+  SimMinSeop: {
+    Image_Product: SimMinSeop_Product,
+    Image_Space:,
+    Title_Product: "OWL FACTORY™",
+    TitleSpace:,
+  },
+  AnMyoungJi: {
+    Image_Product: AnMyoungJi_Product,
+    Image_Space:,
+    Title_Product: "Calóre",
+    TitleSpace:,
+  },
+  YangJiWon: {
+    Image_Product: YangJiWon_Product,
+    Image_Space:,
+    Title_Product: "DoodleBuddy",
+    TitleSpace:,
+  },
+  YangHyeSeon: {
+    Image_Product: YangHyeSeon_Product,
+    Image_Space:,
+    Title_Product: "House of Beans",
+    TitleSpace:,
+  },
+  WonHanJu: {
+    Image_Product: WonHanJu_Product,
+    Image_Space:,
+    Title_Product: "Qurio I",
+    TitleSpace:,
+  },
+  YooDongJae: {
+    Image_Product: YooDongJae_Product,
+    Image_Space:,
+    Title_Product: "DEVNOX",
+    TitleSpace:,
+  },
+  YuAJung: {
+    Image_Product: YuAJung_Product,
+    Image_Space:,
+    Title_Product: "Music maker",
+    TitleSpace:,
+  },
+  YuJiHui: {
+    Image_Product: YuJiHui_Product,
+    Image_Space:,
+    Title_Product: "Shopphing crony",
+    TitleSpace:,
+  },
+  LeeJongWon: {
+    Image_Product: LeeJongWon_Product,
+    Image_Space:,
+    Title_Product: "ReNet Project",
+    TitleSpace:,
+  },
+  LeeHongKyu: {
+    Image_Product: LeeHongKyu_Product,
+    Image_Space:,
+    Title_Product: "FORMUSE",
+    TitleSpace:,
+  },
+  JangSeoJin: {
+    Image_Product: " ",
+    Image_Space:,
+    Title_Product: " ",
+    TitleSpace:,
+  },
+  JunSeWon: {
+    Image_Product: JunSeWon_Product,
+    Image_Space:,
+    Title_Product: "BUSK",
+    TitleSpace:,
+  },
+  JuYoonWoo: {
+    Image_Product: JuYoonWoo_Product,
+    Image_Space:,
+    Title_Product: "Nova",
+    TitleSpace:,
+  },
+  ChoiDaIn: {
+    Image_Product: ChoiDaIn_Product,
+    Image_Space:,
+    Title_Product: "Doglasses",
+    TitleSpace:,
+  },
+  ChoiJaeHo: {
+    Image_Product: ChoiJaeHo_Product,
+    Image_Space:,
+    Title_Product: "Sync-me",
+    TitleSpace:,
+  },
+  HwangJuHyeok: {
+    Image_Product: HwangJuHyeok_Product,
+    Image_Space:,
+    Title_Product: "Tracer",
+    TitleSpace:,
+  },
+  HongDongYoung: {
+    Image_Product: HongDongYoung_Product,
+    Image_Space:,
+    Title_Product: "LAHAND",
+    TitleSpace:,
+  },
+};
+
+const ProductData = [
+  "KimGeonRyeong",
+  "KimGoEun",
+  "KimDongJun",
+  "KimYaeJu",
+  " ",
+  "KimJiHwan",
+  " ",
+  "NamMinJi",
+  "BakSeungEun",
+  " ",
+  "SeoAReum",
+  "ShinDongYeop",
+  "ShinJiWoo",
+  "SimMinSeop",
+  "AnMyoungJi",
+  "YangJiWon",
+  "YangHyeSeon",
+  "WonHanJu",
+  "YooDongJae",
+  "YuAJung",
+  "YuJiHui",
+  "LeeJongWon",
+  "LeeHongKyu",
+  "JunSeWon",
+  "JuYoonWoo",
+  " ",
+  "ChoiDaIn",
+  " ", 
+  " ",
+  "ChoiJaeHo",
+  "HwangJuHyeok",
+  "HongDongYoung",
+]
 
 export {
   DesignersData,

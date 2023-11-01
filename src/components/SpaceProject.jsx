@@ -21,7 +21,7 @@ const style = {
   p: 4,
 };
 
-const AllDesigners = () => {
+const SpaceProject = () => {
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
 
@@ -44,4 +44,4 @@ const AllDesigners = () => {
   );
 };
 
-export default AllDesigners;
+export default SpaceProject;

@@ -1,4 +1,5 @@
 import DesignerCard from "./DesignerCard";
+import Footer from "../components/Footer";
 
 import { CommitteeDesignersData, DesignersData } from "../constants";
 
@@ -19,6 +20,7 @@ const Committee = () => {
           );
         })}
       </div>
+      <Footer/>
     </div>
   );
 };
