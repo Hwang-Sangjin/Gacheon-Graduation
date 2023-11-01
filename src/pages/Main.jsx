@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import Preloader from "../components/Preloader";
 import { Controller, Scene } from "react-scrollmagic";
 import { useState, useEffect } from "react";
+import Footer from "../components/Footer";
 
 const Main = () => {
   const [loading, setLoading] = useState(false);
@@ -33,6 +34,7 @@ const Main = () => {
               </div>
             </section>
           </div>
+          <Footer />
         </div>
       )}
     </div>

@@ -4,6 +4,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { useState, useEffect } from "react";
 import Preloader from "../components/Preloader";
+import Footer from "../components/Footer";
 
 const Visit = () => {
   const [loading, setLoading] = useState(false);
@@ -32,6 +33,7 @@ const Visit = () => {
               </div>
             </section>
           </div>
+          <Footer />
         </div>
       )}
     </div>

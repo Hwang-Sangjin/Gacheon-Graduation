@@ -4,8 +4,11 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { useState, useEffect } from "react";
 import Preloader from "../components/Preloader";
+import ProjectNavbar from "../components/ProjectNavbar";
+import Footer from "../components/Footer";
 
 const Projects = () => {
+  const [selectedCategory, setSelectedCategory] = useState("Product");
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -27,13 +30,23 @@ const Projects = () => {
                 className={`px-2 sm:px-12 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
               >
                 <motion.div variants={textVariant()}>
-                  <h2 className="text-black font-black text-[60px]">
-                    Projects
+                  <h2 className="font-['Hack-Bold'] font-black text-[60px]">
+                    Project
                   </h2>
+                  <p className="text-[12px] text-secondary font-['Hack-Regular']">
+                    {selectedCategory === "Product"
+                      ? "제품 디자인 지도 교수님 - 강현석"
+                      : "공간 디자인 지도 교수님 - 지환수"}
+                  </p>
                 </motion.div>
+                <ProjectNavbar
+                  selectedCategory={selectedCategory}
+                  setSelectedCategory={setSelectedCategory}
+                />
               </div>
             </section>
           </div>
+          <Footer />
         </div>
       )}
     </div>
