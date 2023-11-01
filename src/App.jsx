@@ -11,6 +11,7 @@ import Designers from "./pages/Designers";
 import Visit from "./pages/Visit";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Preloader from "./components/Preloader";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/visit",
     element: <Visit />,
+  },
+  {
+    path: "/loader",
+    element: <Preloader />,
   },
 ]);
 
@@ -64,7 +69,7 @@ const App = () => {
   return (
     <>
       <RouterProvider router={router} />
-          </>
+    </>
   );
 };
 
