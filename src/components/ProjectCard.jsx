@@ -1,18 +1,12 @@
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
-
+import { useNavigate } from "react-router-dom";
 import {useState} from "react";
-
-
-
 
 const ProjectCard = ({  type, data, index }) => {
   const [text, setText] = useState(false);
-
-
-  console.log(type,data)
-
+  const navigate = useNavigate();
   return (
     
     <Tilt className="w-full mb-10">
@@ -24,6 +18,13 @@ const ProjectCard = ({  type, data, index }) => {
         className="w-full rounded-[20px]"
         whileHover={() => setText(true)}
         onHoverEnd={()=> setText(false)}
+        onClick={()=>{
+          navigate('/personal',{
+          state: {
+            data: data,
+            type: type
+          }
+        })}}
       >
         <div className="w-3/4 w-1/5 relative text-center">
             {type==="product"? 

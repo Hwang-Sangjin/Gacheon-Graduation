@@ -12,6 +12,7 @@ import Visit from "./pages/Visit";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Preloader from "./components/Preloader";
+import Personal from "./pages/Personal";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
     path: "/loader",
     element: <Preloader />,
   },
+  {
+    path: "/personal",
+    element: <Personal/>
+  }
 ]);
 
 const App = () => {

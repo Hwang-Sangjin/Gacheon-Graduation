@@ -619,174 +619,203 @@ const ProjectData = {
     Image_Space: KimGeonRyeong_Space,
     Title_Product:"Ctrl + space",
     TitleSpace: "IKEA hereditas",
+    Name_tag:"KimGeonRyeong"
   },
   KimGoEun: {
     Image_Product: KimGoEun_Product,
     Image_Space: KimGoEun_Space,
     Title_Product: "Sidekick",
     TitleSpace: "Meta Place",
+    Name_tag:"KimGoEun"
   },
   KimDongJun: {
     Image_Product: KimDongJun_Product,
     Image_Space: KimDongJun_Space,
     Title_Product: "AIplor",
     TitleSpace: "SPACE auction",
+    Name_tag:"KimDongJun"
   },
   KimYaeJu: {
     Image_Product: KimYaeJu_Product,
     Image_Space: KimYaeJu_Space,
     Title_Product: "Maeum",
     TitleSpace: "OTIUM Island",
+    Name_tag:"KimYaeJu"
   },
   KimYunHa: {
     Image_Product:" ",
     Image_Space: " ",
     Title_Product:" ",
     TitleSpace: " ",
+    Name_tag:"KimYunHa"
   },
   KimJiHwan: {
     Image_Product: KimJiHwan_Product,
     Image_Space: KimJiHwan_Space,
     Title_Product: "Primal-HORA",
     TitleSpace: "Concept Art Studio",
+    Name_tag:"KimJiHwan"
   },
   NamMinJi: {
     Image_Product: NamMinJi_Product,
     Image_Space: NamMinJi_Space,
     Title_Product: "Optimal Sleep",
     TitleSpace: "The Lara Gallery",
+    Name_tag:"NamMinJi"
   },
   ParkChangMin: {
     Image_Product:" ",
     Image_Space: ParkChangMin_Space,
     Title_Product:" ",
     TitleSpace: "Ferrari Vision EV",
+    Name_tag:"ParkChangMin"
   },
   BakSeungEun: {
     Image_Product: BakSeungEun_Product,
     Image_Space: BakSeungEun_Space,
     Title_Product: "SelfTaste Plate",
     TitleSpace: "Music Library Park",
+    Name_tag:"BakSeungEun"
   },
   SeoAReum: {
     Image_Product: SeoAReum_Product,
     Image_Space: SeoAReum_Space,
     Title_Product: "Fall Privention Shower Sink",
     TitleSpace: "5 Senses Kindergarten",
+    Name_tag:"SeoAReum"
   },
   ShinDongYeop: {
     Image_Product: ShinDongYeop_Product,
     Image_Space: ShinDongYeop_Space,
     Title_Product: "CE-Q Printer",
     TitleSpace: "Jiyong Kim Flagship Store",
+    Name_tag:"ShinDongYeop"
   },
   ShinJiWoo: {
     Image_Product: ShinJiWoo_Product,
     Image_Space: ShinJiWoo_Space,
     Title_Product: "In-ONE",
     TitleSpace: "AROMATICA Zero-Staion",
+    Name_tag:"ShinJiWoo"
   },
   SimMinSeop: {
     Image_Product: SimMinSeop_Product,
     Image_Space: SimMinSeop_Space,
     Title_Product: "OWL FACTORY™",
     TitleSpace: "OWL FACTORY™ DOONGZI",
+    Name_tag:"SimMinSeop"
   },
   AnMyoungJi: {
     Image_Product: AnMyoungJi_Product,
     Image_Space: AnMyoungJi_Space,
     Title_Product: "Calóre",
     TitleSpace: "Pullagship store",
+    Name_tag:"AnMyoungJi"
   },
   YangJiWon: {
     Image_Product: YangJiWon_Product,
     Image_Space: YangJiWon_Space,
     Title_Product: "DoodleBuddy",
     TitleSpace: "Amorepacific Virtual Store",
+    Name_tag:"YangJiWon"
   },
   YangHyeSeon: {
     Image_Product: YangHyeSeon_Product,
     Image_Space: YangHyeSeon_Space,
     Title_Product: "House of Beans",
     TitleSpace: "Jungkwanjang Therapy House",
+    Name_tag:"YangHyeSeon"
   },
   WonHanJu: {
     Image_Product: WonHanJu_Product,
     Image_Space: WonHanJu_Space,
     Title_Product: "Qurio I",
     TitleSpace: "Mastercard Travel Store",
+    Name_tag:"WonHanJu"
   },
   YooDongJae: {
     Image_Product: YooDongJae_Product,
     Image_Space: YooDongJae_Space,
     Title_Product: "DEVNOX",
     TitleSpace: "PA:DO",
+    Name_tag:"YooDongJae"
   },
   YuAJung: {
     Image_Product: YuAJung_Product,
     Image_Space: YuAJung_Space,
     Title_Product: "Music maker",
     TitleSpace: "Astronomical observation",
+    Name_tag:"YuAJung"
   },
   YuJiHui: {
     Image_Product: YuJiHui_Product,
     Image_Space: YuJiHui_Space,
     Title_Product: "Shopphing crony",
     TitleSpace: "Steam space",
+    Name_tag:"YuJiHui"
   },
   LeeJongWon: {
     Image_Product: LeeJongWon_Product,
     Image_Space: LeeJongWon_Space,
     Title_Product: "ReNet Project",
     TitleSpace: "CELLO Bike Culture Museum",
+    Name_tag:"LeeJongWon"
   },
   LeeHongKyu: {
     Image_Product: LeeHongKyu_Product,
     Image_Space: LeeHongKyu_Space,
     Title_Product: "FORMUSE",
     TitleSpace: "INDIES",
+    Name_tag:"LeeHongKyu"
   },
   JangSeoJin: {
     Image_Product: " ",
     Image_Space:" ",
     Title_Product: " ",
     TitleSpace:" ",
+    Name_tag:"JangSeoJin"
   },
   JunSeWon: {
     Image_Product: JunSeWon_Product,
     Image_Space: JunSeWon_Space,
     Title_Product: "BUSK",
     TitleSpace: "OSULLOC : 신선놀음",
+    Name_tag:"JunSeWon"
   },
   JuYoonWoo: {
     Image_Product: JuYoonWoo_Product,
     Image_Space: JuYoonWoo_Space,
     Title_Product: "Nova",
     TitleSpace: "Reallusion",
+    Name_tag:"JuYoonWoo"
   },
   ChoiDaIn: {
     Image_Product: ChoiDaIn_Product,
     Image_Space: ChoiDaIn_Space,
     Title_Product: "Doglasses",
     TitleSpace: "Doggy Park",
+    Name_tag:"ChoiDaIn"
   },
   ChoiJaeHo: {
     Image_Product: ChoiJaeHo_Product,
     Image_Space:ChoiJaeHo_Space,
     Title_Product: "Sync-me",
     TitleSpace: "UC.Fluffies",
+    Name_tag:"ChoiJaeHo"
   },
   HwangJuHyeok: {
     Image_Product: HwangJuHyeok_Product,
     Image_Space: HwangJuHyeok_Space,
     Title_Product: "Tracer",
     TitleSpace: "Toss Brand Space",
+    Name_tag:"HwangJuHyeok"
   },
   HongDongYoung: {
     Image_Product: HongDongYoung_Product,
     Image_Space: HongDongYoung_Space,
     Title_Product: "LAHAND",
     TitleSpace: "The ORCHESTRA",
+    Name_tag:"HongDongYoung"
   },
 };
 
