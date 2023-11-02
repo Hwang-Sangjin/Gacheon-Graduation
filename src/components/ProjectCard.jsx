@@ -25,9 +25,11 @@ const ProjectCard = ({  type, data, index }) => {
         whileHover={() => setText(true)}
         onHoverEnd={()=> setText(false)}
       >
-        <div className="md:w-3/4 sm:w-1/5 relative text-center">
-            {type==="product"? <img className="designer-card w-full h-full" src={data.Image_Product} />: <img className="designer-card w-full h-full" src={data.Image_Space} />}
-            {text? <div className="absolute top-[45%] left-[40%]">{type==="product"? data.Title_Product: data.TitleSpace}</div>:null}
+        <div className="w-3/4 w-1/5 relative text-center">
+            {type==="product"? 
+            <img className="project-card w-full h-full" src={data.Image_Product} />: 
+            <img className="project-card w-full h-full" src={data.Image_Space} />}
+            {text? <div className="text-[#FFFFFF] text-2xl font-['Hack-Regular'] project-card-text">{type==="product"? data.Title_Product: data.TitleSpace}</div>:null}
         </div>
       </motion.div>
     </Tilt>
