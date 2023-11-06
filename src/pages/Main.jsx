@@ -4,8 +4,9 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import Preloader from "../components/Preloader";
 import { Controller, Scene } from "react-scrollmagic";
-import { useState, useEffect } from "react";
+import { useState, useEffect, ref } from "react";
 import Footer from "../components/Footer";
+import ImageSequence from "../sequence";
 
 const Main = () => {
   const [loading, setLoading] = useState(false);
@@ -32,9 +33,18 @@ const Main = () => {
                   <h2 className="text-black font-black text-[60px]">Main</h2>
                 </motion.div>
               </div>
+              <Controller>
+                <Scene duration="200%" triggerHook="onLeave" pin>
+                  {progress => (
+                    <div style={{ height: "100vh", position: "relative" }}>
+                      <ImageSequence ref={ref} progress={progress} />
+                    </div>
+                  )}
+                </Scene>
+              </Controller>
             </section>
           </div>
-          <Footer />
+         
         </div>
       )}
     </div>
