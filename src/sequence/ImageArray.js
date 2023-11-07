@@ -1,4 +1,4 @@
-import { MainImage } from "../assets/main_Image";
+import { MainImage } from "../assets/about_image";
 import { useImage } from "./hooks";
 
 const MainImageArray = () => {
