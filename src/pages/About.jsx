@@ -23,7 +23,7 @@ const About = () => {
         <Preloader />
       ) : (
         <div className="relative z-0 bg-primary">
-          <Navbar/>
+          <Navbar blackColor={true}/>
           <Controller>
             <Scene duration="10000" triggerHook="onLeave" pin>
               {progress => (
