@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import ImageArray from "./ImageArray";
 import Preloader from "../components/Preloader";
 
-const ImageSequence = forwardRef(({ progress }, ref) => {
+const AboutImageSequence = forwardRef(({ progress }, ref) => {
   const newImages = ImageArray();
 
   let index = Math.round(progress * 1 * (newImages.length - 1));
@@ -29,4 +29,4 @@ const ImageSequence = forwardRef(({ progress }, ref) => {
   }
 });
 
-export default ImageSequence;
+export default AboutImageSequence;

@@ -628,7 +628,7 @@ import A626 from './s1-02107.jpg'
 import A627 from './s1-02108.jpg'
 import A628 from './s1-02109.jpg'
 
-export const MainImage = Array.of(
+export const AboutImage = Array.of(
   A0,
   A1,
   A2,

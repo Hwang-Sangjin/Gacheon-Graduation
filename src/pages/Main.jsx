@@ -6,11 +6,10 @@ import Preloader from "../components/Preloader";
 import { Controller, Scene } from "react-scrollmagic";
 import { useState, useEffect, ref } from "react";
 import Footer from "../components/Footer";
-import ImageSequence from "../sequence";
+import MainImageSequence from "../MainSequence";
 
 const Main = () => {
   const [loading, setLoading] = useState(false);
-  const [done, setDone] = useState(false)
 
   useEffect(() => {
     setLoading(true);
@@ -24,16 +23,16 @@ const Main = () => {
         <Preloader />
       ) : (
         <div className="relative z-0 bg-[#101010]">
-          {done?<Navbar/>:null}
-          <Controller>
+        <Controller>
             <Scene duration="10000" triggerHook="onLeave" pin>
               {progress => (
                 <div style={{ height: "100vh", position: "relative" }}>
-                  <ImageSequence ref={ref} progress={progress} />
+                  <MainImageSequence ref={ref} progress={progress} />
                 </div>
               )}
             </Scene>
           </Controller>
+          
         </div>
       )}
       
