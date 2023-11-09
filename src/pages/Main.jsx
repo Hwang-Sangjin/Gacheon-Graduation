@@ -7,6 +7,9 @@ import { Controller, Scene } from "react-scrollmagic";
 import { useState, useEffect, ref } from "react";
 import Footer from "../components/Footer";
 import MainImageSequence from "../MainSequence";
+import StarsCanvas from "../components/StarsCanvas";
+import { slideIn } from "../utils/motion";
+import EarthCanvas from "../components/Earth";
 
 const Main = () => {
   const [loading, setLoading] = useState(false);
@@ -37,6 +40,13 @@ const Main = () => {
             </Scene>
           </Controller>
           <Navbar />
+          <motion.div
+            variants={slideIn("right", "tween", 0.2, 1)}
+            className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+          >
+            <EarthCanvas />
+            <StarsCanvas />
+          </motion.div>
         </div>
       )}
     </div>
