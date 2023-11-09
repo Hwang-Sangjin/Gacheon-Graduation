@@ -199,8 +199,7 @@
   filter: grayscale(0%);
 }
 
-
-.project-card:hover{
+.project-card:hover {
   transform: scale(1.05);
   webkit-filter: blur(4px); /* Chrome, Safari, Opera */
   filter: blur(4px);
@@ -230,7 +229,7 @@
   align-items: center;
 }
 
-.project-card-text{
+.project-card-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -312,6 +311,10 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+.scrollmagic-pin-spacer {
+  padding-top: 0 !important;
+  padding-bottom: 5000px !important;
 }
 
 /* .cursor {

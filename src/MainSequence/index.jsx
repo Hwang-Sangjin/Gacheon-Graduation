@@ -9,7 +9,7 @@ const MainImageSequence = forwardRef(({ progress }, ref) => {
 
   if (newImages[index][1] !== undefined) {
     if (newImages[index][1] === "loading") {
-      return <Preloader/>;
+      return <Preloader />;
     } else {
       return newImages.map((item, i) => (
         <span
@@ -21,7 +21,7 @@ const MainImageSequence = forwardRef(({ progress }, ref) => {
             width: "100%",
             backgroundImage: `url('${item[0] ? item[0].src : null}')`,
             backgroundSize: "cover",
-            backgroundPosition: "center"
+            backgroundPosition: "center",
           }}
         />
       ));

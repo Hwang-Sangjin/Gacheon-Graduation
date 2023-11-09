@@ -22,20 +22,23 @@ const Main = () => {
       {loading ? (
         <Preloader />
       ) : (
-        <div className="relative z-0 bg-[#101010]">
-        <Controller>
-            <Scene duration="10000" triggerHook="onLeave" pin>
-              {progress => (
+        <div className="relative z-0 bg-[#000000]">
+          <Controller>
+            <Scene
+              duration="10000"
+              triggerHook="onLeave"
+              pin={{ pushFollowers: false }}
+            >
+              {(progress) => (
                 <div style={{ height: "100vh", position: "relative" }}>
                   <MainImageSequence ref={ref} progress={progress} />
                 </div>
               )}
             </Scene>
           </Controller>
-          
+          <Navbar />
         </div>
       )}
-      
     </div>
   );
 };
