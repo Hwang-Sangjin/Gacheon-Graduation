@@ -25,7 +25,7 @@ const Main = () => {
       {loading ? (
         <Preloader />
       ) : (
-        <div className="relative z-0 bg-[#000000]">
+        <div className="relative z-0 bg-[#000000] h-full">
           <Controller>
             <Scene
               duration="10000"
@@ -42,7 +42,7 @@ const Main = () => {
           <Navbar blackColor={true} />
           <motion.div
             variants={slideIn("right", "tween", 0.2, 1)}
-            className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+            className="main-canvas"
           >
             <EarthCanvas />
             <StarsCanvas />

@@ -236,6 +236,10 @@
   transform: translate(-50%, -50%);
 }
 
+.main-canvas{
+  height: 100vh !important;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
