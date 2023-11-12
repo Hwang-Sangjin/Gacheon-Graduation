@@ -8,6 +8,16 @@ import Footer from "../components/Footer";
 import { Controller, Scene } from "react-scrollmagic";
 import AboutImageSequence from "../AboutSequence";
 import { TypeAnimation } from "react-type-animation";
+import { AboutCardData } from "../constants";
+import { Tilt } from "react-tilt";
+import ReactCardFlip from "react-card-flip";
+
+
+const spring = {
+  type: "spring",
+  stiffness: 300,
+  damping: 40,
+}
 
 const About1 = () => {
   return (
@@ -42,8 +52,43 @@ const About2 = () => {
   );
 };
 
+const ServiceCard = ({ index, Title, Image, Text }) => (
+  <Tilt className="xs:w-[250px] w-full">
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className="w-full  p-[1px] rounded-[20px] shadow-card"
+    >
+      <img
+          src={Image}
+          alt="web-development"
+          className="w-full w-full object-contain"
+        />
+    </motion.div>
+  </Tilt>
+);
+const ServiceCardBack = ({ index, Title, ImageBack, Text }) => (
+  <Tilt className="xs:w-[250px] w-full">
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className="w-full  p-[1px] rounded-[20px] shadow-card"
+    >
+      <img
+          src={ImageBack}
+          alt="web-development"
+          className="w-full w-full object-contain"
+        />
+    </motion.div>
+  </Tilt>
+);
+
 const About = () => {
   const [loading, setLoading] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const flipCard = () =>{
+    console.log("!!!")
+    setIsFlipped(!isFlipped)
+  }
 
   useEffect(() => {
     setLoading(true);
@@ -56,7 +101,7 @@ const About = () => {
       {loading ? (
         <Preloader />
       ) : (
-        <div className="relative z-0 bg-[#000000] ">
+        <div className="relative z-0 bg-[#000000]">
           <Navbar blackColor={true}/>
           <Controller>
             <Scene duration="9000" triggerHook="onLeave" pin >
@@ -96,6 +141,20 @@ const About = () => {
             저희는 개인의 고유한 출력값을 아이콘으로 상징화하여 각 학생들이 뛰어난 아이디어와 디자인 능력을 집약한 표현으로, 새로운 시각을 담아보았습니다.
 
               </div>
+          </div>
+          <div className="px-12 mt-20 flex flex-wrap gap-12 justify-center align-center">
+            {AboutCardData.map((service, index) => (
+              <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
+                <div onClick={flipCard}>
+                <ServiceCard key={service.Title} index={index} {...service} />
+                </div>
+                <div onClick={flipCard}> 
+                <ServiceCardBack key={service.Title} index={index} {...service} onClick={flipCard}/>
+                </div>
+                
+              </ReactCardFlip>
+              
+            ))}
           </div>
           <Footer />
         </div>
