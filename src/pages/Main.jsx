@@ -28,6 +28,7 @@ const Main = () => {
         <div className="relative z-0 bg-[#000000] h-full">
           <Controller>
             <Scene
+            className="scrollmagic-pin-spacer-main"
               duration="10000"
               triggerHook="onLeave"
               pin={{ pushFollowers: false }}

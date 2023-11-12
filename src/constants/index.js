@@ -118,6 +118,9 @@ import ChoiJaeHo_Space from "../assets/space_Image/ChoiJaeHo_Space.jpg";
 import HwangJuHyeok_Space from "../assets/space_Image/HwangJuHyeok_Space.jpg";
 import HongDongYoung_Space from "../assets/space_Image/HongDongYoung_Space.jpg";
 
+import InputImage from '../assets/about_card_image/Input.png'
+import LogImage from '../assets/about_card_image/Log.png'
+import OutputImage from '../assets/about_card_image/Output.png'
 
 export const navLinks = [
   {
@@ -889,6 +892,27 @@ const SpaceData = [
   "HongDongYoung",
 ]
 
+const AboutCardData = [
+  {
+    Title : 'Input',
+    Image: InputImage,
+    Text: "입력값은 프로그램이나 함수에 전달되는 테이터입니다. 이는 프롬프트 밖에서 제공되는 값으로, 외부로부터 다양한 방식으로 디자이너인 우리에게 주어지는 문제를 상징합니다."
+
+  },
+  {
+    Title : 'Log',
+    Image: LogImage,
+    Text: "로그는 프로그램 실행 시 발생하는 메시지, 상태 등을 기록하는 기능을 가리킵니다. 디자이너가 마주한 문제를 해결하기 위해 거쳐간 수많은 과정들을 기록한 것이라 할 수 있습니다."
+
+  },
+  {
+    Title : 'Output',
+    Image: OutputImage,
+    Text: "출력값은 프로그램이나 함수의 실행 결과로서 화면에 표시되거나 파일에 저장되는 값입니다. 출력은 디자이너가 해결한 문제의 최종적인 결과물이며, 그 결과를 각각의 아이콘으로 전달하고자 합니다."
+
+  }
+]
+
 export {
   DesignersData,
   AllDesignersData,
@@ -897,5 +921,6 @@ export {
   SpaceDesignersData,
   ProjectData,
   ProductData,
-  SpaceData
+  SpaceData,
+  AboutCardData
 };

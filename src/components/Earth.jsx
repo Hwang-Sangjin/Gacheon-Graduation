@@ -24,6 +24,7 @@ const EarthCanvas = () => {
     <Suspense fallback={null}>
       <KimGoEun />
         <OrbitControls />
+        <Earth/>
       </Suspense>
     </Canvas>
   );
