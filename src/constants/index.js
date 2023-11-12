@@ -125,6 +125,22 @@ import InputBackImage from '../assets/about_card_image/InputBack.png'
 import LogBackImage from '../assets/about_card_image/LogBack.png'
 import OutputBackImage from '../assets/about_card_image/OutputBack.png'
 
+import AP1 from '../assets/about_picture_image/Frame 34.jpg'
+import AP2 from '../assets/about_picture_image/Frame 35.jpg'
+import AP3 from '../assets/about_picture_image/Frame 36.jpg'
+import AP4 from '../assets/about_picture_image/Frame 37.jpg'
+import AP5 from '../assets/about_picture_image/Frame 38.jpg'
+import AP6 from '../assets/about_picture_image/Frame 39.jpg'
+import AP7 from '../assets/about_picture_image/Frame 40.jpg'
+import AP8 from '../assets/about_picture_image/about_map.png'
+import AP14 from '../assets/about_picture_image/Frame 47.jpg'
+import AP15 from '../assets/about_picture_image/Frame 48.jpg'
+import AP16 from '../assets/about_picture_image/Frame 49.jpg'
+import AP17 from '../assets/about_picture_image/Frame 50.jpg'
+import AP18 from '../assets/about_picture_image/Frame 51.jpg'
+import AP19 from '../assets/about_picture_image/Frame 52.jpg'
+
+
 export const navLinks = [
   {
     id: "about",
@@ -917,6 +933,10 @@ const AboutCardData = [
   }
 ]
 
+const AboutPictureImage = [
+AP1,AP2,AP3,AP4,AP5,AP6, AP7,AP8, AP14,AP15, AP16,AP17,AP18,AP19
+]
+
 export {
   DesignersData,
   AllDesignersData,
@@ -926,5 +946,6 @@ export {
   ProjectData,
   ProductData,
   SpaceData,
-  AboutCardData
+  AboutCardData,
+  AboutPictureImage
 };

@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import { Controller, Scene } from "react-scrollmagic";
 import AboutImageSequence from "../AboutSequence";
 import { TypeAnimation } from "react-type-animation";
-import { AboutCardData } from "../constants";
+import { AboutCardData,AboutPictureImage } from "../constants";
 import { Tilt } from "react-tilt";
 import ReactCardFlip from "react-card-flip";
 
@@ -156,6 +156,49 @@ const About = () => {
               
             ))}
           </div>
+          <video muted autoPlay loop>
+            <source src="./about_gif.mp4" type="video/mp4" />
+        </video>
+        {
+          AboutPictureImage.map((pic,index)=>{
+            return(index===7?
+              (
+                <div className="h-screen bg-[#000000] flex flex-col justify-center items-center">
+                  <Tilt className="w-2/3 flex-3">
+                  <img  src={pic} key={index}/>
+                  </Tilt>
+                  
+                  <div className="m-11 flex flex-2 flex-row justify-center items-center text-[#FFFFFF]">
+                    <div className="flex-2 flex-col mx-20 my-8">
+                      <div className="font-[Hack-Regular] text-2xl my-8">Product_design</div>
+                      <div className="font-[Pretendard-Light] my-8 text-sm text-[#FFFFFF]">2041, AI와 4차 산업혁명이 바꿀 미래</div>
+                      <div className="flex flex-row text-[#FFF16F] justify-between font-[Hack-Regular] text-l">
+                        <div>(P1)</div>
+                        <div>(P2)</div>
+                        <div>(P3)</div>
+                      </div>
+                    </div>
+                    <div className="flex-2 flex-col mx-20 my-8">
+                      <div className="font-[Hack-Regular] text-2xl my-8">Space_design</div>
+                        <div className="font-[Pretendard-Light] my-8 text-sm text-[#FFFFFF]">공간디자인 프로젝트</div>
+                        <div className="flex flex-row text-[#FFF16F] justify-between font-[Hack-Regular] text-l">
+                          <div>(S1)</div>
+                          <div>(S2)</div>
+                          <div>(S3)</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              )
+              
+              :
+              <img className="" src={pic} key={index}/>
+            )
+            
+          }
+            
+          )          
+        }
           <Footer />
         </div>
       )}
