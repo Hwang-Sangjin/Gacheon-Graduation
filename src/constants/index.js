@@ -133,12 +133,14 @@ import AP5 from '../assets/about_picture_image/Frame 38.jpg'
 import AP6 from '../assets/about_picture_image/Frame 39.jpg'
 import AP7 from '../assets/about_picture_image/Frame 40.jpg'
 import AP8 from '../assets/about_picture_image/about_map.png'
+import AP9 from '../assets/about_picture_image/Frame 46.jpg'
 import AP14 from '../assets/about_picture_image/Frame 47.jpg'
 import AP15 from '../assets/about_picture_image/Frame 48.jpg'
 import AP16 from '../assets/about_picture_image/Frame 49.jpg'
 import AP17 from '../assets/about_picture_image/Frame 50.jpg'
 import AP18 from '../assets/about_picture_image/Frame 51.jpg'
 import AP19 from '../assets/about_picture_image/Frame 52.jpg'
+import AP20 from '../assets/about_picture_image/Frame53.jpg'
 
 
 export const navLinks = [
@@ -934,7 +936,7 @@ const AboutCardData = [
 ]
 
 const AboutPictureImage = [
-AP1,AP2,AP3,AP4,AP5,AP6, AP7,AP8, AP14,AP15, AP16,AP17,AP18,AP19
+AP1,AP2,AP3,AP4,AP5,AP6, AP7,AP8,AP9, AP14,AP15, AP16,AP17,AP18,AP19,AP20
 ]
 
 export {

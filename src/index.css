@@ -195,7 +195,6 @@
   transition: 0.5s ease;
 }
 .designer-card:hover {
-  transform: scale(1.05);
   filter: grayscale(0%);
 }
 

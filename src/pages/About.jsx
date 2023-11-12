@@ -126,7 +126,7 @@ const About = () => {
           </motion.p>
             
           </div>
-          <video muted autoPlay loop>
+          <video  controls loop>
             <source src="./about_main.mp4" type="video/mp4" />
         </video>
 

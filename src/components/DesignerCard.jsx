@@ -37,7 +37,8 @@ const DesignerCard = ({ title, data, index }) => {
   const handleClose = () => setOpen(false);
 
   return (
-    <Tilt className="w-full mb-8">
+    <div className="w-full mb-8">
+      <Tilt>
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         initial={{ opacity: 0 }}
@@ -49,7 +50,11 @@ const DesignerCard = ({ title, data, index }) => {
         <div className="h-[2rem] text-3xl mb-4 font-['Hack-Bold']">{title}</div>
         <div className="md:w-3/4 sm:w-1/5">
           <img className="designer-card" src={data.Image_Color} />
-          <div className="mt-4 text-xl font-['Pretendard-SemiBold']">
+          
+        </div>
+      </motion.div>
+      </Tilt>
+      <div className="mt-4 text-xl font-['Pretendard-SemiBold']">
             {data.Name_kor}
           </div>
           <div className="mt-1 text-xl font-['Pretendard-SemiBold']">
@@ -85,8 +90,7 @@ const DesignerCard = ({ title, data, index }) => {
               )}
             </div>
           </div>
-        </div>
-      </motion.div>
+      
       <Modal
         open={open}
         onClose={handleClose}
@@ -97,7 +101,7 @@ const DesignerCard = ({ title, data, index }) => {
       >
         <DesignerModal handleClose={handleClose} data={data}/>
       </Modal>
-    </Tilt>
+    </div>
   );
 };
 
