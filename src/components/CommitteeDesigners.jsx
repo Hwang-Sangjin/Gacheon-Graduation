@@ -1,5 +1,6 @@
 import DesignerCard from "./DesignerCard";
 import Footer from "../components/Footer";
+import DesignerVideo from "./DesignerVideo";
 
 import { CommitteeDesignersData, DesignersData } from "../constants";
 
@@ -8,7 +9,7 @@ const Committee = () => {
     <div className="mt-10 flex  flex-wrap gap-7">
       <div className="grid grid-cols-2 sm:grid-cols-4">
         {CommitteeDesignersData.map((name, index) => {
-          if (name === " ") return;
+          if (name === " ") return <DesignerVideo />;
           return name === "KimGeonRyeong" ? (
             <DesignerCard
               title="All_Prompts"
@@ -20,7 +21,7 @@ const Committee = () => {
           );
         })}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import ProjectCard from "./ProjectCard";
 import { motion, AnimatePresence } from "framer-motion";
-import { ProjectData,ProductData } from "../constants";
+import { ProjectData, ProductData } from "../constants";
 import React, { useState } from "react";
-
+import DesignerVideo from "./DesignerVideo";
 import Footer from "../components/Footer";
 
 const style = {
@@ -18,13 +18,12 @@ const style = {
 };
 
 const ProductProject = () => {
-
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
       <div className="grid grid-cols-2 sm:grid-cols-4">
-      {ProductData.map((name, index) => {
-          if (name === " ") return;
-          return <ProjectCard type="product" data={ProjectData[name]} />
+        {ProductData.map((name, index) => {
+          if (name === " ") return <DesignerVideo />;
+          return <ProjectCard type="product" data={ProjectData[name]} />;
         })}
       </div>
       <Footer />

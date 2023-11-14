@@ -27,6 +27,8 @@ import ChoiDaIn_Color from "../assets/designer/ChoiDaIn/ChoiDaIn_color.jpg";
 import ChoiJaeHo_Color from "../assets/designer/ChoiJaeHo/ChoiJaeHo_color.jpg";
 import HwangJuHyeok_Color from "../assets/designer/HwangJuHyeok/HwangJuHyeok_color.jpg";
 import HongDongYoung_Color from "../assets/designer/HongDongYoung/HongDongYoung_color.jpg";
+import KwonJiHye_Color from "../assets/designer/KwonJiHye/KwonJiHye_Color.jpg";
+import KimMinJi_Color from "../assets/designer/KimMinJi/KimMinJi_Color.jpg";
 
 import KimGeonRyeong_Full from "../assets/designer/KimGeonRyeong/KimGeonRyeong_full.png";
 import KimGoEun_Full from "../assets/designer/KimGoEun/KimGoEun_full.png";
@@ -88,7 +90,7 @@ import ChoiJaeHo_Product from "../assets/product_Image/ChoiJaeHo_Product.jpg";
 import HwangJuHyeok_Product from "../assets/product_Image/HwangJuHyeok_Product.jpg";
 import HongDongYoung_Product from "../assets/product_Image/HongDongYoung_Product.jpg";
 
-import KimGeonRyeong_Space from "../assets/space_Image/KimGeonRyeong_Space.jpg"
+import KimGeonRyeong_Space from "../assets/space_Image/KimGeonRyeong_Space.jpg";
 import KimGoEun_Space from "../assets/space_Image/KimGoEun_Space.jpg";
 import KimDongJun_Space from "../assets/space_Image/KimDongJun_Space.jpg";
 import KimYaeJu_Space from "../assets/space_Image/KimYaeJu_Space.jpg";
@@ -118,30 +120,29 @@ import ChoiJaeHo_Space from "../assets/space_Image/ChoiJaeHo_Space.jpg";
 import HwangJuHyeok_Space from "../assets/space_Image/HwangJuHyeok_Space.jpg";
 import HongDongYoung_Space from "../assets/space_Image/HongDongYoung_Space.jpg";
 
-import InputImage from '../assets/about_card_image/Input.png'
-import LogImage from '../assets/about_card_image/Log.png'
-import OutputImage from '../assets/about_card_image/Output.png'
-import InputBackImage from '../assets/about_card_image/InputBack.png'
-import LogBackImage from '../assets/about_card_image/LogBack.png'
-import OutputBackImage from '../assets/about_card_image/OutputBack.png'
+import InputImage from "../assets/about_card_image/Input.png";
+import LogImage from "../assets/about_card_image/Log.png";
+import OutputImage from "../assets/about_card_image/Output.png";
+import InputBackImage from "../assets/about_card_image/InputBack.png";
+import LogBackImage from "../assets/about_card_image/LogBack.png";
+import OutputBackImage from "../assets/about_card_image/OutputBack.png";
 
-import AP1 from '../assets/about_picture_image/Frame 34.jpg'
-import AP2 from '../assets/about_picture_image/Frame 35.jpg'
-import AP3 from '../assets/about_picture_image/Frame 36.jpg'
-import AP4 from '../assets/about_picture_image/Frame 37.jpg'
-import AP5 from '../assets/about_picture_image/Frame 38.jpg'
-import AP6 from '../assets/about_picture_image/Frame 39.jpg'
-import AP7 from '../assets/about_picture_image/Frame 40.jpg'
-import AP8 from '../assets/about_picture_image/about_map.png'
-import AP9 from '../assets/about_picture_image/Frame 46.jpg'
-import AP14 from '../assets/about_picture_image/Frame 47.jpg'
-import AP15 from '../assets/about_picture_image/Frame 48.jpg'
-import AP16 from '../assets/about_picture_image/Frame 49.jpg'
-import AP17 from '../assets/about_picture_image/Frame 50.jpg'
-import AP18 from '../assets/about_picture_image/Frame 51.jpg'
-import AP19 from '../assets/about_picture_image/Frame 52.jpg'
-import AP20 from '../assets/about_picture_image/Frame53.jpg'
-
+import AP1 from "../assets/about_picture_image/Frame 34.jpg";
+import AP2 from "../assets/about_picture_image/Frame 35.jpg";
+import AP3 from "../assets/about_picture_image/Frame 36.jpg";
+import AP4 from "../assets/about_picture_image/Frame 37.jpg";
+import AP5 from "../assets/about_picture_image/Frame 38.jpg";
+import AP6 from "../assets/about_picture_image/Frame 39.jpg";
+import AP7 from "../assets/about_picture_image/Frame 40.jpg";
+import AP8 from "../assets/about_picture_image/about_map.png";
+import AP9 from "../assets/about_picture_image/Frame 46.jpg";
+import AP14 from "../assets/about_picture_image/Frame 47.jpg";
+import AP15 from "../assets/about_picture_image/Frame 48.jpg";
+import AP16 from "../assets/about_picture_image/Frame 49.jpg";
+import AP17 from "../assets/about_picture_image/Frame 50.jpg";
+import AP18 from "../assets/about_picture_image/Frame 51.jpg";
+import AP19 from "../assets/about_picture_image/Frame 52.jpg";
+import AP20 from "../assets/about_picture_image/Frame53.jpg";
 
 export const navLinks = [
   {
@@ -173,7 +174,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimGeonRyeong_Color,
-    Image_Full: KimGeonRyeong_Full
+    Image_Full: KimGeonRyeong_Full,
   },
   KimGoEun: {
     Name_kor: "김 고은",
@@ -185,7 +186,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimGoEun_Color,
-    Image_Full: KimGoEun_Full
+    Image_Full: KimGoEun_Full,
   },
   KimDongJun: {
     Name_kor: "김 동준",
@@ -197,7 +198,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/gundalssi",
     Link_Blog: "",
     Image_Color: KimDongJun_Color,
-    Image_Full: KimDongJun_Full
+    Image_Full: KimDongJun_Full,
   },
   KimYaeJu: {
     Name_kor: "김 예주",
@@ -209,7 +210,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimYaeJu_Color,
-    Image_Full: KimYaeJu_Full
+    Image_Full: KimYaeJu_Full,
   },
   KimYunHa: {
     Name_kor: "김 윤하",
@@ -221,7 +222,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimYunHa_Color,
-    Image_Full: KimYunHa_Full
+    Image_Full: KimYunHa_Full,
   },
   KimJiHwan: {
     Name_kor: "김 지환",
@@ -233,7 +234,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: KimJiHwan_Color,
-    Image_Full: KimJiHwan_Full
+    Image_Full: KimJiHwan_Full,
   },
   NamMinJi: {
     Name_kor: "남 민지",
@@ -245,7 +246,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: NamMinJi_Color,
-    Image_Full: NamMinJi_Full
+    Image_Full: NamMinJi_Full,
   },
   ParkChangMin: {
     Name_kor: "박 창민",
@@ -257,7 +258,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/changminp8c347",
     Link_Blog: "",
     Image_Color: ParkChangMin_Color,
-    Image_Full: ParkChangMin_Full
+    Image_Full: ParkChangMin_Full,
   },
   BakSeungEun: {
     Name_kor: "백 승은",
@@ -269,7 +270,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: BakSeungEun_Color,
-    Image_Full: BakSeungEun_Full
+    Image_Full: BakSeungEun_Full,
   },
   SeoAReum: {
     Name_kor: "서 아름",
@@ -281,7 +282,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: SeoAReum_Color,
-    Image_Full: SeoAReum_Full
+    Image_Full: SeoAReum_Full,
   },
   ShinDongYeop: {
     Name_kor: "신 동엽",
@@ -293,7 +294,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/shindydy",
     Link_Blog: "",
     Image_Color: ShinDongYeop_Color,
-    Image_Full: ShinDongYeop_Full
+    Image_Full: ShinDongYeop_Full,
   },
   ShinJiWoo: {
     Name_kor: "신 지우",
@@ -305,7 +306,7 @@ const DesignersData = {
     Link_Behance: "https://www.instagram.com/owlfactory_official/",
     Link_Blog: "",
     Image_Color: ShinJiWoo_Color,
-    Image_Full: ShinJiWoo_Full
+    Image_Full: ShinJiWoo_Full,
   },
   SimMinSeop: {
     Name_kor: "심 민섭",
@@ -317,7 +318,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "https://www.owlfactory.co.kr/",
     Image_Color: SimMinSeop_Color,
-    Image_Full: SimMinSeop_Full
+    Image_Full: SimMinSeop_Full,
   },
   AnMyoungJi: {
     Name_kor: "안 명지",
@@ -329,7 +330,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: AnMyoungJi_Color,
-    Image_Full: AnMyoungJi_Full
+    Image_Full: AnMyoungJi_Full,
   },
   YangJiWon: {
     Name_kor: "양 지원",
@@ -341,7 +342,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YangJiWon_Color,
-    Image_Full: YangJiWon_Full
+    Image_Full: YangJiWon_Full,
   },
   YangHyeSeon: {
     Name_kor: "양 혜선",
@@ -353,7 +354,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YangHyeSeon_Color,
-    Image_Full: YangHyeSeon_Full
+    Image_Full: YangHyeSeon_Full,
   },
   WonHanJu: {
     Name_kor: "원 한주",
@@ -365,7 +366,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: WonHanJu_Color,
-    Image_Full: WonHanJu_Full
+    Image_Full: WonHanJu_Full,
   },
   YooDongJae: {
     Name_kor: "유 동재",
@@ -377,7 +378,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YooDongJae_Color,
-    Image_Full: YooDongJae_Full
+    Image_Full: YooDongJae_Full,
   },
   YuAJung: {
     Name_kor: "유 아정",
@@ -389,7 +390,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YuAJung_Color,
-    Image_Full: YuAJung_Full
+    Image_Full: YuAJung_Full,
   },
   YuJiHui: {
     Name_kor: "유 지희",
@@ -401,7 +402,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: YuJiHui_Color,
-    Image_Full: YuJiHui_Full
+    Image_Full: YuJiHui_Full,
   },
   LeeJongWon: {
     Name_kor: "이 종원",
@@ -413,7 +414,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: LeeJongWon_Color,
-    Image_Full: LeeJongWon_Full
+    Image_Full: LeeJongWon_Full,
   },
   LeeHongKyu: {
     Name_kor: "이 홍규",
@@ -425,7 +426,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: LeeHongKyu_Color,
-    Image_Full: LeeHongKyu_Full
+    Image_Full: LeeHongKyu_Full,
   },
   JangSeoJin: {
     Name_kor: "장 서진",
@@ -437,7 +438,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: JangSeoJin_Color,
-    Image_Full: JangSeoJin_Full
+    Image_Full: JangSeoJin_Full,
   },
   JunSeWon: {
     Name_kor: "전 세원",
@@ -449,7 +450,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/swjw0619bbd3",
     Link_Blog: "",
     Image_Color: JunSeWon_Color,
-    Image_Full: JunSeWon_Full
+    Image_Full: JunSeWon_Full,
   },
   JuYoonWoo: {
     Name_kor: "주 윤우",
@@ -461,7 +462,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: JuYoonWoo_Color,
-    Image_Full: JuYoonWoo_Full
+    Image_Full: JuYoonWoo_Full,
   },
   ChoiDaIn: {
     Name_kor: "최 다인",
@@ -473,7 +474,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: ChoiDaIn_Color,
-    Image_Full: ChoiDaIn_Full
+    Image_Full: ChoiDaIn_Full,
   },
   ChoiJaeHo: {
     Name_kor: "최 재호",
@@ -485,7 +486,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: ChoiJaeHo_Color,
-    Image_Full: ChoiJaeHo_Full
+    Image_Full: ChoiJaeHo_Full,
   },
   HwangJuHyeok: {
     Name_kor: "황 주혁",
@@ -497,7 +498,7 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/jhhwang122b2c2",
     Link_Blog: "",
     Image_Color: HwangJuHyeok_Color,
-    Image_Full: HwangJuHyeok_Full
+    Image_Full: HwangJuHyeok_Full,
   },
   HongDongYoung: {
     Name_kor: "홍 동영",
@@ -509,8 +510,21 @@ const DesignersData = {
     Link_Behance: "https://www.behance.net/hong_d_y",
     Link_Blog: "",
     Image_Color: HongDongYoung_Color,
-    Image_Full: HongDongYoung_Full
+    Image_Full: HongDongYoung_Full,
   },
+  KwonJiHye: {
+    Name_kor: "권 지혜",
+    Name_eng: "KWON JIHYE",
+    Name_tag: "KwonJiHye",
+    Role: "Space designer",
+    Email: "hy1527@gmail.com",
+    Link_insta: "Kwonbab@naver.com",
+    Link_Behance: "",
+    Link_Blog: "",
+    Image_Color: HongDongYoung_Color,
+    Image_Full: HongDongYoung_Full,
+  },
+
   JeonHaeIn: {
     Name_kor: "전 해인",
     Name_eng: "JEON HAEIN",
@@ -521,7 +535,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: "",
-    Image_Full: ""
+    Image_Full: "",
   },
   Jin: {
     Name_kor: "황 상진",
@@ -533,7 +547,7 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: "",
-    Image_Full: ""
+    Image_Full: "",
   },
 };
 
@@ -570,6 +584,22 @@ const AllDesignersData = [
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
+  "KwonJiHye",
+  "KimMinJi",
+  "KimSeRyung",
+  "NamHyoMin",
+  "ParkChangZun",
+  "SeoHeeJu",
+  " ",
+  "OhGaYoung",
+  "YooJaeHyun",
+  " ",
+  "LeeMinYoung",
+  "LeeSoYun",
+  "LeeYuJin",
+  "LimJungHa",
+  " ",
+  "ImJinJu",
   "JeonHaeIn",
   "Jin",
 ];
@@ -591,6 +621,10 @@ const CommitteeDesignersData = [
   "KimYaeJu",
   " ",
   "JuYoonWoo",
+  "LimJungHa",
+  "KimJiHwan",
+  "ShinJiWoo",
+  "YooDongJae",
   "JeonHaeIn",
   "Jin",
 ];
@@ -619,7 +653,12 @@ const ProductDesignersData = [
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
-  " ",
+  "KimMinJi",
+  "NamHyoMin",
+  "ParkChangZun",
+  "OhGaYoung",
+  "YooJaeHyun",
+  "LeeMinYoung",
   "JeonHaeIn",
   "Jin",
 ];
@@ -633,6 +672,14 @@ const SpaceDesignersData = [
   " ",
   "SeoAReum",
   "YangJiWon",
+  "KwonJiHye",
+  "KimSeRyung",
+  "SeoHeeJu",
+  "LeeSoYun",
+  " ",
+  "LeeYuJin",
+  "LimJungHa",
+  "ImJinJu",
   "JeonHaeIn",
   "Jin",
 ];
@@ -641,205 +688,205 @@ const ProjectData = {
   KimGeonRyeong: {
     Image_Product: KimGeonRyeong_Product,
     Image_Space: KimGeonRyeong_Space,
-    Title_Product:"Ctrl + space",
+    Title_Product: "Ctrl + space",
     TitleSpace: "IKEA hereditas",
-    Name_tag:"KimGeonRyeong"
+    Name_tag: "KimGeonRyeong",
   },
   KimGoEun: {
     Image_Product: KimGoEun_Product,
     Image_Space: KimGoEun_Space,
     Title_Product: "Sidekick",
     TitleSpace: "Meta Place",
-    Name_tag:"KimGoEun"
+    Name_tag: "KimGoEun",
   },
   KimDongJun: {
     Image_Product: KimDongJun_Product,
     Image_Space: KimDongJun_Space,
     Title_Product: "AIplor",
     TitleSpace: "SPACE auction",
-    Name_tag:"KimDongJun"
+    Name_tag: "KimDongJun",
   },
   KimYaeJu: {
     Image_Product: KimYaeJu_Product,
     Image_Space: KimYaeJu_Space,
     Title_Product: "Maeum",
     TitleSpace: "OTIUM Island",
-    Name_tag:"KimYaeJu"
+    Name_tag: "KimYaeJu",
   },
   KimYunHa: {
-    Image_Product:" ",
+    Image_Product: " ",
     Image_Space: " ",
-    Title_Product:" ",
+    Title_Product: " ",
     TitleSpace: " ",
-    Name_tag:"KimYunHa"
+    Name_tag: "KimYunHa",
   },
   KimJiHwan: {
     Image_Product: KimJiHwan_Product,
     Image_Space: KimJiHwan_Space,
     Title_Product: "Primal-HORA",
     TitleSpace: "Concept Art Studio",
-    Name_tag:"KimJiHwan"
+    Name_tag: "KimJiHwan",
   },
   NamMinJi: {
     Image_Product: NamMinJi_Product,
     Image_Space: NamMinJi_Space,
     Title_Product: "Optimal Sleep",
     TitleSpace: "The Lara Gallery",
-    Name_tag:"NamMinJi"
+    Name_tag: "NamMinJi",
   },
   ParkChangMin: {
-    Image_Product:" ",
+    Image_Product: " ",
     Image_Space: ParkChangMin_Space,
-    Title_Product:" ",
+    Title_Product: " ",
     TitleSpace: "Ferrari Vision EV",
-    Name_tag:"ParkChangMin"
+    Name_tag: "ParkChangMin",
   },
   BakSeungEun: {
     Image_Product: BakSeungEun_Product,
     Image_Space: BakSeungEun_Space,
     Title_Product: "SelfTaste Plate",
     TitleSpace: "Music Library Park",
-    Name_tag:"BakSeungEun"
+    Name_tag: "BakSeungEun",
   },
   SeoAReum: {
     Image_Product: SeoAReum_Product,
     Image_Space: SeoAReum_Space,
     Title_Product: "Fall Privention Shower Sink",
     TitleSpace: "5 Senses Kindergarten",
-    Name_tag:"SeoAReum"
+    Name_tag: "SeoAReum",
   },
   ShinDongYeop: {
     Image_Product: ShinDongYeop_Product,
     Image_Space: ShinDongYeop_Space,
     Title_Product: "CE-Q Printer",
     TitleSpace: "Jiyong Kim Flagship Store",
-    Name_tag:"ShinDongYeop"
+    Name_tag: "ShinDongYeop",
   },
   ShinJiWoo: {
     Image_Product: ShinJiWoo_Product,
     Image_Space: ShinJiWoo_Space,
     Title_Product: "In-ONE",
     TitleSpace: "AROMATICA Zero-Staion",
-    Name_tag:"ShinJiWoo"
+    Name_tag: "ShinJiWoo",
   },
   SimMinSeop: {
     Image_Product: SimMinSeop_Product,
     Image_Space: SimMinSeop_Space,
     Title_Product: "OWL FACTORY™",
     TitleSpace: "OWL FACTORY™ DOONGZI",
-    Name_tag:"SimMinSeop"
+    Name_tag: "SimMinSeop",
   },
   AnMyoungJi: {
     Image_Product: AnMyoungJi_Product,
     Image_Space: AnMyoungJi_Space,
     Title_Product: "Calóre",
     TitleSpace: "Pullagship store",
-    Name_tag:"AnMyoungJi"
+    Name_tag: "AnMyoungJi",
   },
   YangJiWon: {
     Image_Product: YangJiWon_Product,
     Image_Space: YangJiWon_Space,
     Title_Product: "DoodleBuddy",
     TitleSpace: "Amorepacific Virtual Store",
-    Name_tag:"YangJiWon"
+    Name_tag: "YangJiWon",
   },
   YangHyeSeon: {
     Image_Product: YangHyeSeon_Product,
     Image_Space: YangHyeSeon_Space,
     Title_Product: "House of Beans",
     TitleSpace: "Jungkwanjang Therapy House",
-    Name_tag:"YangHyeSeon"
+    Name_tag: "YangHyeSeon",
   },
   WonHanJu: {
     Image_Product: WonHanJu_Product,
     Image_Space: WonHanJu_Space,
     Title_Product: "Qurio I",
     TitleSpace: "Mastercard Travel Store",
-    Name_tag:"WonHanJu"
+    Name_tag: "WonHanJu",
   },
   YooDongJae: {
     Image_Product: YooDongJae_Product,
     Image_Space: YooDongJae_Space,
     Title_Product: "DEVNOX",
     TitleSpace: "PA:DO",
-    Name_tag:"YooDongJae"
+    Name_tag: "YooDongJae",
   },
   YuAJung: {
     Image_Product: YuAJung_Product,
     Image_Space: YuAJung_Space,
     Title_Product: "Music maker",
     TitleSpace: "Astronomical observation",
-    Name_tag:"YuAJung"
+    Name_tag: "YuAJung",
   },
   YuJiHui: {
     Image_Product: YuJiHui_Product,
     Image_Space: YuJiHui_Space,
     Title_Product: "Shopphing crony",
     TitleSpace: "Steam space",
-    Name_tag:"YuJiHui"
+    Name_tag: "YuJiHui",
   },
   LeeJongWon: {
     Image_Product: LeeJongWon_Product,
     Image_Space: LeeJongWon_Space,
     Title_Product: "ReNet Project",
     TitleSpace: "CELLO Bike Culture Museum",
-    Name_tag:"LeeJongWon"
+    Name_tag: "LeeJongWon",
   },
   LeeHongKyu: {
     Image_Product: LeeHongKyu_Product,
     Image_Space: LeeHongKyu_Space,
     Title_Product: "FORMUSE",
     TitleSpace: "INDIES",
-    Name_tag:"LeeHongKyu"
+    Name_tag: "LeeHongKyu",
   },
   JangSeoJin: {
     Image_Product: " ",
-    Image_Space:" ",
+    Image_Space: " ",
     Title_Product: " ",
-    TitleSpace:" ",
-    Name_tag:"JangSeoJin"
+    TitleSpace: " ",
+    Name_tag: "JangSeoJin",
   },
   JunSeWon: {
     Image_Product: JunSeWon_Product,
     Image_Space: JunSeWon_Space,
     Title_Product: "BUSK",
     TitleSpace: "OSULLOC : 신선놀음",
-    Name_tag:"JunSeWon"
+    Name_tag: "JunSeWon",
   },
   JuYoonWoo: {
     Image_Product: JuYoonWoo_Product,
     Image_Space: JuYoonWoo_Space,
     Title_Product: "Nova",
     TitleSpace: "Reallusion",
-    Name_tag:"JuYoonWoo"
+    Name_tag: "JuYoonWoo",
   },
   ChoiDaIn: {
     Image_Product: ChoiDaIn_Product,
     Image_Space: ChoiDaIn_Space,
     Title_Product: "Doglasses",
     TitleSpace: "Doggy Park",
-    Name_tag:"ChoiDaIn"
+    Name_tag: "ChoiDaIn",
   },
   ChoiJaeHo: {
     Image_Product: ChoiJaeHo_Product,
-    Image_Space:ChoiJaeHo_Space,
+    Image_Space: ChoiJaeHo_Space,
     Title_Product: "Sync-me",
     TitleSpace: "UC.Fluffies",
-    Name_tag:"ChoiJaeHo"
+    Name_tag: "ChoiJaeHo",
   },
   HwangJuHyeok: {
     Image_Product: HwangJuHyeok_Product,
     Image_Space: HwangJuHyeok_Space,
     Title_Product: "Tracer",
     TitleSpace: "Toss Brand Space",
-    Name_tag:"HwangJuHyeok"
+    Name_tag: "HwangJuHyeok",
   },
   HongDongYoung: {
     Image_Product: HongDongYoung_Product,
     Image_Space: HongDongYoung_Space,
     Title_Product: "LAHAND",
     TitleSpace: "The ORCHESTRA",
-    Name_tag:"HongDongYoung"
+    Name_tag: "HongDongYoung",
   },
 };
 
@@ -871,12 +918,12 @@ const ProductData = [
   "JuYoonWoo",
   " ",
   "ChoiDaIn",
-  " ", 
+  " ",
   " ",
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
-]
+];
 
 const SpaceData = [
   "KimGeonRyeong",
@@ -911,33 +958,47 @@ const SpaceData = [
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
-]
+];
 
 const AboutCardData = [
   {
-    Title : 'Input',
+    Title: "Input",
     Image: InputImage,
     Text: "입력값은 프로그램이나 함수에 전달되는 테이터입니다. 이는 프롬프트 밖에서 제공되는 값으로, 외부로부터 다양한 방식으로 디자이너인 우리에게 주어지는 문제를 상징합니다.",
     ImageBack: InputBackImage,
   },
   {
-    Title : 'Log',
+    Title: "Log",
     Image: LogImage,
     Text: "로그는 프로그램 실행 시 발생하는 메시지, 상태 등을 기록하는 기능을 가리킵니다. 디자이너가 마주한 문제를 해결하기 위해 거쳐간 수많은 과정들을 기록한 것이라 할 수 있습니다.",
-    ImageBack: LogBackImage
-
+    ImageBack: LogBackImage,
   },
   {
-    Title : 'Output',
+    Title: "Output",
     Image: OutputImage,
     Text: "출력값은 프로그램이나 함수의 실행 결과로서 화면에 표시되거나 파일에 저장되는 값입니다. 출력은 디자이너가 해결한 문제의 최종적인 결과물이며, 그 결과를 각각의 아이콘으로 전달하고자 합니다.",
-    ImageBack: OutputBackImage
-  }
-]
+    ImageBack: OutputBackImage,
+  },
+];
 
 const AboutPictureImage = [
-AP1,AP2,AP3,AP4,AP5,AP6, AP7,AP8,AP9, AP14,AP15, AP16,AP17,AP18,AP19,AP20
-]
+  AP1,
+  AP2,
+  AP3,
+  AP4,
+  AP5,
+  AP6,
+  AP7,
+  AP8,
+  AP9,
+  AP14,
+  AP15,
+  AP16,
+  AP17,
+  AP18,
+  AP19,
+  AP20,
+];
 
 export {
   DesignersData,
@@ -949,5 +1010,5 @@ export {
   ProductData,
   SpaceData,
   AboutCardData,
-  AboutPictureImage
+  AboutPictureImage,
 };

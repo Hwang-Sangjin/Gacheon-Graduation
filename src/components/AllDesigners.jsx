@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import Preloader from "./Preloader";
 import Footer from "../components/Footer";
+import DesignerVideo from "./DesignerVideo";
 
 const style = {
   position: "absolute",
@@ -24,10 +25,9 @@ const style = {
 const AllDesigners = () => {
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
-
       <div className="grid grid-cols-2 sm:grid-cols-4">
         {AllDesignersData.map((name, index) => {
-          if (name === " ") return;
+          if (name === " ") return <DesignerVideo />;
           return name === "KimGeonRyeong" ? (
             <DesignerCard
               title="All_Prompts"
