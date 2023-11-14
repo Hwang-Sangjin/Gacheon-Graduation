@@ -29,6 +29,12 @@ import HwangJuHyeok_Color from "../assets/designer/HwangJuHyeok/HwangJuHyeok_col
 import HongDongYoung_Color from "../assets/designer/HongDongYoung/HongDongYoung_color.jpg";
 import KwonJiHye_Color from "../assets/designer/KwonJiHye/KwonJiHye_Color.jpg";
 import KimMinJi_Color from "../assets/designer/KimMinJi/KimMinJi_Color.jpg";
+import KimSeRyung_Color from "../assets/designer/KimSeRyung/KimSeRyung_Color.jpg";
+import NamHyoMin_Color from "../assets/designer/NamHyoMin/NamHyoMin_Color.jpg";
+import ParkChangZun_Color from "../assets/designer/ParkChangZun/ParkChangZun_Color.jpg";
+import SeoHeeJu_Color from "../assets/designer/SeoHeeJu/SeoHeeJu_Color.jpg";
+import OhGaYoung_Color from "../assets/designer/OhGaYoung/OhGaYoung_Color.jpg";
+import YooJaeHyun_Color from "../assets/designer/YooJaeHyun/YooJaeHyun_Color.jpg";
 
 import KimGeonRyeong_Full from "../assets/designer/KimGeonRyeong/KimGeonRyeong_full.png";
 import KimGoEun_Full from "../assets/designer/KimGoEun/KimGoEun_full.png";
