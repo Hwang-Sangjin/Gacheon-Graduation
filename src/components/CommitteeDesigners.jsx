@@ -10,15 +10,28 @@ const Committee = () => {
       <div className="grid grid-cols-2 sm:grid-cols-4">
         {CommitteeDesignersData.map((name, index) => {
           if (name === " ") return <DesignerVideo />;
-          return name === "KimGeonRyeong" ? (
+          if (name ==="KimDongJun")
+          return(
             <DesignerCard
-              title="All_Prompts"
+              title="Committee Leader"
               data={DesignersData[name]}
               index={index}
             />
-          ) : (
-            <DesignerCard title="" data={DesignersData[name]} index={index} />
-          );
+            )
+          if(name ==="LeeJongWon")
+          return(
+            <DesignerCard
+              title="Committee Sub leader"
+              data={DesignersData[name]}
+              index={index}
+            />
+            
+            )
+          
+            
+            return(
+              <DesignerCard title="" data={DesignersData[name]} index={index} />
+            )
         })}
       </div>
       <Footer />

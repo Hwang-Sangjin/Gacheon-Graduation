@@ -6,13 +6,13 @@ import DesignerVideoSRC from "../assets/designer_icon.mp4";
 const DesignerVideo = () => {
   return (
     <div className="w-full mb-8">
-      <Tilt>
+
         <motion.div
           variants={fadeIn("right", "spring", 5 * 0.5, 0.75)}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="w-full rounded-[20px] "
+          className="w-4/5 rounded-[20px] mt-12"
         >
           <video className="" muted autoPlay>
             <source
@@ -22,7 +22,6 @@ const DesignerVideo = () => {
             />
           </video>
         </motion.div>
-      </Tilt>
     </div>
   );
 };

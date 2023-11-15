@@ -1035,8 +1035,8 @@ const AllDesignersData = [
 const CommitteeDesignersData = [
   "KimDongJun",
   " ",
-  "KimGeonRyeong",
   "LeeJongWon",
+  "KimGeonRyeong",
   "ShinDongYeop",
   "KimGoEun",
   "SeoAReum",
