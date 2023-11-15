@@ -125,13 +125,13 @@ import LeeMinYoung_Icon from "../assets/designer/LeeMinYoung/LeeMinYoung_icon.pn
 import LeeYuJin_Icon from "../assets/designer/LeeYuJin/LeeYuJin_icon.png";
 import LimJungHa_Icon from "../assets/designer/LimJungHa/LimJungHa_icon.png";
 import ImJinJu_Icon from "../assets/designer/ImJinJu/ImJinJu_icon.png";
-import LeeSoYun_Icon from "./assets/designer/LeeSoYun/LeeSoYun_icon.png";
+import LeeSoYun_Icon from "../assets/designer/LeeSoYun/LeeSoYun_icon.png"
 
 import KimGeonRyeong_Project1 from "../assets/designer/KimGeonRyeong/KimGeonRyeong_project1.png";
 import KimGoEun_Project1 from "../assets/designer/KimGoEun/KimGoEun_project1.png";
 import KimDongJun_Project1 from "../assets/designer/KimDongJun/KimDongJun_project1.png";
 import KimYaeJu_Project1 from "../assets/designer/KimYaeJu/KimYaeJu_project1.png";
-import KimYunHa_Project1 from "../assets/designer/KimYunHa/KimYunHa_project1.png";
+//import KimYunHa_Project1 from "../assets/designer/KimYunHa/KimYunHa_project1.png";
 import KimJiHwan_Project1 from "../assets/designer/KimJiHwan/KimJiHwan_project1.png";
 import NamMinJi_Project1 from "../assets/designer/NamMinJi/NamMinJi_project1.png";
 import ParkChangMin_Project1 from "../assets/designer/ParkChangMin/ParkChangMin_project1.png";
@@ -140,7 +140,7 @@ import SeoAReum_Project1 from "../assets/designer/SeoAReum/SeoAReum_project1.png
 import ShinDongYeop_Project1 from "../assets/designer/ShinDongYeop/ShinDongYeop_project1.png";
 import ShinJiWoo_Project1 from "../assets/designer/ShinJiWoo/ShinJiWoo_project1.png";
 import SimMinSeop_Project1 from "../assets/designer/SimMinSeop/SimMinSeop_project1.png";
-import AnMyoungJi_Project1 from "../assets/designer/AnMyoungJi/AnMyoungJi_project1.png";
+import AnMyoungJi_Project1 from "../assets/designer/AnMyoungJi/AnMyoungJi_Project1.png"
 import YangJiWon_Project1 from "../assets/designer/YangJiWon/YangJiWon_project1.png";
 import YangHyeSeon_Project1 from "../assets/designer/YangHyeSeon/YangHyeSeon_project1.png";
 import WonHanJu_Project1 from "../assets/designer/WonHanJu/WonHanJu_project1.png";
@@ -149,35 +149,35 @@ import YuAJung_Project1 from "../assets/designer/YuAJung/YuAJung_project1.png";
 import YuJiHui_Project1 from "../assets/designer/YuJiHui/YuJiHui_project1.png";
 import LeeJongWon_Project1 from "../assets/designer/LeeJongWon/LeeJongWon_project1.png";
 import LeeHongKyu_Project1 from "../assets/designer/LeeHongKyu/LeeHongKyu_project1.png";
-import JangSeoJin_Project1 from "../assets/designer/JangSeoJin/JangSeoJin_project1.png";
+//import JangSeoJin_Project1 from "../assets/designer/JangSeoJin/JangSeoJin_project1.png";
 import JunSeWon_Project1 from "../assets/designer/JunSeWon/JunSeWon_project1.png";
 import JuYoonWoo_Project1 from "../assets/designer/JuYoonWoo/JuYoonWoo_project1.png";
 import ChoiDaIn_Project1 from "../assets/designer/ChoiDaIn/ChoiDaIn_project1.png";
 import ChoiJaeHo_Project1 from "../assets/designer/ChoiJaeHo/ChoiJaeHo_project1.png";
 import HwangJuHyeok_Project1 from "../assets/designer/HwangJuHyeok/HwangJuHyeok_project1.png";
 import HongDongYoung_Project1 from "../assets/designer/HongDongYoung/HongDongYoung_project1.png";
-import KwonJiHye_Project1 from "../assets/designer/KwonJiHye/KwonJiHye_project1.png";
-import KimMinJi_Project1 from "../assets/designer/KimMinJi/KimMinJi_project1.png";
+//import KwonJiHye_Project1 from "../assets/designer/KwonJiHye/KwonJiHye_project1.png";
+//import KimMinJi_Project1 from "../assets/designer/KimMinJi/KimMinJi_project1.png";
 import KimSeRyung_Project1 from "../assets/designer/KimSeRyung/KimSeRyung_project1.png";
-import NamHyoMin_Project1 from "../assets/designer/NamHyoMin/NamHyoMin_project1.png";
+//import NamHyoMin_Project1 from "../assets/designer/NamHyoMin/NamHyoMin_project1.png";
 import ParkChangZun_Project1 from "../assets/designer/ParkChangZun/ParkChangZun_project1.png";
-import SeoHeeJu_Project1 from "../assets/designer/SeoHeeJu/SeoHeeJu_project1.png";
-import OhGaYoung_Project1 from "../assets/designer/OhGaYoung/OhGaYoung_project1.png";
+//import SeoHeeJu_Project1 from "../assets/designer/SeoHeeJu/SeoHeeJu_project1.png";
+//import OhGaYoung_Project1 from "../assets/designer/OhGaYoung/OhGaYoung_project1.png";
 import YooJaeHyun_Project1 from "../assets/designer/YooJaeHyun/YooJaeHyun_project1.png";
 import LeeMinYoung_Project1 from "../assets/designer/LeeMinYoung/LeeMinYoung_project1.png";
-import LeeYuJin_Project1 from "../assets/designer/LeeYuJin/LeeYuJin_project1.png";
-import LimJungHa_Project1 from "../assets/designer/LimJungHa/LimJungHa_project1.png";
-import ImJinJu_Project1 from "../assets/designer/ImJinJu/ImJinJu_project1.png";
-import LeeSoYun_Project1 from "./assets/designer/LeeSoYun/LeeSoYun_project1.png";
+//import LeeYuJin_Project1 from "../assets/designer/LeeYuJin/LeeYuJin_project1.png";
+//import LimJungHa_Project1 from "../assets/designer/LimJungHa/LimJungHa_project1.png";
+//import ImJinJu_Project1 from "../assets/designer/ImJinJu/ImJinJu_project1.png";
+import LeeSoYun_Project1 from "../assets/designer/LeeSoYun/LeeSoYun_project1.png"
 
 import KimGeonRyeong_Project2 from "../assets/designer/KimGeonRyeong/KimGeonRyeong_project2.png";
 import KimGoEun_Project2 from "../assets/designer/KimGoEun/KimGoEun_project2.png";
 import KimDongJun_Project2 from "../assets/designer/KimDongJun/KimDongJun_project2.png";
 import KimYaeJu_Project2 from "../assets/designer/KimYaeJu/KimYaeJu_project2.png";
-import KimYunHa_Project2 from "../assets/designer/KimYunHa/KimYunHa_project2.png";
+//import KimYunHa_Project2 from "../assets/designer/KimYunHa/KimYunHa_project2.png";
 import KimJiHwan_Project2 from "../assets/designer/KimJiHwan/KimJiHwan_project2.png";
 import NamMinJi_Project2 from "../assets/designer/NamMinJi/NamMinJi_project2.png";
-import ParkChangMin_Project2 from "../assets/designer/ParkChangMin/ParkChangMin_project2.png";
+//import ParkChangMin_Project2 from "../assets/designer/ParkChangMin/ParkChangMin_project2.png";
 import BakSeungEun_Project2 from "../assets/designer/BakSeungEun/BakSeungEun_project2.png";
 import SeoAReum_Project2 from "../assets/designer/SeoAReum/SeoAReum_project2.png";
 import ShinDongYeop_Project2 from "../assets/designer/ShinDongYeop/ShinDongYeop_project2.png";
@@ -192,26 +192,26 @@ import YuAJung_Project2 from "../assets/designer/YuAJung/YuAJung_project2.png";
 import YuJiHui_Project2 from "../assets/designer/YuJiHui/YuJiHui_project2.png";
 import LeeJongWon_Project2 from "../assets/designer/LeeJongWon/LeeJongWon_project2.png";
 import LeeHongKyu_Project2 from "../assets/designer/LeeHongKyu/LeeHongKyu_project2.png";
-import JangSeoJin_Project2 from "../assets/designer/JangSeoJin/JangSeoJin_project2.png";
+//import JangSeoJin_Project2 from "../assets/designer/JangSeoJin/JangSeoJin_project2.png";
 import JunSeWon_Project2 from "../assets/designer/JunSeWon/JunSeWon_project2.png";
 import JuYoonWoo_Project2 from "../assets/designer/JuYoonWoo/JuYoonWoo_project2.png";
 import ChoiDaIn_Project2 from "../assets/designer/ChoiDaIn/ChoiDaIn_project2.png";
 import ChoiJaeHo_Project2 from "../assets/designer/ChoiJaeHo/ChoiJaeHo_project2.png";
 import HwangJuHyeok_Project2 from "../assets/designer/HwangJuHyeok/HwangJuHyeok_project2.png";
 import HongDongYoung_Project2 from "../assets/designer/HongDongYoung/HongDongYoung_project2.png";
-import KwonJiHye_Project2 from "../assets/designer/KwonJiHye/KwonJiHye_project2.png";
-import KimMinJi_Project2 from "../assets/designer/KimMinJi/KimMinJi_project2.png";
-import KimSeRyung_Project2 from "../assets/designer/KimSeRyung/KimSeRyung_project2.png";
-import NamHyoMin_Project2 from "../assets/designer/NamHyoMin/NamHyoMin_project2.png";
-import ParkChangZun_Project2 from "../assets/designer/ParkChangZun/ParkChangZun_project2.png";
-import SeoHeeJu_Project2 from "../assets/designer/SeoHeeJu/SeoHeeJu_project2.png";
-import OhGaYoung_Project2 from "../assets/designer/OhGaYoung/OhGaYoung_project2.png";
-import YooJaeHyun_Project2 from "../assets/designer/YooJaeHyun/YooJaeHyun_project2.png";
-import LeeMinYoung_Project2 from "../assets/designer/LeeMinYoung/LeeMinYoung_project2.png";
-import LeeYuJin_Project2 from "../assets/designer/LeeYuJin/LeeYuJin_project2.png";
-import LimJungHa_Project2 from "../assets/designer/LimJungHa/LimJungHa_project2.png";
-import ImJinJu_Project2 from "../assets/designer/ImJinJu/ImJinJu_project2.png";
-import LeeSoYun_Project2 from "./assets/designer/LeeSoYun/LeeSoYun_project2.png";
+// import KwonJiHye_Project2 from "../assets/designer/KwonJiHye/KwonJiHye_project2.png";
+// import KimMinJi_Project2 from "../assets/designer/KimMinJi/KimMinJi_project2.png";
+// import KimSeRyung_Project2 from "../assets/designer/KimSeRyung/KimSeRyung_project2.png";
+// import NamHyoMin_Project2 from "../assets/designer/NamHyoMin/NamHyoMin_project2.png";
+// import ParkChangZun_Project2 from "../assets/designer/ParkChangZun/ParkChangZun_project2.png";
+// import SeoHeeJu_Project2 from "../assets/designer/SeoHeeJu/SeoHeeJu_project2.png";
+// import OhGaYoung_Project2 from "../assets/designer/OhGaYoung/OhGaYoung_project2.png";
+// import YooJaeHyun_Project2 from "../assets/designer/YooJaeHyun/YooJaeHyun_project2.png";
+// import LeeMinYoung_Project2 from "../assets/designer/LeeMinYoung/LeeMinYoung_project2.png";
+// import LeeYuJin_Project2 from "../assets/designer/LeeYuJin/LeeYuJin_project2.png";
+// import LimJungHa_Project2 from "../assets/designer/LimJungHa/LimJungHa_project2.png";
+// import ImJinJu_Project2 from "../assets/designer/ImJinJu/ImJinJu_project2.png";
+// import LeeSoYun_Project2 from "./assets/designer/LeeSoYun/LeeSoYun_project2.png";
 
 import KimGeonRyeong_Product from "../assets/product_Image/KimGeonRyeong_Product.jpg";
 import KimGoEun_Product from "../assets/product_Image/KimGoEun_Product.jpg";
@@ -389,8 +389,8 @@ const DesignersData = {
     Image_Color: KimYunHa_Color,
     Image_Full: KimYunHa_Full,
     Image_Icon: KimYunHa_Icon,
-    Image_Proejct1: KimYunHa_Project1,
-    Image_Project2: KimYunHa_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   KimJiHwan: {
     Name_kor: "김 지환",
@@ -435,7 +435,7 @@ const DesignersData = {
     Image_Full: ParkChangMin_Full,
     Image_Icon: ParkChangMin_Icon,
     Image_Proejct1: ParkChangMin_Project1,
-    Image_Project2: ParkChangMin_Project2,
+    Image_Project2: "",
   },
   BakSeungEun: {
     Name_kor: "백 승은",
@@ -659,8 +659,8 @@ const DesignersData = {
     Image_Color: JangSeoJin_Color,
     Image_Full: JangSeoJin_Full,
     Image_Icon: JangSeoJin_Icon,
-    Image_Proejct1: JangSeoJin_Project1,
-    Image_Project2: JangSeoJin_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   JunSeWon: {
     Name_kor: "전 세원",
@@ -764,8 +764,8 @@ const DesignersData = {
     Image_Color: KwonJiHye_Color,
     Image_Full: KwonJiHye_Full,
     Image_Icon: KwonJiHye_Icon,
-    Image_Proejct1: KwonJiHye_Project1,
-    Image_Project2: KwonJiHye_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   KimMinJi: {
     Name_kor: "김 민지",
@@ -779,8 +779,8 @@ const DesignersData = {
     Image_Color: KimMinJi_Color,
     Image_Full: KimMinJi_Full,
     Image_Icon: KimMinJi_Icon,
-    Image_Proejct1: KimMinJi_Project1,
-    Image_Project2: KimMinJi_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   KimSeRyung: {
     Name_kor: "김 세령",
@@ -795,7 +795,7 @@ const DesignersData = {
     Image_Full: KimSeRyung_Full,
     Image_Icon: KimSeRyung_Icon,
     Image_Proejct1: KimSeRyung_Project1,
-    Image_Project2: KimSeRyung_Project2,
+    Image_Project2: "",
   },
   NamHyoMin: {
     Name_kor: "남 효민",
@@ -809,8 +809,8 @@ const DesignersData = {
     Image_Color: NamHyoMin_Color,
     Image_Full: NamHyoMin_Full,
     Image_Icon: NamHyoMin_Icon,
-    Image_Proejct1: NamHyoMin_Project1,
-    Image_Project2: NamHyoMin_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   ParkChangZun: {
     Name_kor: "박 창준",
@@ -825,7 +825,7 @@ const DesignersData = {
     Image_Full: ParkChangZun_Full,
     Image_Icon: ParkChangZun_Icon,
     Image_Proejct1: ParkChangZun_Project1,
-    Image_Project2: ParkChangZun_Project2,
+    Image_Project2: "",
   },
   SeoHeeJu: {
     Name_kor: "서 희주",
@@ -839,8 +839,8 @@ const DesignersData = {
     Image_Color: SeoHeeJu_Color,
     Image_Full: SeoHeeJu_Full,
     Image_Icon: SeoHeeJu_Icon,
-    Image_Proejct1: SeoHeeJu_Project1,
-    Image_Project2: SeoHeeJu_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   OhGaYoung: {
     Name_kor: "오 가영",
@@ -854,8 +854,8 @@ const DesignersData = {
     Image_Color: OhGaYoung_Color,
     Image_Full: OhGaYoung_Full,
     Image_Icon: OhGaYoung_Icon,
-    Image_Proejct1: OhGaYoung_Project1,
-    Image_Project2: OhGaYoung_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   YooJaeHyun: {
     Name_kor: "유 재현",
@@ -870,7 +870,7 @@ const DesignersData = {
     Image_Full: YooJaeHyun_Full,
     Image_Icon: YooJaeHyun_Icon,
     Image_Proejct1: YooJaeHyun_Project1,
-    Image_Project2: YooJaeHyun_Project2,
+    Image_Project2: "",
   },
   LeeMinYoung: {
     Name_kor: "이 민영",
@@ -885,7 +885,7 @@ const DesignersData = {
     Image_Full: LeeMinYoung_Full,
     Image_Icon: LeeMinYoung_Icon,
     Image_Proejct1: LeeMinYoung_Project1,
-    Image_Project2: LeeMinYoung_Project2,
+    Image_Project2: "",
   },
   LeeSoYun: {
     Name_kor: "이 소윤",
@@ -897,10 +897,10 @@ const DesignersData = {
     Link_Behance: "",
     Link_Blog: "",
     Image_Color: LeeSoYun_Color,
-    Image_Full: LeeSoYun_Full,
+    Image_Full: LeeSoYun_FULL,
     Image_Icon: LeeSoYun_Icon,
     Image_Proejct1: LeeSoYun_Project1,
-    Image_Project2: LeeSoYun_Project2,
+    Image_Project2: "",
   },
   LeeYuJin: {
     Name_kor: "이 유진",
@@ -914,8 +914,8 @@ const DesignersData = {
     Image_Color: LeeYuJin_Color,
     Image_Full: LeeYuJin_Full,
     Image_Icon: LeeYuJin_Icon,
-    Image_Proejct1: LeeYuJin_Project1,
-    Image_Project2: LeeYuJin_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   LimJungHa: {
     Name_kor: "임 정하",
@@ -929,8 +929,8 @@ const DesignersData = {
     Image_Color: LimJungHa_Color,
     Image_Full: LimJungHa_Full,
     Image_Icon: LimJungHa_Icon,
-    Image_Proejct1: LimJungHa_Project1,
-    Image_Project2: LimJungHa_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   ImJinJu: {
     Name_kor: "임 진주",
@@ -944,8 +944,8 @@ const DesignersData = {
     Image_Color: ImJinJu_Color,
     Image_Full: ImJinJu_Full,
     Image_Icon: ImJinJu_Icon,
-    Image_Proejct1: ImJinJu_Project1,
-    Image_Project2: ImJinJu_Project2,
+    Image_Proejct1: "",
+    Image_Project2: "",
   },
   JeonHaeIn: {
     Name_kor: "전 해인",
