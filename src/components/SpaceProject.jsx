@@ -1,9 +1,9 @@
-
 import { motion, AnimatePresence } from "framer-motion";
-import {  ProjectData, SpaceData } from "../constants";
+import { ProjectData, SpaceData } from "../constants";
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import Footer from "../components/Footer";
+import ProjectVideoCard from "./ProjectVideoCard";
 
 const style = {
   position: "absolute",
@@ -21,9 +21,9 @@ const SpaceProject = () => {
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
       <div className="grid grid-cols-2 sm:grid-cols-4">
-      {SpaceData.map((name, index) => {
-          if (name === " ") return;
-          return <ProjectCard type="space" data={ProjectData[name]} />
+        {SpaceData.map((name, index) => {
+          if (name === " ") return <ProjectVideoCard />;
+          return <ProjectCard type="space" data={ProjectData[name]} />;
         })}
       </div>
       <Footer />

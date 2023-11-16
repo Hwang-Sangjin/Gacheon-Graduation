@@ -4,6 +4,7 @@ import { ProjectData, ProductData } from "../constants";
 import React, { useState } from "react";
 import DesignerVideo from "./DesignerVideo";
 import Footer from "../components/Footer";
+import ProjectVideoCard from "./ProjectVideoCard";
 
 const style = {
   position: "absolute",
@@ -22,7 +23,7 @@ const ProductProject = () => {
     <div className="mt-10 flex  flex-wrap gap-7">
       <div className="grid grid-cols-2 sm:grid-cols-4">
         {ProductData.map((name, index) => {
-          if (name === " ") return <DesignerVideo />;
+          if (name === " ") return <ProjectVideoCard />;
           return <ProjectCard type="product" data={ProjectData[name]} />;
         })}
       </div>

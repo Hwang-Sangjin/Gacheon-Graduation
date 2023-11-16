@@ -125,7 +125,7 @@ import LeeMinYoung_Icon from "../assets/designer/LeeMinYoung/LeeMinYoung_icon.pn
 import LeeYuJin_Icon from "../assets/designer/LeeYuJin/LeeYuJin_icon.png";
 import LimJungHa_Icon from "../assets/designer/LimJungHa/LimJungHa_icon.png";
 import ImJinJu_Icon from "../assets/designer/ImJinJu/ImJinJu_icon.png";
-import LeeSoYun_Icon from "../assets/designer/LeeSoYun/LeeSoYun_icon.png"
+import LeeSoYun_Icon from "../assets/designer/LeeSoYun/LeeSoYun_icon.png";
 
 import KimGeonRyeong_Project1 from "../assets/designer/KimGeonRyeong/KimGeonRyeong_project1.png";
 import KimGoEun_Project1 from "../assets/designer/KimGoEun/KimGoEun_project1.png";
@@ -140,7 +140,7 @@ import SeoAReum_Project1 from "../assets/designer/SeoAReum/SeoAReum_project1.png
 import ShinDongYeop_Project1 from "../assets/designer/ShinDongYeop/ShinDongYeop_project1.png";
 import ShinJiWoo_Project1 from "../assets/designer/ShinJiWoo/ShinJiWoo_project1.png";
 import SimMinSeop_Project1 from "../assets/designer/SimMinSeop/SimMinSeop_project1.png";
-import AnMyoungJi_Project1 from "../assets/designer/AnMyoungJi/AnMyoungJi_Project1.png"
+import AnMyoungJi_Project1 from "../assets/designer/AnMyoungJi/AnMyoungJi_Project1.png";
 import YangJiWon_Project1 from "../assets/designer/YangJiWon/YangJiWon_project1.png";
 import YangHyeSeon_Project1 from "../assets/designer/YangHyeSeon/YangHyeSeon_project1.png";
 import WonHanJu_Project1 from "../assets/designer/WonHanJu/WonHanJu_project1.png";
@@ -168,7 +168,7 @@ import LeeMinYoung_Project1 from "../assets/designer/LeeMinYoung/LeeMinYoung_pro
 //import LeeYuJin_Project1 from "../assets/designer/LeeYuJin/LeeYuJin_project1.png";
 //import LimJungHa_Project1 from "../assets/designer/LimJungHa/LimJungHa_project1.png";
 //import ImJinJu_Project1 from "../assets/designer/ImJinJu/ImJinJu_project1.png";
-import LeeSoYun_Project1 from "../assets/designer/LeeSoYun/LeeSoYun_project1.png"
+import LeeSoYun_Project1 from "../assets/designer/LeeSoYun/LeeSoYun_project1.png";
 
 import KimGeonRyeong_Project2 from "../assets/designer/KimGeonRyeong/KimGeonRyeong_project2.png";
 import KimGoEun_Project2 from "../assets/designer/KimGoEun/KimGoEun_project2.png";
@@ -242,6 +242,9 @@ import ChoiDaIn_Product from "../assets/product_Image/ChoiDaIn_Product.jpg";
 import ChoiJaeHo_Product from "../assets/product_Image/ChoiJaeHo_Product.jpg";
 import HwangJuHyeok_Product from "../assets/product_Image/HwangJuHyeok_Product.jpg";
 import HongDongYoung_Product from "../assets/product_Image/HongDongYoung_Product.jpg";
+import ParkChangZun_Product from "../assets/product_Image/ParkCahngZun_Product.jpg";
+import YooJaeHyun_Product from "../assets/product_Image/YooJaeHyun_Product.jpg";
+import LeeMinYoung_Product from "../assets/product_Image/LeeMinYoung_Product.jpg";
 
 import KimGeonRyeong_Space from "../assets/space_Image/KimGeonRyeong_Space.jpg";
 import KimGoEun_Space from "../assets/space_Image/KimGoEun_Space.jpg";
@@ -272,6 +275,8 @@ import ChoiDaIn_Space from "../assets/space_Image/ChoiDaIn_Space.jpg";
 import ChoiJaeHo_Space from "../assets/space_Image/ChoiJaeHo_Space.jpg";
 import HwangJuHyeok_Space from "../assets/space_Image/HwangJuHyeok_Space.jpg";
 import HongDongYoung_Space from "../assets/space_Image/HongDongYoung_Space.jpg";
+import KimSeRyung_Space from "../assets/space_Image/KimSeRyung_Space.jpg";
+import LeeSoYun_Space from "../assets/space_Image/LeeSoYun_Space.jpg";
 
 import InputImage from "../assets/about_card_image/Input.png";
 import LogImage from "../assets/about_card_image/Log.png";
@@ -1316,6 +1321,41 @@ const ProjectData = {
     TitleSpace: "The ORCHESTRA",
     Name_tag: "HongDongYoung",
   },
+  ParkChangZun: {
+    Image_Product: ParkChangZun_Product,
+    Image_Space: " ",
+    Title_Product: "H.U.N.T.S",
+    TitleSpace: "",
+    Name_tag: "ParkChangZun",
+  },
+  YooJaeHyun: {
+    Image_Product: YooJaeHyun_Product,
+    Image_Space: " ",
+    Title_Product: "Extreme Guiders",
+    TitleSpace: "",
+    Name_tag: "YooJaeHyun",
+  },
+  LeeMinYoung: {
+    Image_Product: LeeMinYoung_Product,
+    Image_Space: " ",
+    Title_Product: "DIAGNOSTIC KIOSK",
+    TitleSpace: "",
+    Name_tag: "LeeMinYoung",
+  },
+  KimSeRyung: {
+    Image_Product: " ",
+    Image_Space: KimSeRyung_Space,
+    Title_Product: "",
+    TitleSpace: "MSCHF REVERSE REBIRTH",
+    Name_tag: "KimSeRyung",
+  },
+  LeeSoYun: {
+    Image_Product: " ",
+    Image_Space: LeeSoYun_Space,
+    Title_Product: "",
+    TitleSpace: "東寶 : 동쪽의 보물",
+    Name_tag: "LeeSoYun",
+  },
 };
 
 const ProductData = [
@@ -1351,6 +1391,10 @@ const ProductData = [
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
+  "ParkChangZun",
+  "YooJaeHyun",
+  " ",
+  "LeeMinYoung",
 ];
 
 const SpaceData = [
@@ -1386,6 +1430,10 @@ const SpaceData = [
   "ChoiJaeHo",
   "HwangJuHyeok",
   "HongDongYoung",
+  "KimSeRyung",
+  " ",
+  "LeeSoYun",
+  " ",
 ];
 
 const AboutCardData = [
