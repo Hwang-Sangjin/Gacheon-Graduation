@@ -76,7 +76,7 @@ const DesignerModal = ({ data }) => {
                     <img src={data.Image_Project_Product} />
                   </Tilt>
                   <div className="text-[#171717] text-lg font-['Pretendard-SemiBold'] mt-3">
-                    {data.Title_Product}
+                    {data.Title_Space}
                   </div>
                 </div>
                 <div className="basis-1/2 p-4">
@@ -84,7 +84,7 @@ const DesignerModal = ({ data }) => {
                     <img src={data.Image_Project_Space} />
                   </Tilt>
                   <div className="text-[#171717] text-lg font-['Pretendard-SemiBold'] mt-3">
-                    {data.Title_Space}
+                    {data.Title_Product}
                   </div>
                 </div>
               </div>
