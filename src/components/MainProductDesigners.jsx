@@ -11,7 +11,7 @@ const MainProduct = () => {
           if (name === " ") return;
           return name === "KimGeonRyeong" ? (
             <DesignerCard
-              title="All_Prompts"
+              title="Main_Product"
               data={DesignersData[name]}
               index={index}
             />
@@ -20,7 +20,7 @@ const MainProduct = () => {
           );
         })}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

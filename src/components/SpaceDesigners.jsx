@@ -9,9 +9,9 @@ const SpaceDesigners = () => {
       <div className="grid grid-cols-2 sm:grid-cols-4">
         {SpaceDesignersData.map((name, index) => {
           if (name === " ") return <DesignerVideo />;
-          return name === "KimGeonRyeong" ? (
+          return name === "KimYaeJu" ? (
             <DesignerCard
-              title="All_Prompts"
+              title="Main_Space"
               data={DesignersData[name]}
               index={index}
             />
