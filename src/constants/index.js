@@ -97,7 +97,7 @@ import SeoAReum_Icon from "../assets/designer/SeoAReum/SeoAReum_icon.png";
 import ShinDongYeop_Icon from "../assets/designer/ShinDongYeop/ShinDongYeop_icon.png";
 import ShinJiWoo_Icon from "../assets/designer/ShinJiWoo/ShinJiWoo_icon.png";
 import SimMinSeop_Icon from "../assets/designer/SimMinSeop/SimMinSeop_icon.png";
-import AnMyoungJi_Icon from "../assets/designer/AnMyoungJi/AnMyoungJi_full.png";
+import AnMyoungJi_Icon from "../assets/designer/AnMyoungJi/AnMyoungJi_icon.png";
 import YangJiWon_Icon from "../assets/designer/YangJiWon/YangJiWon_icon.png";
 import YangHyeSeon_Icon from "../assets/designer/YangHyeSeon/YangHyeSeon_icon.png";
 import WonHanJu_Icon from "../assets/designer/WonHanJu/WonHanJu_icon.png";

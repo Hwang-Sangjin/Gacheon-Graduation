@@ -10,6 +10,11 @@ import { Button } from "@mui/base";
 
 const Visit = () => {
   const [loading, setLoading] = useState(false);
+  const [name, setName] = useState("");
+
+  const onChange = (e) => {
+    setName(e.target.value);
+  };
 
   useEffect(() => {
     setLoading(true);
@@ -17,6 +22,7 @@ const Visit = () => {
       setLoading(false);
     }, 2000);
   }, []);
+
   return (
     <div>
       {loading ? (
@@ -36,7 +42,11 @@ const Visit = () => {
                   
                 </Slide>
                 <Slide>
-                  <div>2</div>
+                <section className=" bg-[#101010] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center">
+                  <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">받는 사람의 이름이 무엇인가요? </div>
+                  <input className="text-[#FFFFFF] text-center text-2xl m-8 p-6 w-1/4 h-11 bg-[#101010] border-[#FFFFFF] border-2 rounded-3xl" onChange={onChange} value={name}/>
+                  <Button className="mt-11 font-[Hack-Regular] text-2xl bg-[#FFF16F] p-2 px-3 rounded-3xl ">Next</Button>
+                  </section>
                 </Slide>
                 <Slide>
                   <div>3</div>
