@@ -12,12 +12,10 @@ import { slideIn } from "../utils/motion";
 import EarthCanvas from "../components/Earth";
 import { Canvas } from "react-three-fiber";
 import { BoxGeometry, MeshStandardMaterial } from "three";
-import { useFBX } from "@react-three/drei";
+import Main3D from "../components/Main3D";
 
 const Main = () => {
   const [loading, setLoading] = useState(false);
-
-  const fbx = useFBX("./FBX/KimDongJun/KimDongJun_model.fbx");
 
   useEffect(() => {
     setLoading(true);
@@ -51,9 +49,7 @@ const Main = () => {
             className="main-canvas"
           >
             <Canvas>
-              <ambientLight intensity={0.1} />
-              <directionalLight color="red" position={[0, 0, 5]} />
-              <primitive object={fbx} />
+              <Main3D />
             </Canvas>
           </motion.div>
         </div>
