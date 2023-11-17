@@ -45,7 +45,12 @@ const DesignerModal = ({ data }) => {
         <div className="basis-1/2 ">
           <img src={data.Image_Icon} />
         </div>
-        <div className="basis-1/2">1</div>
+        <div className="basis-1/2 flex justify-center content-center h-full">
+          <img
+            className="object-contain w-[80%]  h-[90%]"
+            src={data.Image_Icon_Comment}
+          />
+        </div>
       </div>
       <div className="flex flex-col w-[40rem] ">
         {data.Image_Project_Product === "" &&
@@ -55,7 +60,12 @@ const DesignerModal = ({ data }) => {
               <div className="inline-flex rounded-xl justify-center m-4 px-7 w-21 font-['Pretendard-Medium'] bg-white">
                 COMMENT
               </div>
-              <div>1</div>
+              <div className="flex justify-center content-center  h-[70%]">
+                <img
+                  className="object-contain w-[80%]"
+                  src={data.Image_Comment_Comment}
+                />
+              </div>
             </div>
           </>
         ) : (
@@ -64,7 +74,12 @@ const DesignerModal = ({ data }) => {
               <div className="inline-flex rounded-xl justify-center m-4 px-5 w-21 font-['Pretendard-Medium'] bg-white">
                 COMMENT
               </div>
-              <div>1</div>
+              <div className="flex justify-center content-center h-[70%]">
+                <img
+                  className="object-contain w-[80%]"
+                  src={data.Image_Comment_Comment}
+                />
+              </div>
             </div>
             <div className="basis-1/2 rounded-2xl  flex-col bg-[#BEBEBE]">
               <div className="inline-flex rounded-xl m-4 px-5 font-['Pretendard-Medium'] bg-white">

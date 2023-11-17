@@ -278,6 +278,92 @@ import HongDongYoung_Space from "../assets/space_Image/HongDongYoung_Space.jpg";
 import KimSeRyung_Space from "../assets/space_Image/KimSeRyung_Space.jpg";
 import LeeSoYun_Space from "../assets/space_Image/LeeSoYun_Space.jpg";
 
+import KimGeonRyeong_Icon_c from "../assets/designer/KimGeonRyeong/KimGeonRyeong_Icon_c.png";
+import KimGoEun_Icon_c from "../assets/designer/KimGoEun/KimGoEun_Icon_c.png";
+import KimDongJun_Icon_c from "../assets/designer/KimDongJun/KimDongJun_Icon_c.png";
+import KimYaeJu_Icon_c from "../assets/designer/KimYaeJu/KimYaeJu_Icon_c.png";
+import KimYunHa_Icon_c from "../assets/designer/KimYunHa/KimYunHa_Icon_c.png";
+import KimJiHwan_Icon_c from "../assets/designer/KimJiHwan/KimJiHwan_Icon_c.png";
+import NamMinJi_Icon_c from "../assets/designer/NamMinJi/NamMinJi_Icon_c.png";
+import ParkChangMin_Icon_c from "../assets/designer/ParkChangMin/ParkChangMin_Icon_c.png";
+import BakSeungEun_Icon_c from "../assets/designer/BakSeungEun/BakSeungEun_Icon_c.png";
+import SeoAReum_Icon_c from "../assets/designer/SeoAReum/SeoAReum_Icon_c.png";
+import ShinDongYeop_Icon_c from "../assets/designer/ShinDongYeop/ShinDongYeop_Icon_c.png";
+import ShinJiWoo_Icon_c from "../assets/designer/ShinJiWoo/ShinJiWoo_Icon_c.png";
+import SimMinSeop_Icon_c from "../assets/designer/SimMinSeop/SimMinSeop_Icon_c.png";
+import AnMyoungJi_Icon_c from "../assets/designer/AnMyoungJi/AnMyoungJi_Icon_c.png";
+import YangJiWon_Icon_c from "../assets/designer/YangJiWon/YangJiWon_Icon_c.png";
+import YangHyeSeon_Icon_c from "../assets/designer/YangHyeSeon/YangHyeSeon_Icon_c.png";
+import WonHanJu_Icon_c from "../assets/designer/WonHanJu/WonHanJu_Icon_c.png";
+import YooDongJae_Icon_c from "../assets/designer/YooDongJae/YooDongJae_Icon_c.png";
+import YuAJung_Icon_c from "../assets/designer/YuAJung/YuAJung_Icon_c.png";
+import YuJiHui_Icon_c from "../assets/designer/YuJiHui/YuJiHui_Icon_c.png";
+import LeeJongWon_Icon_c from "../assets/designer/LeeJongWon/LeeJongWon_Icon_c.png";
+import LeeHongKyu_Icon_c from "../assets/designer/LeeHongKyu/LeeHongKyu_Icon_c.png";
+import JangSeoJin_Icon_c from "../assets/designer/JangSeoJin/JangSeoJin_Icon_c.png";
+import JunSeWon_Icon_c from "../assets/designer/JunSeWon/JunSeWon_Icon_c.png";
+import JuYoonWoo_Icon_c from "../assets/designer/JuYoonWoo/JuYoonWoo_Icon_c.png";
+import ChoiDaIn_Icon_c from "../assets/designer/ChoiDaIn/ChoiDaIn_Icon_c.png";
+import ChoiJaeHo_Icon_c from "../assets/designer/ChoiJaeHo/ChoiJaeHo_Icon_c.png";
+import HwangJuHyeok_Icon_c from "../assets/designer/HwangJuHyeok/HwangJuHyeok_Icon_c.png";
+import HongDongYoung_Icon_c from "../assets/designer/HongDongYoung/HongDongYoung_Icon_c.png";
+import KwonJiHye_Icon_c from "../assets/designer/KwonJiHye/KwonJiHye_Icon_c.png";
+import KimMinJi_Icon_c from "../assets/designer/KimMinJi/KimMinJi_Icon_c.png";
+import KimSeRyung_Icon_c from "../assets/designer/KimSeRyung/KimSeRyung_Icon_c.png";
+import NamHyoMin_Icon_c from "../assets/designer/NamHyoMin/NamHyoMin_Icon_c.png";
+import ParkChangZun_Icon_c from "../assets/designer/ParkChangZun/ParkChangZun_Icon_c.png";
+import SeoHeeJu_Icon_c from "../assets/designer/SeoHeeJu/SeoHeeJu_Icon_c.png";
+import OhGaYoung_Icon_c from "../assets/designer/OhGaYoung/OhGaYoung_Icon_c.png";
+import YooJaeHyun_Icon_c from "../assets/designer/YooJaeHyun/YooJaeHyun_Icon_c.png";
+import LeeMinYoung_Icon_c from "../assets/designer/LeeMinYoung/LeeMinYoung_Icon_c.png";
+import LeeYuJin_Icon_c from "../assets/designer/LeeYuJin/LeeYuJin_Icon_c.png";
+import LimJungHa_Icon_c from "../assets/designer/LimJungHa/LimJungHa_Icon_c.png";
+import ImJinJu_Icon_c from "../assets/designer/ImJinJu/ImJinJu_Icon_c.png";
+import LeeSoYun_Icon_c from "../assets/designer/LeeSoYun/LeeSoYun_Icon_c.png";
+
+import KimGeonRyeong_Comment_c from "../assets/designer/KimGeonRyeong/KimGeonRyeong_Comment_c.png";
+import KimGoEun_Comment_c from "../assets/designer/KimGoEun/KimGoEun_Comment_c.png";
+import KimDongJun_Comment_c from "../assets/designer/KimDongJun/KimDongJun_Comment_c.png";
+import KimYaeJu_Comment_c from "../assets/designer/KimYaeJu/KimYaeJu_Comment_c.png";
+import KimYunHa_Comment_c from "../assets/designer/KimYunHa/KimYunHa_Comment_c.png";
+import KimJiHwan_Comment_c from "../assets/designer/KimJiHwan/KimJiHwan_Comment_c.png";
+import NamMinJi_Comment_c from "../assets/designer/NamMinJi/NamMinJi_Comment_c.png";
+import ParkChangMin_Comment_c from "../assets/designer/ParkChangMin/ParkChangMin_Comment_c.png";
+import BakSeungEun_Comment_c from "../assets/designer/BakSeungEun/BakSeungEun_Comment_c.png";
+import SeoAReum_Comment_c from "../assets/designer/SeoAReum/SeoAReum_Comment_c.png";
+import ShinDongYeop_Comment_c from "../assets/designer/ShinDongYeop/ShinDongYeop_Comment_c.png";
+import ShinJiWoo_Comment_c from "../assets/designer/ShinJiWoo/ShinJiWoo_Comment_c.png";
+import SimMinSeop_Comment_c from "../assets/designer/SimMinSeop/SimMinSeop_Comment_c.png";
+import AnMyoungJi_Comment_c from "../assets/designer/AnMyoungJi/AnMyoungJi_Comment_c.png";
+import YangJiWon_Comment_c from "../assets/designer/YangJiWon/YangJiWon_Comment_c.png";
+import YangHyeSeon_Comment_c from "../assets/designer/YangHyeSeon/YangHyeSeon_Comment_c.png";
+import WonHanJu_Comment_c from "../assets/designer/WonHanJu/WonHanJu_Comment_c.png";
+import YooDongJae_Comment_c from "../assets/designer/YooDongJae/YooDongJae_Comment_c.png";
+import YuAJung_Comment_c from "../assets/designer/YuAJung/YuAJung_Comment_c.png";
+import YuJiHui_Comment_c from "../assets/designer/YuJiHui/YuJiHui_Comment_c.png";
+import LeeJongWon_Comment_c from "../assets/designer/LeeJongWon/LeeJongWon_Comment_c.png";
+import LeeHongKyu_Comment_c from "../assets/designer/LeeHongKyu/LeeHongKyu_Comment_c.png";
+import JangSeoJin_Comment_c from "../assets/designer/JangSeoJin/JangSeoJin_Comment_c.png";
+import JunSeWon_Comment_c from "../assets/designer/JunSeWon/JunSeWon_Comment_c.png";
+import JuYoonWoo_Comment_c from "../assets/designer/JuYoonWoo/JuYoonWoo_Comment_c.png";
+import ChoiDaIn_Comment_c from "../assets/designer/ChoiDaIn/ChoiDaIn_Comment_c.png";
+import ChoiJaeHo_Comment_c from "../assets/designer/ChoiJaeHo/ChoiJaeHo_Comment_c.png";
+import HwangJuHyeok_Comment_c from "../assets/designer/HwangJuHyeok/HwangJuHyeok_Comment_c.png";
+import HongDongYoung_Comment_c from "../assets/designer/HongDongYoung/HongDongYoung_Comment_c.png";
+import KwonJiHye_Comment_c from "../assets/designer/KwonJiHye/KwonJiHye_Comment_c.png";
+import KimMinJi_Comment_c from "../assets/designer/KimMinJi/KimMinJi_Comment_c.png";
+import KimSeRyung_Comment_c from "../assets/designer/KimSeRyung/KimSeRyung_Comment_c.png";
+import NamHyoMin_Comment_c from "../assets/designer/NamHyoMin/NamHyoMin_Comment_c.png";
+import ParkChangZun_Comment_c from "../assets/designer/ParkChangZun/ParkChangZun_Comment_c.png";
+import SeoHeeJu_Comment_c from "../assets/designer/SeoHeeJu/SeoHeeJu_Comment_c.png";
+import OhGaYoung_Comment_c from "../assets/designer/OhGaYoung/OhGaYoung_Comment_c.png";
+import YooJaeHyun_Comment_c from "../assets/designer/YooJaeHyun/YooJaeHyun_Comment_c.png";
+import LeeMinYoung_Comment_c from "../assets/designer/LeeMinYoung/LeeMinYoung_Comment_c.png";
+import LeeYuJin_Comment_c from "../assets/designer/LeeYuJin/LeeYuJin_Comment_c.png";
+import LimJungHa_Comment_c from "../assets/designer/LimJungHa/LimJungHa_Comment_c.png";
+import ImJinJu_Comment_c from "../assets/designer/ImJinJu/ImJinJu_Comment_c.png";
+import LeeSoYun_Comment_c from "../assets/designer/LeeSoYun/LeeSoYun_Comment_c.png";
+
 import InputImage from "../assets/about_card_image/Input.png";
 import LogImage from "../assets/about_card_image/Log.png";
 import OutputImage from "../assets/about_card_image/Output.png";
@@ -338,8 +424,8 @@ const DesignersData = {
     Image_Project_Space: KimGeonRyeong_Project2,
     Title_Product: "Ctrl + space",
     Title_Space: "IKEA hereditas",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimGeonRyeong_Icon_c,
+    Image_Comment_Comment: KimGeonRyeong_Comment_c,
     Icon_Comment:
       "샌드블라스트 처리된 텍스처의 반투명한 유전체 재질감. 중앙을 기준으로 뻗은 세 개의 축의 형태는 문제를 바라보는 디자이너로서의 다각도적인 시각의 방향성, 그리고 잘 정립된 자신만의 단단한 기준을 의미한다. 주변의 색상이나 형상이 어렴풋이 투과되어 보일 듯한 반투명한 유전체의 재질감은 주변 환경으로부터 좋은 영향을 흡수하고 표현하는 성질을 나타내는데, 실제 주변에서 도움이되는 것들을 배우고 익혀 스스로를 발전시키고자하는 자신의 포용적이고 창의적인 태도를 의미한다.",
     Comment_Comment:
@@ -361,8 +447,8 @@ const DesignersData = {
     Image_Project_Space: KimGoEun_Project2,
     Title_Product: "Sidekick",
     Title_Space: "Meta Place",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimGoEun_Icon_c,
+    Image_Comment_Comment: KimGoEun_Comment_c,
     Icon_Comment:
       "스스로 빛나는 사람이 되고 싶다, 더불어 다른 빛나는 사람을 만났을 때 그 빛을 받아 나의 색으로 주변을 물들이고 싶다는 생각으로 구상했다.",
     Comment_Comment:
@@ -384,8 +470,8 @@ const DesignersData = {
     Image_Project_Space: KimDongJun_Project2,
     Title_Product: "AIplor",
     Title_Space: "SPACE auction",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimDongJun_Icon_c,
+    Image_Comment_Comment: KimDongJun_Comment_c,
     Icon_Comment:
       "매 순간 만족스럽지 못한 결과가 나오더라도 포기하지 않는 마음이 있다면 저렇게 별처럼 생긴 모습이지 않을까 생각했습니다. 저 또한 그런 사람이기에 빛나는 모습을 하고 있는 느낌을 생각했습니다.",
     Comment_Comment:
@@ -407,8 +493,8 @@ const DesignersData = {
     Image_Project_Space: KimYaeJu_Project2,
     Title_Product: "Maeum",
     Title_Space: "OTIUM Island",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimYaeJu_Icon_c,
+    Image_Comment_Comment: KimYaeJu_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -430,8 +516,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: " ",
     Title_Space: " ",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimYunHa_Icon_c,
+    Image_Comment_Comment: KimYunHa_Comment_c,
     Icon_Comment:
       "공간과 제품, 다양한 영역에 디자인을 연결하는 단추로서의 나를 생각했다.",
     Comment_Comment:
@@ -453,8 +539,8 @@ const DesignersData = {
     Image_Project_Space: KimJiHwan_Project2,
     Title_Product: "Primal-HORA",
     Title_Space: "Concept Art Studio",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimJiHwan_Icon_c,
+    Image_Comment_Comment: KimJiHwan_Comment_c,
     Icon_Comment:
       "온전히 가공하지 않은 원석, 가공 전과 가공 후의 원석의 두 모습은 상반된 모습을 보인다 나 자신또한 아직 완벽히 가공되지 않은 원석으로 조금씩 한계를 깨부수는 일종의 연마 단계에 있는 모습을 표현",
     Comment_Comment:
@@ -476,8 +562,8 @@ const DesignersData = {
     Image_Project_Space: NamMinJi_Project2,
     Title_Product: "Optimal Sleep",
     Title_Space: "The Lara Gallery",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: NamMinJi_Icon_c,
+    Image_Comment_Comment: NamMinJi_Comment_c,
     Icon_Comment:
       "대학 생활을 하며 로딩 중이라는 끊어진 파란 고리는 항상 함께 해왔고, 앞으로도 함께할 것이라서. 또한 나 역시 디자인이나 무언가를 할 때 바로바로 입력이 아닌 고민이라는 조금의 시간이 필요하기에 이러한 성향을 로딩 중인 파란 고리로 표현했다.",
     Comment_Comment:
@@ -499,8 +585,8 @@ const DesignersData = {
     Image_Project_Space: ParkChangMin_Project1,
     Title_Product: " ",
     Title_Space: "Ferrari Vision EV",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: ParkChangMin_Icon_c,
+    Image_Comment_Comment: ParkChangMin_Comment_c,
     Icon_Comment:
       "육각형 인재라는 단어처럼 나 자신의 능력을 점점 채워나감을 표현하였다",
     Comment_Comment:
@@ -522,8 +608,8 @@ const DesignersData = {
     Image_Project_Space: BakSeungEun_Project2,
     Title_Product: "SelfTaste Plate",
     Title_Space: "Music Library Park",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: BakSeungEun_Icon_c,
+    Image_Comment_Comment: BakSeungEun_Comment_c,
     Icon_Comment:
       "움직이지 않는 정육면체에서,점차 새로운 방향으로 돌출하며 발전하는 나의 모습을 담고자 했다.",
     Comment_Comment: "앞으로 성장하는 모습 지켜봐 주세요.",
@@ -544,8 +630,8 @@ const DesignersData = {
     Image_Project_Space: SeoAReum_Project2,
     Title_Product: "Fall Privention Shower Sink",
     Title_Space: "5 Senses Kindergarten",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: SeoAReum_Icon_c,
+    Image_Comment_Comment: SeoAReum_Comment_c,
     Icon_Comment:
       "부드러움/ 유연함나 자신의 틀(사각)은 유지하되 다른 것과 부딪힐 때 유연하게 휘어지며 부러지지 않는 것.신념과 융통성을 모두 가지는 것.",
     Comment_Comment:
@@ -567,8 +653,8 @@ const DesignersData = {
     Image_Project_Space: ShinDongYeop_Project2,
     Title_Product: "CE-Q Printer",
     Title_Space: "Jiyong Kim Flagship Store",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: ShinDongYeop_Icon_c,
+    Image_Comment_Comment: ShinDongYeop_Comment_c,
     Icon_Comment:
       "양파는 쓰지만 서서히 익히면 달다. 고로 쓴맛과 단맛 양쪽 모두의 맛을 지녔다. 또한 까면 깔수록 매력 있는 사람을 양파 같은 사람이라고 비유하기도 한다. 양파같이 쓰기도 하면서 달기도 한, 보면 볼수록 매력 있는 디자인을 하고 싶다.",
     Comment_Comment:
@@ -590,8 +676,8 @@ const DesignersData = {
     Image_Project_Space: ShinJiWoo_Project2,
     Title_Product: "In-ONE",
     Title_Space: "AROMATICA Zero-Staion",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: ShinJiWoo_Icon_c,
+    Image_Comment_Comment: ShinJiWoo_Comment_c,
     Icon_Comment:
       "‘다양한 분야에서 활약하는 올라운더, 그렇지만 주변에 묻히지 않고 눈에 띄는 사람’이 되고 싶은 지향점을 표현했다.",
     Comment_Comment:
@@ -613,8 +699,8 @@ const DesignersData = {
     Image_Project_Space: SimMinSeop_Project2,
     Title_Product: "OWL FACTORY™",
     Title_Space: "OWL FACTORY™ DOONGZI",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: SimMinSeop_Icon_c,
+    Image_Comment_Comment: SimMinSeop_Comment_c,
     Icon_Comment:
       "“가장 개인적인 것이 가장 창의적인 것이다.” -봉준호 감독의 아카데미 수상 소감 중- 가장 객관적인 데이터와 논리적 사고를 바탕으로 문제를 해결하고 설득시키는 디자이너와, 개인적인 생각을 나만의 방식으로 표현해 내는 예술인 사이를 오가는 독립 디자이너에 가까운 나의 성향을 잘 드러내는 구절이라고 생각한다. 이 말처럼 가장 개인적인 것이 가장 창의적인 것이기에 나의 가장 개인적인 어린 시절에 나를 나타낼 때 그렸던 캐릭터를 단순화하여 심벌로 제작하였다.",
     Comment_Comment:
@@ -636,8 +722,8 @@ const DesignersData = {
     Image_Project_Space: AnMyoungJi_Project2,
     Title_Product: "Calóre",
     Title_Space: "Pullagship store",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: AnMyoungJi_Icon_c,
+    Image_Comment_Comment: AnMyoungJi_Comment_c,
     Icon_Comment:
       "블록은 목적이 확실하고 정의가 명확하며 간단하고 효율적이다. 이 완벽한 개체가 무엇이든 표현할 수 있음은 모두가 알고 있다. 따라서 사각형의 블록은 나에게 안정이고 지향점이라고 생각한다.",
     Comment_Comment: "앞으로 성장하는 모습 지켜봐 주세요.",
@@ -658,8 +744,8 @@ const DesignersData = {
     Image_Project_Space: YangJiWon_Project2,
     Title_Product: "DoodleBuddy",
     Title_Space: "Amorepacific Virtual Store",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: YangJiWon_Icon_c,
+    Image_Comment_Comment: YangJiWon_Comment_c,
     Icon_Comment:
       "보석으로 가공되어 장신구로 사용되는 광물을 보석광물이라 한다. 보석은 아름답게 빛나기까지 계속해서 갈고닦는 수없는 연마 과정을 거친다. 지난날들에 겪은 많은 성공과 실패는 지금의 내가 있기까지 나를 가르치고 채찍질하며 보듬어주는 보석의 연마 과정었다. 지금도 나는 완전한 보석은 아니지만, 아름답고 견고해지기 위해 내가 직면한 매 순간들에 최선을 다했다고 자부할 수 있고, 앞으로도 빛나는 내가 되기 위해 미친 듯이 갈릴 것이다.",
     Comment_Comment:
@@ -681,8 +767,8 @@ const DesignersData = {
     Image_Project_Space: YangHyeSeon_Project2,
     Title_Product: "House of Beans",
     Title_Space: "Jungkwanjang Therapy House",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: YangHyeSeon_Icon_c,
+    Image_Comment_Comment: YangHyeSeon_Comment_c,
     Icon_Comment:
       "어디에도 유연하게 담기는 물처럼 유연하면서 부드러운 사고를 하고자 하는 태도를 보여주고 싶다.",
     Comment_Comment:
@@ -704,8 +790,8 @@ const DesignersData = {
     Image_Project_Space: WonHanJu_Project2,
     Title_Product: "Qurio I",
     Title_Space: "Mastercard Travel Store",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: WonHanJu_Icon_c,
+    Image_Comment_Comment: WonHanJu_Comment_c,
     Icon_Comment:
       "톱니바퀴는 여러 개가 맞물려야 돌아가고, 하나라도 빠지면 돌아갈 수 없다.나도 톱니바퀴처럼 서로 협력하며 없어서는 안 될 디자이너가 될 것임을 표현하였다.",
     Comment_Comment:
@@ -727,8 +813,8 @@ const DesignersData = {
     Image_Project_Space: YooDongJae_Project2,
     Title_Product: "DEVNOX",
     Title_Space: "PA:DO",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: YooDongJae_Icon_c,
+    Image_Comment_Comment: YooDongJae_Comment_c,
     Icon_Comment:
       "3차원의 디자인을 넘어, 새로운 차원을 개척하고자 하는 도전성을 상징한다.",
     Comment_Comment:
@@ -750,8 +836,8 @@ const DesignersData = {
     Image_Project_Space: YuAJung_Project2,
     Title_Product: "Music maker",
     Title_Space: "Astronomical observation",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: YuAJung_Icon_c,
+    Image_Comment_Comment: YuAJung_Comment_c,
     Icon_Comment:
       "흘러가는 대로 살아가는 도중 행운을 만나고 싶은 마음을 표현했다.",
     Comment_Comment:
@@ -773,8 +859,8 @@ const DesignersData = {
     Image_Project_Space: YuJiHui_Project2,
     Title_Product: "Shopphing crony",
     Title_Space: "Steam space",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: YuJiHui_Icon_c,
+    Image_Comment_Comment: YuJiHui_Comment_c,
     Icon_Comment:
       "아이콘은 토러스 모양이다.토러스(torus)는 ‘부풂’ 또는 ‘쿠션’을 의미한다앞으로의 내가 토러스의 의미처럼끊임 없이 희망하였으면한다.",
     Comment_Comment: "앞으로 성장하는 모습 지켜봐 주세요.",
@@ -795,8 +881,8 @@ const DesignersData = {
     Image_Project_Space: LeeJongWon_Project2,
     Title_Product: "ReNet Project",
     Title_Space: "CELLO Bike Culture Museum",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: LeeJongWon_Icon_c,
+    Image_Comment_Comment: LeeJongWon_Comment_c,
     Icon_Comment:
       "구는 형태적으로 가장 완벽한 형태이다. 위상학적 관점에서 구는 어떠한 다면체와 원기둥, 원뿔로 변형이 가능하지만 가운데 구멍이 뚫린 도넛 모양의 위상 도형으로는 절대 변형이 불가능하다. 그러나 구의 변형 과정과 여러 구가 모여 결합한다면 도넛 모양 또한 가능할 것이다. 이러한 위상학적 구의 변형 과정 중 한 모습으로 여러 형태로 변형 가능한 나와 노력 등에 비유했다.",
     Comment_Comment:
@@ -818,8 +904,8 @@ const DesignersData = {
     Image_Project_Space: LeeHongKyu_Project2,
     Title_Product: "FORMUSE",
     Title_Space: "INDIES",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: LeeHongKyu_Icon_c,
+    Image_Comment_Comment: LeeHongKyu_Comment_c,
     Icon_Comment:
       "각자 자신만의 단점들이 존재한다. 나의 단점은 생각이 많고 걱정을 많이 한다는 것인데, 그런 단점을 디자인을 진행할 때 다양한 관점에서 보아 꼼꼼함이라는 장점으로 바꿔 나아가고자 하는 마음가짐과 그 꼼꼼함을 바탕으로 기존의 불친절한 제품들로부터 상처 받은 마음을 치료해 줄 수 있는 디자인을 하고자 하는 마음을 표현했다.",
     Comment_Comment:
@@ -841,8 +927,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: " ",
     Title_Space: " ",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: JangSeoJin_Icon_c,
+    Image_Comment_Comment: JangSeoJin_Comment_c,
     Icon_Comment:
       "세상에 존재하는 다양한 사람들과 함께 완만하게 살아가는 디자이너가 되고 싶다. 사람들의 개성을 도형으로 생각해서 나란히 걸어가는 모습을 표현했다.",
     Comment_Comment:
@@ -864,8 +950,8 @@ const DesignersData = {
     Image_Project_Space: JunSeWon_Project2,
     Title_Product: "BUSK",
     Title_Space: "OSULLOC : 신선놀음",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: JunSeWon_Icon_c,
+    Image_Comment_Comment: JunSeWon_Comment_c,
     Icon_Comment:
       "체스판에서 폰(Pawn : 일명 졸병)은 가장 약한 말이지만 상대 진영 끝에 다다르면 원하는 체스 말로 변신이 가능하다. 반대편까지 가기엔 오래 걸릴 수는 있어도 한순간 에 판을 엎는 게임 체인저가 될 수 있는 무서운 존재다. 이렇듯 지금 내가 겪고 있는 고난과 역경에 빠질 때마다 주저 않지 않고 원하는 목표 그리고 그 이상까지 가려고 하는 디자인에 임하는 마음이 마치 달려가는 폰과 같아 이 아이콘을 만들었다.",
     Comment_Comment:
@@ -887,8 +973,8 @@ const DesignersData = {
     Image_Project_Space: JuYoonWoo_Project2,
     Title_Product: "Nova",
     Title_Space: "Reallusion",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: JuYoonWoo_Icon_c,
+    Image_Comment_Comment: JuYoonWoo_Comment_c,
     Icon_Comment:
       "아이콘의 형태적 모티브는 프리즘이며, 난색과 한색은 예술과 기술을 의미합니다. 프리즘은 다양한 방향성을내뿜어내는 오브젝트로써, 예술과 기술사 이 폭넓은 분야에서 변칙적인 방향성을 도출하겠다는 포부와 개인의 목표 의미를 담은 아이콘입니다.",
     Comment_Comment:
@@ -910,8 +996,8 @@ const DesignersData = {
     Image_Project_Space: ChoiDaIn_Project2,
     Title_Product: "Doglasses",
     Title_Space: "Doggy Park",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: ChoiDaIn_Icon_c,
+    Image_Comment_Comment: ChoiDaIn_Comment_c,
     Icon_Comment:
       "저는 생각이 많은 편입니다. 생각이 꼬리를 물고 이어지는 편입니다.또한 제 이름인 다인에서 인은 어질 인입니다. 누군가를 보듬어줄 수 있는 어진 사람이 되고 싶습니다.부드러운 곡선, 감싸는 형태를 통해 생각이 많은 저와 어진 사람이 되고자 하는 저를 표현했습니다.",
     Comment_Comment:
@@ -933,8 +1019,8 @@ const DesignersData = {
     Image_Project_Space: ChoiJaeHo_Project2,
     Title_Product: "Sync-me",
     Title_Space: "UC.Fluffies",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: ChoiJaeHo_Icon_c,
+    Image_Comment_Comment: ChoiJaeHo_Comment_c,
     Icon_Comment:
       "탐색하고 분석하는 눈은 내가 지난 4년간 디자인 공부를 통해 얻은 것 중 가장 소중한 것이다. 예쁜 것과 매력적인 것을 구분하고, 평가와 의심을 멈추지 않는다. 내 생각과 작업을 보면서 내가 틀렸음을 계속 증명해낸다. 지금도 나는 내가 현실감각이 있는 사람이라고 생각하진 않지만 적어도 필요할 때 눈에 불을 켜고 세상을 잔잔히 훑어볼 수 있다. 조금씩 꾸준히, 나는 더 많은 정보와 즐거움을 눈에 담고자 한다.",
     Comment_Comment:
@@ -956,8 +1042,8 @@ const DesignersData = {
     Image_Project_Space: HwangJuHyeok_Project2,
     Title_Product: "Tracer",
     Title_Space: "Toss Brand Space",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: HwangJuHyeok_Icon_c,
+    Image_Comment_Comment: HwangJuHyeok_Comment_c,
     Icon_Comment:
       "저울의 형태에서 누가 보아도 가벼워 보이는 물체가 무거워 보이는 물체보다 내려가 있는 형상을 통해 디자이너로서 당연해 보이는 모든 것을 끊임없이 의심하고 파고들어 남들이 보지 못하는 새로운 것을 발굴해 내고자 하는 태도를 표현했다.",
     Comment_Comment:
@@ -979,8 +1065,8 @@ const DesignersData = {
     Image_Project_Space: HongDongYoung_Project2,
     Title_Product: "LAHAND",
     Title_Space: "The ORCHESTRA",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: HongDongYoung_Icon_c,
+    Image_Comment_Comment: HongDongYoung_Comment_c,
     Icon_Comment:
       "세상의 다양한 색깔의 빛을 모아 담아내어 형상을 보여주는 렌즈처럼, 세상을 살아가는 사람들의 다양한 모습들을 담아내고 새로운 삶을 제안하는 제품을 디자인한다.",
     Comment_Comment:
@@ -1002,8 +1088,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: " ",
     Title_Space: " ",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KwonJiHye_Icon_c,
+    Image_Comment_Comment: KwonJiHye_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1025,8 +1111,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: " ",
     Title_Space: " ",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimMinJi_Icon_c,
+    Image_Comment_Comment: KimMinJi_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1048,8 +1134,8 @@ const DesignersData = {
     Image_Project_Space: KimSeRyung_Project1,
     Title_Product: "",
     Title_Space: "MSCHF REVERSE REBIRTH",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: KimSeRyung_Icon_c,
+    Image_Comment_Comment: KimSeRyung_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1072,8 +1158,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: NamHyoMin_Icon_c,
+    Image_Comment_Comment: NamHyoMin_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment: "은은하게 빛날,",
@@ -1094,8 +1180,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "H.U.N.T.S",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: ParkChangZun_Icon_c,
+    Image_Comment_Comment: ParkChangZun_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1117,8 +1203,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: SeoHeeJu_Icon_c,
+    Image_Comment_Comment: SeoHeeJu_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment: "앞으로 성장하는 모습 지켜봐주세요",
@@ -1140,8 +1226,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: OhGaYoung_Icon_c,
+    Image_Comment_Comment: OhGaYoung_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1164,8 +1250,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "Extreme Guiders",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: YooJaeHyun_Icon_c,
+    Image_Comment_Comment: YooJaeHyun_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1188,8 +1274,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "DIAGNOSTIC KIOSK",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: LeeMinYoung_Icon_c,
+    Image_Comment_Comment: LeeMinYoung_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1212,8 +1298,8 @@ const DesignersData = {
     Image_Project_Space: LeeSoYun_Project1,
     Title_Product: "",
     Title_Space: "東寶 : 동쪽의 보물",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: LeeSoYun_Icon_c,
+    Image_Comment_Comment: LeeSoYun_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1235,8 +1321,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: LeeYuJin_Icon_c,
+    Image_Comment_Comment: LeeYuJin_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1259,8 +1345,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: LimJungHa_Icon_c,
+    Image_Comment_Comment: LimJungHa_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
@@ -1282,8 +1368,8 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Image_Icon_Comment: "",
-    Image_Comment_Comment: "",
+    Image_Icon_Comment: ImJinJu_Icon_c,
+    Image_Comment_Comment: ImJinJu_Comment_c,
     Icon_Comment:
       "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
     Comment_Comment:
