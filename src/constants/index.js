@@ -359,8 +359,10 @@ const DesignersData = {
     Image_Project_Space: KimGoEun_Project2,
     Title_Product: "Sidekick",
     Title_Space: "Meta Place",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "스스로 빛나는 사람이 되고 싶다, 더불어 다른 빛나는 사람을 만났을 때 그 빛을 받아 나의 색으로 주변을 물들이고 싶다는 생각으로 구상했다.",
+    Comment_Comment:
+      "졸업작품을 준비하며 대학 재학 4년간 배운 지식과 기술을 아쉬움 없이 선보이고 싶었습니다. 작품을 다듬어갈수록 제게 있어 아직 부족한 부분도 많이 발견했고, 그만큼 장점 또한 많이 찾게 되었습니다. 작품이 마무리될 때까지 아쉬움이 남지 않도록 열심히 작업하고, 만약 결과가 예상보다 좋지 못하더라도 그 과정에서 찾은 값진 시간들을 온전히 제 것으로 삼고 싶다는 마음가짐으로 임했습니다.어떤 방향으로 나아가고 싶은지: 어떤 사람이 되고 싶은지, 어떤 디자이너가 되고 싶은지 그런 고민을 제법 많이 했습니다. 하지만 고민을 거듭할수록 어릴 적에 꿨던 꿈에 더 가까워질 뿐이었던 것 같아요. 사용자도, 기획하는 본인도 꿈을 꿀 수 있는 것을 만드는 디자이너가 되고 싶습니다.",
   },
   KimDongJun: {
     Name_kor: "김 동준",
@@ -378,8 +380,10 @@ const DesignersData = {
     Image_Project_Space: KimDongJun_Project2,
     Title_Product: "AIplor",
     Title_Space: "SPACE auction",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "매 순간 만족스럽지 못한 결과가 나오더라도 포기하지 않는 마음이 있다면 저렇게 별처럼 생긴 모습이지 않을까 생각했습니다. 저 또한 그런 사람이기에 빛나는 모습을 하고 있는 느낌을 생각했습니다.",
+    Comment_Comment:
+      "한 해 동안, 새로운 분야의 디자인을 배우며 정말 많은 것을 배우는 한 해가 되었습니다. 열심히 노력하여 얻은 경험들은 저의 디자인 스타일을 찾아나아가는 과정에서끊임없는 열정을 불어주는 동기가 되었습니다. 이제, 앞으로도 이 여정을 계속 이어나갈 것입니다. 저만의 스타일을 발전시키는 디자이너로 성장하겠습니다.",
   },
   KimYaeJu: {
     Name_kor: "김 예주",
@@ -397,8 +401,10 @@ const DesignersData = {
     Image_Project_Space: KimYaeJu_Project2,
     Title_Product: "Maeum",
     Title_Space: "OTIUM Island",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "함께 동고동락하며 준비했던 졸업전시회를 무사히 진행할 수 있어 감사했습니다. 앞으로 어떠한 일을 같이 하며 만나게 될 사람들과도, 이 열심이었던 기간처럼 파이팅 넘치게 해쳐나가고자 합니다. ",
   },
   KimYunHa: {
     Name_kor: "김 윤하",
@@ -416,8 +422,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: " ",
     Title_Space: " ",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "공간과 제품, 다양한 영역에 디자인을 연결하는 단추로서의 나를 생각했다.",
+    Comment_Comment:
+      "저의 디자인 세계와 기술을 넓히는것을 지향하며 이번 전시를 준비하였습니다. 앞으로의 저에게 있어 더 많은 지향점을 만들어가기를 추구하고 있습니다.",
   },
   KimJiHwan: {
     Name_kor: "김 지환",
@@ -435,8 +443,10 @@ const DesignersData = {
     Image_Project_Space: KimJiHwan_Project2,
     Title_Product: "Primal-HORA",
     Title_Space: "Concept Art Studio",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "온전히 가공하지 않은 원석, 가공 전과 가공 후의 원석의 두 모습은 상반된 모습을 보인다 나 자신또한 아직 완벽히 가공되지 않은 원석으로 조금씩 한계를 깨부수는 일종의 연마 단계에 있는 모습을 표현",
+    Comment_Comment:
+      "내가 걷던 길의 발자취가 그대로 디자인에 스며들다 끊임없는 노력과 연속적인 생각 속에서 만들어지는 결과물의 가치는나 자신을 대변하는 하나의 피조물이라 생각합니다.유에서 무를 창조하는 것만큼 불가능한 영역 속에 직접 발을 들이는 것이 제가 걷는 길의 목표로,이번 전시에서 여러분들에게수많은 기억 속 한 조각으로 제가 머무르길 바랍니다. 졸업 전시 또한 하나의 프로젝트로 나 자신의 또 다른 나를 만들어가는가치를 가지고 이번 전시를 준비하였습니다.",
   },
   NamMinJi: {
     Name_kor: "남 민지",
@@ -454,8 +464,10 @@ const DesignersData = {
     Image_Project_Space: NamMinJi_Project2,
     Title_Product: "Optimal Sleep",
     Title_Space: "The Lara Gallery",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "대학 생활을 하며 로딩 중이라는 끊어진 파란 고리는 항상 함께 해왔고, 앞으로도 함께할 것이라서. 또한 나 역시 디자인이나 무언가를 할 때 바로바로 입력이 아닌 고민이라는 조금의 시간이 필요하기에 이러한 성향을 로딩 중인 파란 고리로 표현했다.",
+    Comment_Comment:
+      "그동안 학교를 다니며 배웠던 것들을 토대로 이번 졸업전시를 진행하게 되었습니다. 전시를 준비하며, 여러 가지 난관도 맞이했지만, 좋은 동기들을 통해 부족한 부분들도 해결해 나갔습니다. 아직 부족한 부분이 많지만, 앞으로도 정진하며 더 나은 디자이너로 거듭나겠습니다.",
   },
   ParkChangMin: {
     Name_kor: "박 창민",
@@ -473,8 +485,10 @@ const DesignersData = {
     Image_Project_Space: ParkChangMin_Project1,
     Title_Product: " ",
     Title_Space: "Ferrari Vision EV",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "육각형 인재라는 단어처럼 나 자신의 능력을 점점 채워나감을 표현하였다",
+    Comment_Comment:
+      "이번 졸업 전시가 마무리되고 난 후에도 알리아스 모델러라는 꿈을 향해 계속 달려가겠습니다.",
   },
   BakSeungEun: {
     Name_kor: "백 승은",
@@ -492,8 +506,9 @@ const DesignersData = {
     Image_Project_Space: BakSeungEun_Project2,
     Title_Product: "SelfTaste Plate",
     Title_Space: "Music Library Park",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "움직이지 않는 정육면체에서,점차 새로운 방향으로 돌출하며 발전하는 나의 모습을 담고자 했다.",
+    Comment_Comment: "앞으로 성장하는 모습 지켜봐 주세요.",
   },
   SeoAReum: {
     Name_kor: "서 아름",
@@ -511,8 +526,10 @@ const DesignersData = {
     Image_Project_Space: SeoAReum_Project2,
     Title_Product: "Fall Privention Shower Sink",
     Title_Space: "5 Senses Kindergarten",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "부드러움/ 유연함나 자신의 틀(사각)은 유지하되 다른 것과 부딪힐 때 유연하게 휘어지며 부러지지 않는 것.신념과 융통성을 모두 가지는 것.",
+    Comment_Comment:
+      "졸업전시를 통해 내 스스로의 기준을 세우는 것, 그것을 디자인으로 실현하며 시행착오를 겪더라도 끝까지 해내는 과정을 통하여 바람직한 디자이너를 향해 한걸음 더 나아가는 시간으로 남기를 바라며 임하였습니다.",
   },
   ShinDongYeop: {
     Name_kor: "신 동엽",
@@ -530,8 +547,10 @@ const DesignersData = {
     Image_Project_Space: ShinDongYeop_Project2,
     Title_Product: "CE-Q Printer",
     Title_Space: "Jiyong Kim Flagship Store",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "양파는 쓰지만 서서히 익히면 달다. 고로 쓴맛과 단맛 양쪽 모두의 맛을 지녔다. 또한 까면 깔수록 매력 있는 사람을 양파 같은 사람이라고 비유하기도 한다. 양파같이 쓰기도 하면서 달기도 한, 보면 볼수록 매력 있는 디자인을 하고 싶다.",
+    Comment_Comment:
+      "균형적인 디자인을 추구한다. 논리적인 사고와 심도있는 프로세스를 구체화시키면서 문제를 해결하고 결과적으로는 디자인이 사람을 끌어당길 수 있는 힘이 있어야 한다. 이 힘은 논리와는 반대로 별개의 다른 디자인 자체에서 오는 매력이라고 생각한다.",
   },
   ShinJiWoo: {
     Name_kor: "신 지우",
@@ -549,8 +568,10 @@ const DesignersData = {
     Image_Project_Space: ShinJiWoo_Project2,
     Title_Product: "In-ONE",
     Title_Space: "AROMATICA Zero-Staion",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "‘다양한 분야에서 활약하는 올라운더, 그렇지만 주변에 묻히지 않고 눈에 띄는 사람’이 되고 싶은 지향점을 표현했다.",
+    Comment_Comment:
+      "어쩌면 마지막일지도 모르는 완전한 개인 프로젝트라 정말 내가 원하는 것을 하고싶다는 생각으로 진행했습니다. 이번 프로젝트를 통해 작업물의 완성은 경험하는 각자가 의미를 부여하는데 있다는 것을 느꼈습니다. 제가 담은 바람이 저의 작업물을 경험하는 모든 분들께 의미있게 전해지길 바랍니다. ",
   },
   SimMinSeop: {
     Name_kor: "심 민섭",
@@ -568,8 +589,10 @@ const DesignersData = {
     Image_Project_Space: SimMinSeop_Project2,
     Title_Product: "OWL FACTORY™",
     Title_Space: "OWL FACTORY™ DOONGZI",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "“가장 개인적인 것이 가장 창의적인 것이다.” -봉준호 감독의 아카데미 수상 소감 중- 가장 객관적인 데이터와 논리적 사고를 바탕으로 문제를 해결하고 설득시키는 디자이너와, 개인적인 생각을 나만의 방식으로 표현해 내는 예술인 사이를 오가는 독립 디자이너에 가까운 나의 성향을 잘 드러내는 구절이라고 생각한다. 이 말처럼 가장 개인적인 것이 가장 창의적인 것이기에 나의 가장 개인적인 어린 시절에 나를 나타낼 때 그렸던 캐릭터를 단순화하여 심벌로 제작하였다.",
+    Comment_Comment:
+      "나는 대학교가 학점을 맞춰 졸업장을 취득해 취업시장에서 이점을 얻는 것 자체가 목적이 되기보다, 개인의 관심 분야에 대해 전문적인 지식을 제공할 수 있는 곳으로서 하나의 수단이 되어야 한다고 생각한다. 결국 4년간 대학교 교육과정을 통해 내가 배울 것은 나 스스로 결정하는 것이다.따라서 나는 이번 졸업 전시가 누군가 시켜서 보여지는 결과물이 아닌 아트토이 작가이자 디자이너로서 대학교육을 통해 쌓아온 내 관심 분야에 대한 전문 지식과 기술을 보여줄 수 있는 전시가 되길 바라며 졸업 전시를 준비하였다.",
   },
   AnMyoungJi: {
     Name_kor: "안 명지",
@@ -587,8 +610,9 @@ const DesignersData = {
     Image_Project_Space: AnMyoungJi_Project2,
     Title_Product: "Calóre",
     Title_Space: "Pullagship store",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "블록은 목적이 확실하고 정의가 명확하며 간단하고 효율적이다. 이 완벽한 개체가 무엇이든 표현할 수 있음은 모두가 알고 있다. 따라서 사각형의 블록은 나에게 안정이고 지향점이라고 생각한다.",
+    Comment_Comment: "앞으로 성장하는 모습 지켜봐 주세요.",
   },
   YangJiWon: {
     Name_kor: "양 지원",
@@ -606,8 +630,10 @@ const DesignersData = {
     Image_Project_Space: YangJiWon_Project2,
     Title_Product: "DoodleBuddy",
     Title_Space: "Amorepacific Virtual Store",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "보석으로 가공되어 장신구로 사용되는 광물을 보석광물이라 한다. 보석은 아름답게 빛나기까지 계속해서 갈고닦는 수없는 연마 과정을 거친다. 지난날들에 겪은 많은 성공과 실패는 지금의 내가 있기까지 나를 가르치고 채찍질하며 보듬어주는 보석의 연마 과정었다. 지금도 나는 완전한 보석은 아니지만, 아름답고 견고해지기 위해 내가 직면한 매 순간들에 최선을 다했다고 자부할 수 있고, 앞으로도 빛나는 내가 되기 위해 미친 듯이 갈릴 것이다.",
+    Comment_Comment:
+      "학생으로서의 마지막 작품인 만큼 뜻깊으면서도 아쉬운 마음으로 작업했습니다. 이제는 진짜 예술인으로서 첫 발을 내딛으려 합니다.",
   },
   YangHyeSeon: {
     Name_kor: "양 혜선",
@@ -625,8 +651,10 @@ const DesignersData = {
     Image_Project_Space: YangHyeSeon_Project2,
     Title_Product: "House of Beans",
     Title_Space: "Jungkwanjang Therapy House",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "어디에도 유연하게 담기는 물처럼 유연하면서 부드러운 사고를 하고자 하는 태도를 보여주고 싶다.",
+    Comment_Comment:
+      "4년 동안의 대학교 생활을 끝으로 사회로 나가기 전인 졸업전시를 준비하면서 아직은 많이 부족한데 할 수 있을까라는 생각을 했습니다. 부족해도 최선을 다해 준비하고자 하였고 앞으로 더 공부하고 성장해가는 사람이 되려고 합니다.",
   },
   WonHanJu: {
     Name_kor: "원 한주",
@@ -644,8 +672,10 @@ const DesignersData = {
     Image_Project_Space: WonHanJu_Project2,
     Title_Product: "Qurio I",
     Title_Space: "Mastercard Travel Store",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "톱니바퀴는 여러 개가 맞물려야 돌아가고, 하나라도 빠지면 돌아갈 수 없다.나도 톱니바퀴처럼 서로 협력하며 없어서는 안 될 디자이너가 될 것임을 표현하였다.",
+    Comment_Comment:
+      "4년 동안 배우고 느낀 것들을 마지막 작품에 담았습니다. 학생으로선 마지막 작품이지만 사회인으로선 도약이니 지켜봐 주세요!",
   },
   YooDongJae: {
     Name_kor: "유 동재",
@@ -663,8 +693,10 @@ const DesignersData = {
     Image_Project_Space: YooDongJae_Project2,
     Title_Product: "DEVNOX",
     Title_Space: "PA:DO",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "3차원의 디자인을 넘어, 새로운 차원을 개척하고자 하는 도전성을 상징한다.",
+    Comment_Comment:
+      "자신의 한계점을 넘어보고자 합니다.‘디자이너에게 최종은 없다’라는 생각으로, 한계를 뛰어넘을 각오로 임했습니다. 노력의 결실이 이뤄지길 바랍니다.",
   },
   YuAJung: {
     Name_kor: "유 아정",
@@ -682,8 +714,10 @@ const DesignersData = {
     Image_Project_Space: YuAJung_Project2,
     Title_Product: "Music maker",
     Title_Space: "Astronomical observation",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "흘러가는 대로 살아가는 도중 행운을 만나고 싶은 마음을 표현했다.",
+    Comment_Comment:
+      "나의 작업물을 만들고 전시를 해야 한다는 사실 자체가 어렵게 느껴졌지만 다양한 시도를 통해 내가 정말로 하고자 하는 것이 무엇인지 찾아가는 과정이라고 생각하고 작업을 진행했습니다. 앞으로도 이러한 과정을 반복하며 원하는 목표 지점에 도달할 수 있도록 노력할 예정입니다.",
   },
   YuJiHui: {
     Name_kor: "유 지희",
@@ -701,8 +735,9 @@ const DesignersData = {
     Image_Project_Space: YuJiHui_Project2,
     Title_Product: "Shopphing crony",
     Title_Space: "Steam space",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "아이콘은 토러스 모양이다.토러스(torus)는 ‘부풂’ 또는 ‘쿠션’을 의미한다앞으로의 내가 토러스의 의미처럼끊임 없이 희망하였으면한다.",
+    Comment_Comment: "앞으로 성장하는 모습 지켜봐 주세요.",
   },
   LeeJongWon: {
     Name_kor: "이 종원",
@@ -720,8 +755,10 @@ const DesignersData = {
     Image_Project_Space: LeeJongWon_Project2,
     Title_Product: "ReNet Project",
     Title_Space: "CELLO Bike Culture Museum",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "구는 형태적으로 가장 완벽한 형태이다. 위상학적 관점에서 구는 어떠한 다면체와 원기둥, 원뿔로 변형이 가능하지만 가운데 구멍이 뚫린 도넛 모양의 위상 도형으로는 절대 변형이 불가능하다. 그러나 구의 변형 과정과 여러 구가 모여 결합한다면 도넛 모양 또한 가능할 것이다. 이러한 위상학적 구의 변형 과정 중 한 모습으로 여러 형태로 변형 가능한 나와 노력 등에 비유했다.",
+    Comment_Comment:
+      "이번 졸업전시가 디자이너의 긴 과정 중에 기회이자 중간 점검이라는 생각이 들었다. 학교를 다니는 기간 동안 보고 배운 것들을 전시를 통해 사람들에게 보여줄 수 있기 때문이다.4년간의 경험과 최근 관심사인 환경이라는 주제를 여러 시각으로 탐구하여 창작물에 녹여내고자 노력했다.또한 다양한 전시 방법으로 사용자에게 어떤 경험을 제공하고 상호 간 소통할 수 있을지에 대해 생각하며 전시에 임했다.이번 전시를 통하여 다양한 경험을 하며 인간적으로도 디자인적으로도 한 단계 성장하는 계기가 되었다.",
   },
   LeeHongKyu: {
     Name_kor: "이 홍규",
@@ -739,8 +776,10 @@ const DesignersData = {
     Image_Project_Space: LeeHongKyu_Project2,
     Title_Product: "FORMUSE",
     Title_Space: "INDIES",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "각자 자신만의 단점들이 존재한다. 나의 단점은 생각이 많고 걱정을 많이 한다는 것인데, 그런 단점을 디자인을 진행할 때 다양한 관점에서 보아 꼼꼼함이라는 장점으로 바꿔 나아가고자 하는 마음가짐과 그 꼼꼼함을 바탕으로 기존의 불친절한 제품들로부터 상처 받은 마음을 치료해 줄 수 있는 디자인을 하고자 하는 마음을 표현했다.",
+    Comment_Comment:
+      "디자인을 할 때에 디자이너가 만족하고 즐거워해야 사용자들도 만족한다고 생각한다. 사회로 나가기 전 스스로 진행하는 마지막 프로젝트인만큼 사용자의 요구와 감정을 이해하고 수용하며 스스로 즐거워하고 만족할만한 디자인을 보여줄 수 있는 전시가 되길 바라며 준비하였다.",
   },
   JangSeoJin: {
     Name_kor: "장 서진",
@@ -758,8 +797,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: " ",
     Title_Space: " ",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "세상에 존재하는 다양한 사람들과 함께 완만하게 살아가는 디자이너가 되고 싶다. 사람들의 개성을 도형으로 생각해서 나란히 걸어가는 모습을 표현했다.",
+    Comment_Comment:
+      "대학 생활 마지막 작품이니 만큼 제가 해보고 싶었던 내용을 담게 되어 즐거웠습니다! 아직 많이 부족하지만 계속 공부하여 좋은 디자인을 만드는 디자이너가 되겠습니다 :)",
   },
   JunSeWon: {
     Name_kor: "전 세원",
@@ -777,8 +818,10 @@ const DesignersData = {
     Image_Project_Space: JunSeWon_Project2,
     Title_Product: "BUSK",
     Title_Space: "OSULLOC : 신선놀음",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "체스판에서 폰(Pawn : 일명 졸병)은 가장 약한 말이지만 상대 진영 끝에 다다르면 원하는 체스 말로 변신이 가능하다. 반대편까지 가기엔 오래 걸릴 수는 있어도 한순간 에 판을 엎는 게임 체인저가 될 수 있는 무서운 존재다. 이렇듯 지금 내가 겪고 있는 고난과 역경에 빠질 때마다 주저 않지 않고 원하는 목표 그리고 그 이상까지 가려고 하는 디자인에 임하는 마음이 마치 달려가는 폰과 같아 이 아이콘을 만들었다.",
+    Comment_Comment:
+      "체스에서 폰은 가장 약한 말이지만 상대 진영 끝에 다다르면 가장 강력한 존재로 바뀔 수 있는 힘을 숨긴 존재이다. 목표지점에 닿기까지 오래 걸릴 수도 있지만 판을 장악하는 게임 체인저가 될 수 있다.체스 게임에서 한 칸씩 전진하고 있는 폰은 내가 디자인에 임하는 자세와 같다.수없이 많은 벽을 마주하고 한계에 막힐 때마다 꿋꿋하게 나아가고 그 과정에서 극복한 경험들이 나를 강력한 프로덕트 디자이너로 성장시켜줄 것이라 믿는다. 이 말을 되새기면서 나는 오늘도 한 칸 전진한다",
   },
   JuYoonWoo: {
     Name_kor: "주 윤우",
@@ -796,8 +839,10 @@ const DesignersData = {
     Image_Project_Space: JuYoonWoo_Project2,
     Title_Product: "Nova",
     Title_Space: "Reallusion",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "아이콘의 형태적 모티브는 프리즘이며, 난색과 한색은 예술과 기술을 의미합니다. 프리즘은 다양한 방향성을내뿜어내는 오브젝트로써, 예술과 기술사 이 폭넓은 분야에서 변칙적인 방향성을 도출하겠다는 포부와 개인의 목표 의미를 담은 아이콘입니다.",
+    Comment_Comment:
+      "형식적인 접근이 아닌, 다양한 분야의 디자인테크닉을 전시에 담았습니다.",
   },
   ChoiDaIn: {
     Name_kor: "최 다인",
@@ -815,8 +860,10 @@ const DesignersData = {
     Image_Project_Space: ChoiDaIn_Project2,
     Title_Product: "Doglasses",
     Title_Space: "Doggy Park",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "저는 생각이 많은 편입니다. 생각이 꼬리를 물고 이어지는 편입니다.또한 제 이름인 다인에서 인은 어질 인입니다. 누군가를 보듬어줄 수 있는 어진 사람이 되고 싶습니다.부드러운 곡선, 감싸는 형태를 통해 생각이 많은 저와 어진 사람이 되고자 하는 저를 표현했습니다.",
+    Comment_Comment:
+      "대학교를 다니면서 할 수 있는 마지막이면서 긴 프로젝트이므로 최선을 다한다는 마음으로 졸업작품에 임했습니다.앞으로 어떤 방향으로 나아갈지 아직 구체적인 방향성을 잡지는 못했지만 아이콘에서 느껴지듯이 저는 물 같은 존재가 되어 관심 있는 분야가 생기면 언제든지 물 흐르듯 흘러가 열정을 담을 것입니다. 여러 분야를 느끼고 경험하며 결국 또 하나의 저를 다시 만들어내는 것이 제 바람입니다.",
   },
   ChoiJaeHo: {
     Name_kor: "최 재호",
@@ -834,8 +881,10 @@ const DesignersData = {
     Image_Project_Space: ChoiJaeHo_Project2,
     Title_Product: "Sync-me",
     Title_Space: "UC.Fluffies",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "탐색하고 분석하는 눈은 내가 지난 4년간 디자인 공부를 통해 얻은 것 중 가장 소중한 것이다. 예쁜 것과 매력적인 것을 구분하고, 평가와 의심을 멈추지 않는다. 내 생각과 작업을 보면서 내가 틀렸음을 계속 증명해낸다. 지금도 나는 내가 현실감각이 있는 사람이라고 생각하진 않지만 적어도 필요할 때 눈에 불을 켜고 세상을 잔잔히 훑어볼 수 있다. 조금씩 꾸준히, 나는 더 많은 정보와 즐거움을 눈에 담고자 한다.",
+    Comment_Comment:
+      "저는 익숙함에 눈을 박아 넣는 것이 마음에 편하지만, 잘 알지 못하는 것이나 보기 싫은 것일지라 해도 다양한 곳에 눈을 두면 호기심에 마음이 뜨거워집니다. 어떤 분야의 일을 하든, 뜨거운 마음으로 다양한 도전을 찾아보는 것이디자인을 배운 사람으로서 제가 살고 싶은 삶입니다.이번 졸업전시회에서도 저는 또 다른 도전과 고민을 많이 했습니다. 그 고민과 생각을 여러분에게 보여드리고 싶습니다.",
   },
   HwangJuHyeok: {
     Name_kor: "황 주혁",
@@ -853,8 +902,10 @@ const DesignersData = {
     Image_Project_Space: HwangJuHyeok_Project2,
     Title_Product: "Tracer",
     Title_Space: "Toss Brand Space",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "저울의 형태에서 누가 보아도 가벼워 보이는 물체가 무거워 보이는 물체보다 내려가 있는 형상을 통해 디자이너로서 당연해 보이는 모든 것을 끊임없이 의심하고 파고들어 남들이 보지 못하는 새로운 것을 발굴해 내고자 하는 태도를 표현했다.",
+    Comment_Comment:
+      "학생 신분으로서 현실적 문제에 의한 타협 없이 내가 생각하는 좋은 디자인을 할 수 있는 마지막 장기 프로젝트라는 생각으로 최선을 다해 나의 모든 역량을 보여주고자 하였다.사회에 나가서도 지금의 마음가짐을 잊지 않고 가치 있는 디자이너가 되고자 한다.",
   },
   HongDongYoung: {
     Name_kor: "홍 동영",
@@ -872,8 +923,10 @@ const DesignersData = {
     Image_Project_Space: HongDongYoung_Project2,
     Title_Product: "LAHAND",
     Title_Space: "The ORCHESTRA",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "세상의 다양한 색깔의 빛을 모아 담아내어 형상을 보여주는 렌즈처럼, 세상을 살아가는 사람들의 다양한 모습들을 담아내고 새로운 삶을 제안하는 제품을 디자인한다.",
+    Comment_Comment:
+      "내가 원하고 좋아하는 것과 사람들에게 필요한 것에 대해 질문하고 답하며 크고 작은 프로젝트를 이어 나갔습니다. 매번 새로운 기준이 생겼고 새로운 목표가 생겼습니다. 이번 졸업 전시 프로젝트는 스스로 내린 답변 중 하나입니다. 프로젝트를 진행하면서 생긴 새로운 의문들과 경험들은 저에게 또 하나의 목표를 제안하겠죠. 졸업까지 남은 기간 올 한 해 동안 겪은 경험을 되돌아보며 나만의 디자인을 찾고 새로운 목표를 찾아보려고 합니다. 그리고 지금까지처럼 계속해서 질문하고 답하며 성장하는 디자이너가 될 것입니다.",
   },
   KwonJiHye: {
     Name_kor: "권 지혜",
@@ -889,8 +942,10 @@ const DesignersData = {
     Image_Icon: KwonJiHye_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "안녕하세요 권지혜입니다.이번 졸업 전시 프로젝트에서는 우리가 살아가면서겪을 환경에서 정말 필요한 공간과 제품을 제안하고자 했습니다.앞으로도 프로젝트를 풀어나가는 데 있어서 현실성을유지하면서도 디자인을 통해 사람들에게 즐거운 경험을 주고 싶습니다",
   },
   KimMinJi: {
     Name_kor: "김 민지",
@@ -906,8 +961,10 @@ const DesignersData = {
     Image_Icon: KimMinJi_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "짧다면 짧고 길다면 엄청나게 긴 5년이었습니다.이번 졸업 전시를 준비하면서 많은 고난을 맛봤지만그만큼 많은 것을 배우고 성장할 수 있던계기가 된 것 같습니다. 앞으로 사회에나가서도 제 모토인 검이불루화이불치같은 디자인하면서 살고 싶습니다.",
   },
   KimSeRyung: {
     Name_kor: "김 세령",
@@ -925,8 +982,10 @@ const DesignersData = {
     Image_Project_Space: KimSeRyung_Project1,
     Title_Product: "",
     Title_Space: "MSCHF REVERSE REBIRTH",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "저는 가천대학교 산업디자인과 19학번 김세령입니다. 이번 졸업 전시로 4년간의 학교 생활에 종지부를 찍게 되었습니다. 개인적으로 아쉬운 점도많았지만 많은 발전을 할 수도 있게 되었던 뜻깊은 전시였던 것 같습니다. 그저 그림이 재밌어입시미술을 했고, 구체적으로 어떤 디자인을 하고싶단 계획 없이 들어왔던 산업디자인학과에서 감사하게도저의 미래 방향성을 찾게 해주었습니다. 공간디자인을 접하고 하나하나 만들어가며 성취감 그리고더 잘해내고 싶단 욕심이 생겼습니다. 기억에 오래 남는 공간을 만들어가고 싶습니다. 감사합니다.",
   },
   NamHyoMin: {
     Name_kor: "남 효민",
@@ -945,8 +1004,9 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment: "은은하게 빛날,",
   },
   ParkChangZun: {
     Name_kor: "박 창준",
@@ -964,8 +1024,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "H.U.N.T.S",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "오퍼레이터가 아닌 디자이너가 되기 위한 작은 한 걸음이었던 거 같습니다.",
   },
   SeoHeeJu: {
     Name_kor: "서 희주",
@@ -983,8 +1045,9 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment: "앞으로 성장하는 모습 지켜봐주세요",
   },
   OhGaYoung: {
     Name_kor: "오 가영",
@@ -1003,8 +1066,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "4년의 시간 동안 노력했던 결과를 졸업전시 때보여주고 싶었기 때문에 정말 열심히 준비했습니다.앞으로도 이러한 열정과 노력을 바탕으로 지금보다더 좋은 디자인을 보여줄 수 있는 디자이너가 되겠습니다.",
   },
   YooJaeHyun: {
     Name_kor: "유 재현",
@@ -1023,8 +1088,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "Extreme Guiders",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "'Always meaningfully'  항상 의미있는 디자인을 추구하겠습니다.",
   },
   LeeMinYoung: {
     Name_kor: "이 민영",
@@ -1043,8 +1110,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "DIAGNOSTIC KIOSK",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "저는 사회복지를 전공하고 산업디자인을 복수전공하고 있습니다. 본전공생들보다부족한 디자인 경험으로 이번 졸업전시에 뒤처지지 않게 참여하고자 부단히 노력했습니다. 컨셉 및 아이디어 구상과 제품 디자인, 그리고 목업 작업까지 다방면으로 스터디를진행하며 제 디자인의 밀도를 채워갈 수 있었습니다. 그 과정에서 디자인 분야에 속해 계신 여러 사람들과의 교류를 통해 많은 것들을 배우고 느껴볼 수 있는 소중한 기간이었음을 다시 한번 느낍니다.이 경험들을 발판 삼아, 앞으로는 제가 갖게 된 각기 다른 역량들을 나만의 것으로 융합하여하나의 단단한 연결고리를 이루고자 합니다.",
   },
   LeeSoYun: {
     Name_kor: "이 소윤",
@@ -1063,8 +1132,10 @@ const DesignersData = {
     Image_Project_Space: LeeSoYun_Project1,
     Title_Product: "",
     Title_Space: "東寶 : 동쪽의 보물",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "디자인은 사람이 살아가는 데 있어서 다양한 감정, 사고, 행동 패턴 등 끼치는 영향이 매우 크다.나의 디자인을 통해 소외된 사람들에게는 따뜻한 손길을,꿈 꾸는 사람들에게는 희망을, 불행한 사람들에게는 행복과 행운을 가져다 줄 것이다.",
   },
   LeeYuJin: {
     Name_kor: "이 유진",
@@ -1082,8 +1153,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "산업디자인과 19학번 이유진입니다. 이번 작품은 학교에서의 마지막 작품이자,사회에서의 첫 출발을 알리는 작품입니다.그만큼 고민들여 흔하지 않은 주제를 가지고 컨셉을 잡고 싶었고,디자인을 하고싶었습니다. 좋은 공간이란, 많은 사람이 아닌'나'조차 가고싶은 공간이라고 생각합니다.앞으로도 이 초심을 잃지 않고 공간을 사랑하는 디자이너가 되겠습니다.",
   },
   LimJungHa: {
     Name_kor: "임 정하",
@@ -1102,8 +1175,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "대학교의 막을 내리는 4학년을 새로운 경험들로가득 채우고싶었는데 졸업전시를 통해여지껏 겪지 못한 경험을 할 수 있었습니다.이 경험을 토대로 트렌드를 따라가고, 혁신적인 디자이너로 발전하겠습니다.",
   },
   ImJinJu: {
     Name_kor: "임 진주",
@@ -1121,8 +1196,10 @@ const DesignersData = {
     Image_Project_Space: "",
     Title_Product: "",
     Title_Space: "",
-    Icon_Comment: "",
-    Comment_Comment: "",
+    Icon_Comment:
+      "사람과 사람, 마음과 마음을 이어주는 디자이너가 되길 바라는 마음을 표현했다.",
+    Comment_Comment:
+      "이번 졸전을 하면서 성장할 수 있는 계기가 되었던 것 같습니다.",
   },
   JeonHaeIn: {
     Name_kor: "전 해인",
