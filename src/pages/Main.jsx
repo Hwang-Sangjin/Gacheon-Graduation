@@ -51,6 +51,7 @@ const Main = () => {
             <Canvas>
               <Main3D />
             </Canvas>
+            <StarsCanvas />
           </motion.div>
         </div>
       )}
