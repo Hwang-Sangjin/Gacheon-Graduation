@@ -235,7 +235,7 @@
   transform: translate(-50%, -50%);
 }
 
-.main-canvas{
+.main-canvas {
   height: 100vh !important;
 }
 
@@ -319,7 +319,9 @@
   padding-top: 0 !important;
   padding-bottom: 4900px !important;
 }
-
+input:focus {
+  outline: none;
+}
 /* .cursor {
   width: 30px;
   height: 30px;
