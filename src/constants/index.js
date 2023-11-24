@@ -388,6 +388,15 @@ import AP18 from "../assets/about_picture_image/Frame 51.jpg";
 import AP19 from "../assets/about_picture_image/Frame 52.jpg";
 import AP20 from "../assets/about_picture_image/Frame53.jpg";
 
+import KimGeonRyeong_Visit_1 from "../assets/visit_Image/Group 94.png";
+import KimGeonRyeong_Visit_2 from "../assets/visit_Image/Group 95.png";
+import KimGeonRyeong_Visit_3 from "../assets/visit_Image/Group 96.png";
+import KimGeonRyeong_Visit_4 from "../assets/visit_Image/Group 97.png";
+import KimGeonRyeong_Visit_5 from "../assets/visit_Image/Group 98.png";
+import KimGeonRyeong_Visit_6 from "../assets/visit_Image/Group 99.png";
+import KimGeonRyeong_Visit_7 from "../assets/visit_Image/Group 100.png";
+import KimGeonRyeong_Visit_8 from "../assets/visit_Image/Group 314.png";
+
 export const navLinks = [
   {
     id: "about",
@@ -1912,6 +1921,19 @@ const AboutPictureImage = [
   AP20,
 ];
 
+const VisitCardIamge = {
+  KimGeonRyeong: [
+    KimGeonRyeong_Visit_1,
+    KimGeonRyeong_Visit_2,
+    KimGeonRyeong_Visit_3,
+    KimGeonRyeong_Visit_4,
+    KimGeonRyeong_Visit_5,
+    KimGeonRyeong_Visit_6,
+    KimGeonRyeong_Visit_7,
+    KimGeonRyeong_Visit_8,
+  ],
+};
+
 const IconImages = [
   KimGeonRyeong_Icon,
   KimGoEun_Icon,
@@ -1969,4 +1991,5 @@ export {
   AboutCardData,
   AboutPictureImage,
   IconImages,
+  VisitCardIamge,
 };

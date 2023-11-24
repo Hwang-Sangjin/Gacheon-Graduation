@@ -7,17 +7,22 @@ import Preloader from "../components/Preloader";
 import Footer from "../components/Footer";
 import { FullPage, Slide } from "react-full-page";
 import { Button } from "@mui/base";
-import { IconImages } from "../constants";
+import { IconImages, VisitCardIamge } from "../constants";
 import VisitorLoadingSrc from "../assets/visitor_loading.mp4";
+import VisitorCardTitleImage from "../assets/VisitorCardTitle.png";
 
 const Visit = () => {
   const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
-  const [selectedIcon, setSelectedIcon] = useState(IconImages[2]);
+  const [selectedIcon, setSelectedIcon] = useState(IconImages[0]);
   const [message1, setMessage1] = useState("");
   const [message2, setMessage2] = useState("");
   const [message3, setMessage3] = useState("");
   const [randomIndex, setRandomIndex] = useState(0);
+  const [selectedDesigner, setSelectedDesigner] = useState("");
+  const [visitorCardSrc, setVisitorCardSrc] = useState(
+    VisitCardIamge["KimGeonRyeong"][0]
+  );
 
   const section1 = useRef();
   const section2 = useRef();
@@ -45,7 +50,7 @@ const Visit = () => {
 
   const getRandomInt = () => {
     const randomFloat = Math.random();
-    const randomInt = Math.floor(randomFloat * 5);
+    const randomInt = Math.floor(randomFloat * 8);
     return randomInt;
   };
 
@@ -60,9 +65,12 @@ const Visit = () => {
 
   useEffect(() => {
     const Icon_Src_string = selectedIcon.toString().split("/");
-    const Icon_String = Icon_Src_string[4];
-    console.log(Icon_String);
+    setSelectedDesigner(Icon_Src_string[4]);
   }, [selectedIcon]);
+
+  useEffect(() => {
+    console.log(selectedDesigner);
+  }, [selectedDesigner]);
 
   return (
     <div>
@@ -172,10 +180,15 @@ const Visit = () => {
             </section>
             <section
               ref={section6}
-              className=" bg-[#101010] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+              className=" bg-[#101010] relative flex flex-row h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
-              <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
+              <div className="flex flex-1 text-[#FFFFFF] font-[Hack-Bold] text-2xl">
                 {name}님을 위한 축하카드
+              </div>
+              <img className="flex flex-1 w-1/2" src={visitorCardSrc} />
+              <div className="flex flex-row absolute">
+                <img src={VisitorCardTitleImage} />
+                <div>{selectedDesigner}</div>
               </div>
             </section>
           </div>
