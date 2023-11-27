@@ -13,6 +13,7 @@ import EarthCanvas from "../components/Earth";
 import { Canvas } from "react-three-fiber";
 import { BoxGeometry, MeshStandardMaterial } from "three";
 import Main3D from "../components/Main3D";
+import MainTitle from "../assets/Main_Title.png";
 
 const Main = () => {
   const [loading, setLoading] = useState(false);
@@ -44,15 +45,10 @@ const Main = () => {
             </Scene>
           </Controller>
           <Navbar blackColor={true} />
-          <motion.div
-            variants={slideIn("right", "tween", 0.2, 1)}
-            className="main-canvas"
-          >
-            <Canvas>
-              <Main3D />
-            </Canvas>
-            <StarsCanvas />
-          </motion.div>
+          <div className="h-screen w-full justify-center items-center">
+            <img src={MainTitle} />
+            <div></div>
+          </div>
         </div>
       )}
     </div>

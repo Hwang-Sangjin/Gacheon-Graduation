@@ -244,7 +244,13 @@ const Visit = () => {
               <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
                 {name}님을 위한 축하카드를 만드는 중이에요.
               </div>
-              <video muted autoPlay loop src={VisitorLoadingSrc} />
+              <video
+                className="w-50%"
+                muted
+                autoPlay
+                onEnded={() => scrollHandler(section6)}
+                src={VisitorLoadingSrc}
+              />
             </section>
             <section
               ref={section6}
