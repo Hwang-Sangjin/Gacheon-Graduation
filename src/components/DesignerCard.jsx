@@ -50,7 +50,7 @@ const DesignerCard = ({ title, data, index }) => {
             {title}
           </div>
           <div className="md:w-3/4 sm:w-1/5">
-            <img className="designer-card" src={data.Image_Color} />
+            <img className="designer-card " src={data.Image_Color} />
           </div>
         </motion.div>
       </Tilt>

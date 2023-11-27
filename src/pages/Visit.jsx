@@ -2,7 +2,7 @@ import { Navbar } from "../components/index";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Preloader from "../components/Preloader";
 import Footer from "../components/Footer";
 import { FullPage, Slide } from "react-full-page";
@@ -10,6 +10,55 @@ import { Button } from "@mui/base";
 import { IconImages, VisitCardIamge } from "../constants";
 import VisitorLoadingSrc from "../assets/visitor_loading.mp4";
 import VisitorCardTitleImage from "../assets/VisitorCardTitle.png";
+import { toPng } from "html-to-image";
+import download from "downloadjs";
+import VisitText from "../assets/visit_Image/Visit_Text.png";
+import CardBottom from "../assets/visit_Image/Card_Bottom.png";
+
+const DesignerName = {
+  KimGeonRyeong: "김건령",
+  KimGoEun: "김고은",
+  KimDongJun: "김동준",
+  KimYaeJu: "김예주",
+  KimYunHa: "김윤하",
+  KimJiHwan: "김지환",
+  NamMinJi: "남민지",
+  ParkChangMin: "박창민",
+  BakSeungEun: "백승은",
+  SeoAReum: "서아름",
+  ShinDongYeop: "신동엽",
+  ShinJiWoo: "신지우",
+  SimMinSeop: "심민섭",
+  AnMyoungJi: "안명지",
+  YangJiWon: "양지원",
+  YangHyeSeon: "양혜선",
+  WonHanJu: "원한주",
+  YooDongJae: "유동재",
+  YuAJung: "유아정",
+  YuJiHui: "유지희",
+  LeeJongWon: "이종원",
+  LeeHongKyu: "이홍규",
+  JangSeoJin: "장서진",
+  JunSeWon: "전세원",
+  JuYoonWoo: "주윤우",
+  ChoiDaIn: "최다인",
+  ChoiJaeHo: "최재호",
+  HwangJuHyeok: "황주혁",
+  HongDongYoung: "홍동영",
+  KwonJiHye: "권지혜",
+  KimMinJi: "김민지",
+  KimSeRyung: "김세령",
+  NamHyoMin: "남효민",
+  ParkChangZun: "박창준",
+  SeoHeeJu: "서희주",
+  OhGaYoung: "오가영",
+  YooJaeHyun: "유재현",
+  LeeMinYoung: "이민영",
+  LeeSoYun: "이소윤",
+  LeeYuJin: "이유진",
+  LimJungHa: "임정하",
+  ImJinJu: "임진주",
+};
 
 const Visit = () => {
   const [loading, setLoading] = useState(false);
@@ -30,6 +79,7 @@ const Visit = () => {
   const section4 = useRef();
   const section5 = useRef();
   const section6 = useRef();
+  const CardImage = useRef();
 
   const onChangeName = (e) => {
     setName(e.target.value);
@@ -53,6 +103,23 @@ const Visit = () => {
     const randomInt = Math.floor(randomFloat * 8);
     return randomInt;
   };
+
+  const onButtonClick = useCallback(() => {
+    if (CardImage.current === null) {
+      return;
+    }
+
+    toPng(CardImage.current, { cacheBust: true })
+      .then((dataUrl) => {
+        const link = document.createElement("a");
+        link.download = "Gacheon-Gradutation-Visit-Card.png";
+        link.href = dataUrl;
+        link.click();
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, [CardImage]);
 
   useEffect(() => {
     setLoading(true);
@@ -80,6 +147,52 @@ const Visit = () => {
         <div className="relative z-0 bg-[#101010]">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar blackColor={true} />
+            <section
+              ref={section6}
+              className=" bg-[#101010] justify-evenly relative flex  flex-row h-screen  sm:px-2 px-2 w-full  py-5 fixed top-0  items-center"
+            >
+              <div className="flex items-center flex-col grow">
+                <div className="flex flex-1 text-[#FFFFFF] font-[Hack-Bold] text-3xl">
+                  {name}님을 위한 축하카드
+                </div>
+                <img className="m-5" src={VisitText} />
+                <div className="flex flex-row">
+                  <button
+                    className="mx-8 my-20 border-2 border-[#FFFFFF] text-[#FFFFFF] font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
+                    onClick={() => scrollHandler(section1)}
+                  >
+                    다시하기
+                  </button>
+                  <button
+                    className="mx-8 my-20 bg-[#FFF16F]  font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
+                    onClick={onButtonClick}
+                  >
+                    이미지 저장
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex justify-center grow" ref={CardImage}>
+                <div className="flex relative">
+                  <img className="flex h-auto max-w-lg" src={visitorCardSrc} />
+                  <div className="flex flex-row absolute p-8 justify-between w-full">
+                    <img className="flex w-[35%]" src={VisitorCardTitleImage} />
+                    <div className="text-[#000000] font-[Pretendard-Bold] text-2xl">
+                      {DesignerName[`${selectedDesigner}`]}
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-full absolute text-[#000000] font-[Pretendard-Bold]  text-2xl top-[65%] items-center">
+                    <div className="my-3">{message1}</div>
+                    <hr className=" h-0.5 mx-auto bg-[#000000]" />
+                    <div className="my-3">{message2}</div>
+                    <hr className="h-0.5 mx-auto bg-[#000000]" />
+                    <div className="my-3">{message3}</div>
+                    <hr className=" h-0.5 mx-auto bg-[#000000]" />
+                    <img className="w-[80%] my-14" src={CardBottom} />
+                  </div>
+                </div>
+              </div>
+            </section>
             <section
               ref={section1}
               className="relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
@@ -177,19 +290,6 @@ const Visit = () => {
                 {name}님을 위한 축하카드를 만드는 중이에요.
               </div>
               <video muted autoPlay loop src={VisitorLoadingSrc} />
-            </section>
-            <section
-              ref={section6}
-              className=" bg-[#101010] relative flex flex-row h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
-            >
-              <div className="flex flex-1 text-[#FFFFFF] font-[Hack-Bold] text-2xl">
-                {name}님을 위한 축하카드
-              </div>
-              <img className="flex flex-1 w-1/2" src={visitorCardSrc} />
-              <div className="flex flex-row absolute">
-                <img src={VisitorCardTitleImage} />
-                <div>{selectedDesigner}</div>
-              </div>
             </section>
           </div>
         </div>
