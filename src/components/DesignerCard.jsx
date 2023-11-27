@@ -37,6 +37,7 @@ const DesignerCard = ({ title, data, index }) => {
 
   return (
     <div className="w-full mb-8">
+      <div className="h-[2rem] text-3xl mb-4 font-['Hack-Bold']">{title}</div>
       <Tilt>
         <motion.div
           variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -46,9 +47,6 @@ const DesignerCard = ({ title, data, index }) => {
           className="w-full rounded-[20px] "
           onClick={handleOpen}
         >
-          <div className="h-[2rem] text-3xl mb-4 font-['Hack-Bold']">
-            {title}
-          </div>
           <div className="md:w-3/4 sm:w-1/5">
             <img className="designer-card " src={data.Image_Color} />
           </div>
