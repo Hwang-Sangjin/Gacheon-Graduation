@@ -14,6 +14,8 @@ import { Canvas } from "react-three-fiber";
 import { BoxGeometry, MeshStandardMaterial } from "three";
 import Main3D from "../components/Main3D";
 import MainTitle from "../assets/Main_Title.png";
+import { MainAllDesigners, DesignersData } from "../constants";
+import { Tilt } from "react-tilt";
 
 const Main = () => {
   const [loading, setLoading] = useState(false);
@@ -45,10 +47,27 @@ const Main = () => {
             </Scene>
           </Controller>
           <Navbar blackColor={true} />
-          <div className="h-screen w-full justify-center items-center">
-            <img src={MainTitle} />
-            <div></div>
+          <div className="h-full w-full justify-center items-center">
+            <img className="m-auto block mt-20" src={MainTitle} />
+            <div className="grid grid-cols-2 sm:grid-cols-4 m-20 mx-48">
+              {MainAllDesigners.map((e) => {
+                return (
+                  <div className="items-center justify-center flex flex-col border-2">
+                    <Tilt>
+                      <img
+                        className="grayscale hover:grayscale-0 hover:scale-110 "
+                        src={DesignersData[`${e}`].Image_Icon}
+                      />
+                    </Tilt>
+                    <div className="text-[#ffffff] font-[Pretendard-Regular] mb-11">
+                      {DesignersData[`${e}`].Name_eng}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
+          <Footer />
         </div>
       )}
     </div>
