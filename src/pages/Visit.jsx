@@ -190,7 +190,7 @@ const Visit = () => {
               ref={section3}
               className=" bg-[#101010] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
-              <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
+              <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
                 축하의 아이콘을 선택해 주세요.
               </div>
               <div className="w-3/4 grid grid-cols-11 m-11">
@@ -241,7 +241,7 @@ const Visit = () => {
               ref={section5}
               className=" bg-[#000000] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
-              <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
+              <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
                 {name}님을 위한 축하카드를 만드는 중이에요.
               </div>
               <video
@@ -282,7 +282,7 @@ const Visit = () => {
                   <img className="flex h-auto max-w-lg" src={visitorCardSrc} />
                   <div className="flex flex-row absolute p-8 justify-between w-full">
                     <img className="flex w-[35%]" src={VisitorCardTitleImage} />
-                    <div className="text-[#000000] font-[Pretendard-Bold] text-2xl">
+                    <div className="text-[#000000] font-[Pretendard-SemiBold] text-2xl">
                       {DesignerName[`${selectedDesigner}`]}
                     </div>
                   </div>
