@@ -11,9 +11,9 @@ const ProjectVideoCard = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="w-3/4 h-[50%] relative text-center"
+        className="w-3/4 h-[50%] relative text-center justify-center"
       >
-        <video className="w-full h-[160%] object-scale-down" muted autoPlay>
+        <video className="w-full object-scale-down ml-5" muted autoPlay>
           <source className=" " src={DesignerVideoSRC} type="video/mp4" />
         </video>
       </motion.div>
