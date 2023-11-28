@@ -14,7 +14,7 @@ const Navbar = ({blackColor}) => {
   return (
     blackColor?
     (<nav
-      className={`${styles.paddingX} w-full flex items-center py-5 sticky top-0 z-20 bg-[#101010]`}
+      className={`${styles.paddingX} w-full flex items-center py-8 sticky top-0 z-20 bg-[#101010]`}
     >
       <div className="w-full flex justify-between items-center px-2 sm:px-12 mx-auto">
         <img
@@ -36,7 +36,7 @@ const Navbar = ({blackColor}) => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
+                active === link.title ? "text-white" : "text-tertiary"
               }  text-[18px] font-['Hack-Regular']`}
               onClick={() => setActive(link.title)}
             >
@@ -77,7 +77,7 @@ const Navbar = ({blackColor}) => {
       </div>
     </nav>):
     ( <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 sticky top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-8 sticky top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center px-2 sm:px-12 mx-auto">
         <img

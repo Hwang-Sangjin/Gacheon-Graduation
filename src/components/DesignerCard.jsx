@@ -52,39 +52,39 @@ const DesignerCard = ({ title, data, index }) => {
           </div>
         </motion.div>
       </Tilt>
-      <div className="mt-4 text-xl font-['Pretendard-SemiBold']">
+      <div className="mt-4 text-[29px] font-['Pretendard-SemiBold']">
         {data.Name_kor}
       </div>
-      <div className="mt-1 text-xl font-['Pretendard-SemiBold']">
+      <div className="-mt-1 text-[29px] font-['Pretendard-SemiBold']">
         {data.Name_eng}
       </div>
-      <div className="mt-1 text-xs font-['Pretendard-Regular'] opacity-50">
+      <div className="mt-0 text-[15px] font-['Pretendard-Regular'] opacity-50">
         {data.Role}
       </div>
-      <div className="mt-1 flex flex-row text-xs font-['Pretendard-Medium'] opacity-50">
+      <div className="mt-3 flex flex-row text-[15px] font-['Pretendard-Medium'] opacity-50">
         Email
         <div className="font-['Pretendard-Regular'] ml-4">{data.Email}</div>
       </div>
-      <div className="mt-1 flex flex-row text-xs font-['Pretendard-Medium'] opacity-50">
+      <div className="mt-1 flex flex-row text-[15px] font-['Pretendard-Medium'] opacity-50">
         Link
         <div className="ml-5 flex flex-row">
           {data.Link_insta === "" ? null : (
             <img
-              className="w-4 mr-1 opacity-100 fill-[#535353]"
+              className="w-6 mr-1 opacity-100 fill-[#535353]"
               src={InstaImg}
               onClick={() => window.open(data.Link_insta)}
             />
           )}
           {data.Link_Behance === "" ? null : (
             <img
-              className="w-4 mr-1 opacity-100 fill-[#535353]"
+              className="w-6 mr-1 opacity-100 fill-[#535353]"
               src={BehanceImg}
               onClick={() => window.open(data.Link_Behance)}
             />
           )}
           {data.Link_Blog === "" ? null : (
             <img
-              className="w-4 mr-1 opacity-100 fill-[#535353]"
+              className="w-6 mr-1 opacity-100 fill-[#535353]"
               src={BlogImg}
               onClick={() => window.open(data.Link_Blog)}
             />

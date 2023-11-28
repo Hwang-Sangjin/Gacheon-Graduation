@@ -2004,7 +2004,7 @@ const IconImages = [
   ChoiDaIn_Icon,
   ChoiJaeHo_Icon,
   HwangJuHyeok_Icon,
-  HongDongYoung_Icon,
+  ImJinJu_Icon,
   KwonJiHye_Icon,
   KimMinJi_Icon,
   KimSeRyung_Icon,
@@ -2017,7 +2017,7 @@ const IconImages = [
   LeeSoYun_Icon,
   LeeYuJin_Icon,
   LimJungHa_Icon,
-  ImJinJu_Icon,
+
 ];
 
 export {
