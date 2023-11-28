@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
-import DesignerVideoSRC from "../assets/designer page- web.mp4";
+import DesignerVideoSRC from "../assets/motion.mp4";
 
 const DesignerVideo = () => {
   return (
