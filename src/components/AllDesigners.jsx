@@ -24,8 +24,8 @@ const style = {
 
 const AllDesigners = () => {
   return (
-    <div className="mt-10 flex  flex-wrap gap-7">
-      <div className="grid grid-cols-2 sm:grid-cols-4">
+    <div className="mt-10 flex  flex-wrap gap-7  m-auto justify-between">
+      <div className="grid grid-cols-2 sm:grid-cols-4  m-auto justify-between">
         {AllDesignersData.map((name, index) => {
           if (name === " ") return <DesignerVideo />;
           return name === "KimGeonRyeong" ? (

@@ -47,7 +47,7 @@ const DesignerCard = ({ title, data, index }) => {
           className="w-full rounded-[20px] "
           onClick={handleOpen}
         >
-          <div className="md:w-3/4 sm:w-1/5">
+          <div className="md:w-[90%] sm:w-1/7 ">
             <img className="designer-card " src={data.Image_Color} />
           </div>
         </motion.div>

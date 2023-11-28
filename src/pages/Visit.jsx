@@ -252,52 +252,7 @@ const Visit = () => {
                 src={VisitorLoadingSrc}
               />
             </section>
-            <section
-              ref={section6}
-              className=" bg-[#101010] justify-evenly relative flex  flex-row h-screen  sm:px-2 px-2 w-full  py-5 fixed top-0  items-center"
-            >
-              <div className="flex items-center flex-col grow">
-                <div className="flex flex-1 text-[#FFFFFF] font-[Hack-Bold] text-3xl">
-                  {name}님을 위한 축하카드
-                </div>
-                <img className="m-5" src={VisitText} />
-                <div className="flex flex-row">
-                  <button
-                    className="mx-8 my-20 border-2 border-[#FFFFFF] text-[#FFFFFF] font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
-                    onClick={() => scrollHandler(section1)}
-                  >
-                    다시하기
-                  </button>
-                  <button
-                    className="mx-8 my-20 bg-[#FFF16F]  font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
-                    onClick={onButtonClick}
-                  >
-                    이미지 저장
-                  </button>
-                </div>
-              </div>
 
-              <div className="flex justify-center grow" ref={CardImage}>
-                <div className="flex relative">
-                  <img className="flex h-auto max-w-lg" src={visitorCardSrc} />
-                  <div className="flex flex-row absolute p-8 justify-between w-full">
-                    <img className="flex w-[35%]" src={VisitorCardTitleImage} />
-                    <div className="text-[#000000] font-[Pretendard-Bold] text-2xl">
-                      {DesignerName[`${selectedDesigner}`]}
-                    </div>
-                  </div>
-                  <div className="flex flex-col w-full absolute text-[#000000] font-[Pretendard-Bold]  text-2xl top-[70%] items-center">
-                    <div className="my-3">{message1}</div>
-                    <hr className=" h-0.5 mx-auto bg-[#000000]" />
-                    <div className="my-3">{message2}</div>
-                    <hr className="h-0.5 mx-auto bg-[#000000]" />
-                    <div className="my-3">{message3}</div>
-                    <hr className=" h-0.5 mx-auto bg-[#000000]" />
-                    <img className="w-[80%] my-14" src={CardBottom} />
-                  </div>
-                </div>
-              </div>
-            </section>
             <section
               ref={section6}
               className=" bg-[#101010] justify-evenly relative flex  flex-row h-screen  sm:px-2 px-2 w-full  py-5 fixed top-0  items-center"
@@ -345,6 +300,7 @@ const Visit = () => {
               </div>
             </section>
           </div>
+          <Footer blackColor={true} Visit={true} />
         </div>
       )}
     </div>

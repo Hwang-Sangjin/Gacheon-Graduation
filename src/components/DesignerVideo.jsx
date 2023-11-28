@@ -11,7 +11,7 @@ const DesignerVideo = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="w-4/5 rounded-[20px] mt-12"
+        className="md:w-[90%] sm:w-1/7 rounded-[20px] mt-12"
       >
         <video className="" muted autoPlay>
           <source

@@ -67,7 +67,7 @@ const Main = () => {
               })}
             </div>
           </div>
-          <Footer />
+          <Footer blackColor={true} Visit={false} />
         </div>
       )}
     </div>

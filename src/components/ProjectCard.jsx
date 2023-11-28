@@ -26,7 +26,7 @@ const ProjectCard = ({ type, data, index }) => {
           });
         }}
       >
-        <div className="w-3/4 w-1/5 relative text-center">
+        <div className="md:w-[90%] sm:w-1/7  relative text-center">
           {type === "product" ? (
             <img
               className="project-card w-full h-full"
