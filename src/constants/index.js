@@ -2017,7 +2017,6 @@ const IconImages = [
   LeeSoYun_Icon,
   LeeYuJin_Icon,
   LimJungHa_Icon,
-
 ];
 
 export {
