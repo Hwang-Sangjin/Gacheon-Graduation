@@ -69,7 +69,7 @@ const Visit = () => {
   const [message2, setMessage2] = useState(" ");
   const [message3, setMessage3] = useState(" ");
   const [randomIndex, setRandomIndex] = useState(0);
-  const [selectedDesigner, setSelectedDesigner] = useState("");
+  const [selectedDesigner, setSelectedDesigner] = useState("KimGeonRyeong");
   const [visitorCardSrc, setVisitorCardSrc] = useState(
     VisitCardIamge["KimGeonRyeong"][0]
   );
@@ -137,7 +137,7 @@ const Visit = () => {
   }, [selectedIcon]);
 
   useEffect(() => {
-    console.log(selectedDesigner);
+    setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
   }, [selectedDesigner]);
 
   return (
@@ -281,20 +281,15 @@ const Visit = () => {
               <div className="flex justify-center grow" ref={CardImage}>
                 <div className="flex relative">
                   <img className="flex h-auto max-w-lg" src={visitorCardSrc} />
-                  <div className="flex flex-row absolute p-8 justify-between w-full">
-                    <img className="flex w-[35%]" src={VisitorCardTitleImage} />
+                  <div className="flex flex-row absolute p-11 justify-end w-full">
                     <div className="text-[#000000] font-[Pretendard-Bold] text-2xl">
                       {DesignerName[`${selectedDesigner}`]}
                     </div>
                   </div>
                   <div className="flex flex-col w-full absolute text-[#000000] font-[Pretendard-Bold]  text-2xl top-[70%] items-center">
-                    <div className="my-3 h-5">{message1}</div>
-                    <hr className=" h-0.5 mx-auto bg-[#000000]" />
-                    <div className="my-3 h-5">{message2}</div>
-                    <hr className="h-0.5 mx-auto bg-[#000000]" />
-                    <div className="my-3 h-5">{message3}</div>
-                    <hr className=" h-0.5 mx-auto bg-[#000000]" />
-                    <img className="w-[80%] my-14" src={CardBottom} />
+                    <div className="my-4 h-5">{message1}</div>
+                    <div className="my-4 h-5">{message2}</div>
+                    <div className="my-4 h-5">{message3}</div>
                   </div>
                 </div>
               </div>

@@ -431,15 +431,342 @@ import LimJungHa_Icon_Gray from "../assets/main_icon_gray/LimJungHa_1.png";
 import ImJinJu_Icon_Gray from "../assets/main_icon_gray/ImJinJu_1.png";
 import LeeSoYun_Icon_Gray from "../assets/main_icon_gray/LeeSoYun_1.png";
 
-import KimGeonRyeong_Visit_1 from "../assets/visit_Image/Group 94.png";
-import KimGeonRyeong_Visit_2 from "../assets/visit_Image/Group 95.png";
-import KimGeonRyeong_Visit_3 from "../assets/visit_Image/Group 96.png";
-import KimGeonRyeong_Visit_4 from "../assets/visit_Image/Group 97.png";
-import KimGeonRyeong_Visit_5 from "../assets/visit_Image/Group 98.png";
-import KimGeonRyeong_Visit_6 from "../assets/visit_Image/Group 99.png";
-import KimGeonRyeong_Visit_7 from "../assets/visit_Image/Group 100.png";
-import KimGeonRyeong_Visit_8 from "../assets/visit_Image/Group 314.png";
-
+import KimGeonRyeong_Visit_1 from "../assets/visit_Image/KimGeonRyeong_1.png";
+import KimGeonRyeong_Visit_2 from "../assets/visit_Image/KimGeonRyeong_2.png";
+import KimGeonRyeong_Visit_3 from "../assets/visit_Image/KimGeonRyeong_3.png";
+import KimGeonRyeong_Visit_4 from "../assets/visit_Image/KimGeonRyeong_4.png";
+import KimGeonRyeong_Visit_5 from "../assets/visit_Image/KimGeonRyeong_5.png";
+import KimGeonRyeong_Visit_6 from "../assets/visit_Image/KimGeonRyeong_6.png";
+import KimGeonRyeong_Visit_7 from "../assets/visit_Image/KimGeonRyeong_7.png";
+import KimGeonRyeong_Visit_8 from "../assets/visit_Image/KimGeonRyeong_8.png";
+import KimGoEun_Visit_1 from "../assets/visit_Image/KimGoEun_1.png";
+import KimGoEun_Visit_2 from "../assets/visit_Image/KimGoEun_2.png";
+import KimGoEun_Visit_3 from "../assets/visit_Image/KimGoEun_3.png";
+import KimGoEun_Visit_4 from "../assets/visit_Image/KimGoEun_4.png";
+import KimGoEun_Visit_5 from "../assets/visit_Image/KimGoEun_5.png";
+import KimGoEun_Visit_6 from "../assets/visit_Image/KimGoEun_6.png";
+import KimGoEun_Visit_7 from "../assets/visit_Image/KimGoEun_7.png";
+import KimGoEun_Visit_8 from "../assets/visit_Image/KimGoEun_8.png";
+import KimDongJun_Visit_1 from "../assets/visit_Image/KimDongJun_1.png";
+import KimDongJun_Visit_2 from "../assets/visit_Image/KimDongJun_2.png";
+import KimDongJun_Visit_3 from "../assets/visit_Image/KimDongJun_3.png";
+import KimDongJun_Visit_4 from "../assets/visit_Image/KimDongJun_4.png";
+import KimDongJun_Visit_5 from "../assets/visit_Image/KimDongJun_5.png";
+import KimDongJun_Visit_6 from "../assets/visit_Image/KimDongJun_6.png";
+import KimDongJun_Visit_7 from "../assets/visit_Image/KimDongJun_7.png";
+import KimDongJun_Visit_8 from "../assets/visit_Image/KimDongJun_8.png";
+import KimYaeJu_Visit_1 from "../assets/visit_Image/KimYaeJu_1.png";
+import KimYaeJu_Visit_2 from "../assets/visit_Image/KimYaeJu_2.png";
+import KimYaeJu_Visit_3 from "../assets/visit_Image/KimYaeJu_3.png";
+import KimYaeJu_Visit_4 from "../assets/visit_Image/KimYaeJu_4.png";
+import KimYaeJu_Visit_5 from "../assets/visit_Image/KimYaeJu_5.png";
+import KimYaeJu_Visit_6 from "../assets/visit_Image/KimYaeJu_6.png";
+import KimYaeJu_Visit_7 from "../assets/visit_Image/KimYaeJu_7.png";
+import KimYaeJu_Visit_8 from "../assets/visit_Image/KimYaeJu_8.png";
+import KimYunHa_Visit_1 from "../assets/visit_Image/KimYunHa_1.png";
+import KimYunHa_Visit_2 from "../assets/visit_Image/KimYunHa_2.png";
+import KimYunHa_Visit_3 from "../assets/visit_Image/KimYunHa_3.png";
+import KimYunHa_Visit_4 from "../assets/visit_Image/KimYunHa_4.png";
+import KimYunHa_Visit_5 from "../assets/visit_Image/KimYunHa_5.png";
+import KimYunHa_Visit_6 from "../assets/visit_Image/KimYunHa_6.png";
+import KimYunHa_Visit_7 from "../assets/visit_Image/KimYunHa_7.png";
+import KimYunHa_Visit_8 from "../assets/visit_Image/KimYunHa_8.png";
+import KimJiHwan_Visit_1 from "../assets/visit_Image/KimJiHwan_1.png";
+import KimJiHwan_Visit_2 from "../assets/visit_Image/KimJiHwan_2.png";
+import KimJiHwan_Visit_3 from "../assets/visit_Image/KimJiHwan_3.png";
+import KimJiHwan_Visit_4 from "../assets/visit_Image/KimJiHwan_4.png";
+import KimJiHwan_Visit_5 from "../assets/visit_Image/KimJiHwan_5.png";
+import KimJiHwan_Visit_6 from "../assets/visit_Image/KimJiHwan_6.png";
+import KimJiHwan_Visit_7 from "../assets/visit_Image/KimJiHwan_7.png";
+import KimJiHwan_Visit_8 from "../assets/visit_Image/KimJiHwan_8.png";
+import NamMinJi_Visit_1 from "../assets/visit_Image/NamMinJi_1.png";
+import NamMinJi_Visit_2 from "../assets/visit_Image/NamMinJi_2.png";
+import NamMinJi_Visit_3 from "../assets/visit_Image/NamMinJi_3.png";
+import NamMinJi_Visit_4 from "../assets/visit_Image/NamMinJi_4.png";
+import NamMinJi_Visit_5 from "../assets/visit_Image/NamMinJi_5.png";
+import NamMinJi_Visit_6 from "../assets/visit_Image/NamMinJi_6.png";
+import NamMinJi_Visit_7 from "../assets/visit_Image/NamMinJi_7.png";
+import NamMinJi_Visit_8 from "../assets/visit_Image/NamMinJi_8.png";
+import ParkChangMin_Visit_1 from "../assets/visit_Image/ParkChangMin_1.png";
+import ParkChangMin_Visit_2 from "../assets/visit_Image/ParkChangMin_2.png";
+import ParkChangMin_Visit_3 from "../assets/visit_Image/ParkChangMin_3.png";
+import ParkChangMin_Visit_4 from "../assets/visit_Image/ParkChangMin_4.png";
+import ParkChangMin_Visit_5 from "../assets/visit_Image/ParkChangMin_5.png";
+import ParkChangMin_Visit_6 from "../assets/visit_Image/ParkChangMin_6.png";
+import ParkChangMin_Visit_7 from "../assets/visit_Image/ParkChangMin_7.png";
+import ParkChangMin_Visit_8 from "../assets/visit_Image/ParkChangMin_8.png";
+import BakSeungEun_Visit_1 from "../assets/visit_Image/BakSeungEun_1.png";
+import BakSeungEun_Visit_2 from "../assets/visit_Image/BakSeungEun_2.png";
+import BakSeungEun_Visit_3 from "../assets/visit_Image/BakSeungEun_3.png";
+import BakSeungEun_Visit_4 from "../assets/visit_Image/BakSeungEun_4.png";
+import BakSeungEun_Visit_5 from "../assets/visit_Image/BakSeungEun_5.png";
+import BakSeungEun_Visit_6 from "../assets/visit_Image/BakSeungEun_6.png";
+import BakSeungEun_Visit_7 from "../assets/visit_Image/BakSeungEun_7.png";
+import BakSeungEun_Visit_8 from "../assets/visit_Image/BakSeungEun_8.png";
+import SeoAReum_Visit_1 from "../assets/visit_Image/SeoAReum_1.png";
+import SeoAReum_Visit_2 from "../assets/visit_Image/SeoAReum_2.png";
+import SeoAReum_Visit_3 from "../assets/visit_Image/SeoAReum_3.png";
+import SeoAReum_Visit_4 from "../assets/visit_Image/SeoAReum_4.png";
+import SeoAReum_Visit_5 from "../assets/visit_Image/SeoAReum_5.png";
+import SeoAReum_Visit_6 from "../assets/visit_Image/SeoAReum_6.png";
+import SeoAReum_Visit_7 from "../assets/visit_Image/SeoAReum_7.png";
+import SeoAReum_Visit_8 from "../assets/visit_Image/SeoAReum_8.png";
+import ShinDongYeop_Visit_1 from "../assets/visit_Image/ShinDongYeop_1.png";
+import ShinDongYeop_Visit_2 from "../assets/visit_Image/ShinDongYeop_2.png";
+import ShinDongYeop_Visit_3 from "../assets/visit_Image/ShinDongYeop_3.png";
+import ShinDongYeop_Visit_4 from "../assets/visit_Image/ShinDongYeop_4.png";
+import ShinDongYeop_Visit_5 from "../assets/visit_Image/ShinDongYeop_5.png";
+import ShinDongYeop_Visit_6 from "../assets/visit_Image/ShinDongYeop_6.png";
+import ShinDongYeop_Visit_7 from "../assets/visit_Image/ShinDongYeop_7.png";
+import ShinDongYeop_Visit_8 from "../assets/visit_Image/ShinDongYeop_8.png";
+import ShinJiWoo_Visit_1 from "../assets/visit_Image/ShinJiWoo_1.png";
+import ShinJiWoo_Visit_2 from "../assets/visit_Image/ShinJiWoo_2.png";
+import ShinJiWoo_Visit_3 from "../assets/visit_Image/ShinJiWoo_3.png";
+import ShinJiWoo_Visit_4 from "../assets/visit_Image/ShinJiWoo_4.png";
+import ShinJiWoo_Visit_5 from "../assets/visit_Image/ShinJiWoo_5.png";
+import ShinJiWoo_Visit_6 from "../assets/visit_Image/ShinJiWoo_6.png";
+import ShinJiWoo_Visit_7 from "../assets/visit_Image/ShinJiWoo_7.png";
+import ShinJiWoo_Visit_8 from "../assets/visit_Image/ShinJiWoo_8.png";
+import SimMinSeop_Visit_1 from "../assets/visit_Image/SimMinSeop_1.png";
+import SimMinSeop_Visit_2 from "../assets/visit_Image/SimMinSeop_2.png";
+import SimMinSeop_Visit_3 from "../assets/visit_Image/SimMinSeop_3.png";
+import SimMinSeop_Visit_4 from "../assets/visit_Image/SimMinSeop_4.png";
+import SimMinSeop_Visit_5 from "../assets/visit_Image/SimMinSeop_5.png";
+import SimMinSeop_Visit_6 from "../assets/visit_Image/SimMinSeop_6.png";
+import SimMinSeop_Visit_7 from "../assets/visit_Image/SimMinSeop_7.png";
+import SimMinSeop_Visit_8 from "../assets/visit_Image/SimMinSeop_8.png";
+import AnMyoungJi_Visit_1 from "../assets/visit_Image/AnMyoungJi_1.png";
+import AnMyoungJi_Visit_2 from "../assets/visit_Image/AnMyoungJi_2.png";
+import AnMyoungJi_Visit_3 from "../assets/visit_Image/AnMyoungJi_3.png";
+import AnMyoungJi_Visit_4 from "../assets/visit_Image/AnMyoungJi_4.png";
+import AnMyoungJi_Visit_5 from "../assets/visit_Image/AnMyoungJi_5.png";
+import AnMyoungJi_Visit_6 from "../assets/visit_Image/AnMyoungJi_6.png";
+import AnMyoungJi_Visit_7 from "../assets/visit_Image/AnMyoungJi_7.png";
+import AnMyoungJi_Visit_8 from "../assets/visit_Image/AnMyoungJi_8.png";
+import YangJiWon_Visit_1 from "../assets/visit_Image/YangJiWon_1.png";
+import YangJiWon_Visit_2 from "../assets/visit_Image/YangJiWon_2.png";
+import YangJiWon_Visit_3 from "../assets/visit_Image/YangJiWon_3.png";
+import YangJiWon_Visit_4 from "../assets/visit_Image/YangJiWon_4.png";
+import YangJiWon_Visit_5 from "../assets/visit_Image/YangJiWon_5.png";
+import YangJiWon_Visit_6 from "../assets/visit_Image/YangJiWon_6.png";
+import YangJiWon_Visit_7 from "../assets/visit_Image/YangJiWon_7.png";
+import YangJiWon_Visit_8 from "../assets/visit_Image/YangJiWon_8.png";
+import YangHyeSeon_Visit_1 from "../assets/visit_Image/YangHyeSeon_1.png";
+import YangHyeSeon_Visit_2 from "../assets/visit_Image/YangHyeSeon_2.png";
+import YangHyeSeon_Visit_3 from "../assets/visit_Image/YangHyeSeon_3.png";
+import YangHyeSeon_Visit_4 from "../assets/visit_Image/YangHyeSeon_4.png";
+import YangHyeSeon_Visit_5 from "../assets/visit_Image/YangHyeSeon_5.png";
+import YangHyeSeon_Visit_6 from "../assets/visit_Image/YangHyeSeon_6.png";
+import YangHyeSeon_Visit_7 from "../assets/visit_Image/YangHyeSeon_7.png";
+import YangHyeSeon_Visit_8 from "../assets/visit_Image/YangHyeSeon_8.png";
+import WonHanJu_Visit_1 from "../assets/visit_Image/WonHanJu_1.png";
+import WonHanJu_Visit_2 from "../assets/visit_Image/WonHanJu_2.png";
+import WonHanJu_Visit_3 from "../assets/visit_Image/WonHanJu_3.png";
+import WonHanJu_Visit_4 from "../assets/visit_Image/WonHanJu_4.png";
+import WonHanJu_Visit_5 from "../assets/visit_Image/WonHanJu_5.png";
+import WonHanJu_Visit_6 from "../assets/visit_Image/WonHanJu_6.png";
+import WonHanJu_Visit_7 from "../assets/visit_Image/WonHanJu_7.png";
+import WonHanJu_Visit_8 from "../assets/visit_Image/WonHanJu_8.png";
+import YooDongJae_Visit_1 from "../assets/visit_Image/YooDongJae_1.png";
+import YooDongJae_Visit_2 from "../assets/visit_Image/YooDongJae_2.png";
+import YooDongJae_Visit_3 from "../assets/visit_Image/YooDongJae_3.png";
+import YooDongJae_Visit_4 from "../assets/visit_Image/YooDongJae_4.png";
+import YooDongJae_Visit_5 from "../assets/visit_Image/YooDongJae_5.png";
+import YooDongJae_Visit_6 from "../assets/visit_Image/YooDongJae_6.png";
+import YooDongJae_Visit_7 from "../assets/visit_Image/YooDongJae_7.png";
+import YooDongJae_Visit_8 from "../assets/visit_Image/YooDongJae_8.png";
+import YuAJung_Visit_1 from "../assets/visit_Image/YuAJung_1.png";
+import YuAJung_Visit_2 from "../assets/visit_Image/YuAJung_2.png";
+import YuAJung_Visit_3 from "../assets/visit_Image/YuAJung_3.png";
+import YuAJung_Visit_4 from "../assets/visit_Image/YuAJung_4.png";
+import YuAJung_Visit_5 from "../assets/visit_Image/YuAJung_5.png";
+import YuAJung_Visit_6 from "../assets/visit_Image/YuAJung_6.png";
+import YuAJung_Visit_7 from "../assets/visit_Image/YuAJung_7.png";
+import YuAJung_Visit_8 from "../assets/visit_Image/YuAJung_8.png";
+import YuJiHui_Visit_1 from "../assets/visit_Image/YuJiHui_1.png";
+import YuJiHui_Visit_2 from "../assets/visit_Image/YuJiHui_2.png";
+import YuJiHui_Visit_3 from "../assets/visit_Image/YuJiHui_3.png";
+import YuJiHui_Visit_4 from "../assets/visit_Image/YuJiHui_4.png";
+import YuJiHui_Visit_5 from "../assets/visit_Image/YuJiHui_5.png";
+import YuJiHui_Visit_6 from "../assets/visit_Image/YuJiHui_6.png";
+import YuJiHui_Visit_7 from "../assets/visit_Image/YuJiHui_7.png";
+import YuJiHui_Visit_8 from "../assets/visit_Image/YuJiHui_8.png";
+import LeeJongWon_Visit_1 from "../assets/visit_Image/LeeJongWon_1.png";
+import LeeJongWon_Visit_2 from "../assets/visit_Image/LeeJongWon_2.png";
+import LeeJongWon_Visit_3 from "../assets/visit_Image/LeeJongWon_3.png";
+import LeeJongWon_Visit_4 from "../assets/visit_Image/LeeJongWon_4.png";
+import LeeJongWon_Visit_5 from "../assets/visit_Image/LeeJongWon_5.png";
+import LeeJongWon_Visit_6 from "../assets/visit_Image/LeeJongWon_6.png";
+import LeeJongWon_Visit_7 from "../assets/visit_Image/LeeJongWon_7.png";
+import LeeJongWon_Visit_8 from "../assets/visit_Image/LeeJongWon_8.png";
+import LeeHongKyu_Visit_1 from "../assets/visit_Image/LeeHongKyu_1.png";
+import LeeHongKyu_Visit_2 from "../assets/visit_Image/LeeHongKyu_2.png";
+import LeeHongKyu_Visit_3 from "../assets/visit_Image/LeeHongKyu_3.png";
+import LeeHongKyu_Visit_4 from "../assets/visit_Image/LeeHongKyu_4.png";
+import LeeHongKyu_Visit_5 from "../assets/visit_Image/LeeHongKyu_5.png";
+import LeeHongKyu_Visit_6 from "../assets/visit_Image/LeeHongKyu_6.png";
+import LeeHongKyu_Visit_7 from "../assets/visit_Image/LeeHongKyu_7.png";
+import LeeHongKyu_Visit_8 from "../assets/visit_Image/LeeHongKyu_8.png";
+import JangSeoJin_Visit_1 from "../assets/visit_Image/JangSeoJin_1.png";
+import JangSeoJin_Visit_2 from "../assets/visit_Image/JangSeoJin_2.png";
+import JangSeoJin_Visit_3 from "../assets/visit_Image/JangSeoJin_3.png";
+import JangSeoJin_Visit_4 from "../assets/visit_Image/JangSeoJin_4.png";
+import JangSeoJin_Visit_5 from "../assets/visit_Image/JangSeoJin_5.png";
+import JangSeoJin_Visit_6 from "../assets/visit_Image/JangSeoJin_6.png";
+import JangSeoJin_Visit_7 from "../assets/visit_Image/JangSeoJin_7.png";
+import JangSeoJin_Visit_8 from "../assets/visit_Image/JangSeoJin_8.png";
+import JunSeWon_Visit_1 from "../assets/visit_Image/JunSeWon_1.png";
+import JunSeWon_Visit_2 from "../assets/visit_Image/JunSeWon_2.png";
+import JunSeWon_Visit_3 from "../assets/visit_Image/JunSeWon_3.png";
+import JunSeWon_Visit_4 from "../assets/visit_Image/JunSeWon_4.png";
+import JunSeWon_Visit_5 from "../assets/visit_Image/JunSeWon_5.png";
+import JunSeWon_Visit_6 from "../assets/visit_Image/JunSeWon_6.png";
+import JunSeWon_Visit_7 from "../assets/visit_Image/JunSeWon_7.png";
+import JunSeWon_Visit_8 from "../assets/visit_Image/JunSeWon_8.png";
+import JuYoonWoo_Visit_1 from "../assets/visit_Image/JuYoonWoo_1.png";
+import JuYoonWoo_Visit_2 from "../assets/visit_Image/JuYoonWoo_2.png";
+import JuYoonWoo_Visit_3 from "../assets/visit_Image/JuYoonWoo_3.png";
+import JuYoonWoo_Visit_4 from "../assets/visit_Image/JuYoonWoo_4.png";
+import JuYoonWoo_Visit_5 from "../assets/visit_Image/JuYoonWoo_5.png";
+import JuYoonWoo_Visit_6 from "../assets/visit_Image/JuYoonWoo_6.png";
+import JuYoonWoo_Visit_7 from "../assets/visit_Image/JuYoonWoo_7.png";
+import JuYoonWoo_Visit_8 from "../assets/visit_Image/JuYoonWoo_8.png";
+import ChoiDaIn_Visit_1 from "../assets/visit_Image/ChoiDaIn_1.png";
+import ChoiDaIn_Visit_2 from "../assets/visit_Image/ChoiDaIn_2.png";
+import ChoiDaIn_Visit_3 from "../assets/visit_Image/ChoiDaIn_3.png";
+import ChoiDaIn_Visit_4 from "../assets/visit_Image/ChoiDaIn_4.png";
+import ChoiDaIn_Visit_5 from "../assets/visit_Image/ChoiDaIn_5.png";
+import ChoiDaIn_Visit_6 from "../assets/visit_Image/ChoiDaIn_6.png";
+import ChoiDaIn_Visit_7 from "../assets/visit_Image/ChoiDaIn_7.png";
+import ChoiDaIn_Visit_8 from "../assets/visit_Image/ChoiDaIn_8.png";
+import ChoiJaeHo_Visit_1 from "../assets/visit_Image/ChoiJaeHo_1.png";
+import ChoiJaeHo_Visit_2 from "../assets/visit_Image/ChoiJaeHo_2.png";
+import ChoiJaeHo_Visit_3 from "../assets/visit_Image/ChoiJaeHo_3.png";
+import ChoiJaeHo_Visit_4 from "../assets/visit_Image/ChoiJaeHo_4.png";
+import ChoiJaeHo_Visit_5 from "../assets/visit_Image/ChoiJaeHo_5.png";
+import ChoiJaeHo_Visit_6 from "../assets/visit_Image/ChoiJaeHo_6.png";
+import ChoiJaeHo_Visit_7 from "../assets/visit_Image/ChoiJaeHo_7.png";
+import ChoiJaeHo_Visit_8 from "../assets/visit_Image/ChoiJaeHo_8.png";
+import HwangJuHyeok_Visit_1 from "../assets/visit_Image/HwangJuHyeok_1.png";
+import HwangJuHyeok_Visit_2 from "../assets/visit_Image/HwangJuHyeok_2.png";
+import HwangJuHyeok_Visit_3 from "../assets/visit_Image/HwangJuHyeok_3.png";
+import HwangJuHyeok_Visit_4 from "../assets/visit_Image/HwangJuHyeok_4.png";
+import HwangJuHyeok_Visit_5 from "../assets/visit_Image/HwangJuHyeok_5.png";
+import HwangJuHyeok_Visit_6 from "../assets/visit_Image/HwangJuHyeok_6.png";
+import HwangJuHyeok_Visit_7 from "../assets/visit_Image/HwangJuHyeok_7.png";
+import HwangJuHyeok_Visit_8 from "../assets/visit_Image/HwangJuHyeok_8.png";
+// import HongDongYoung_Visit_1 from "../assets/visit_Image/HongDongYoung_1.png";
+// import HongDongYoung_Visit_2 from "../assets/visit_Image/HongDongYoung_2.png";
+// import HongDongYoung_Visit_3 from "../assets/visit_Image/HongDongYoung_3.png";
+// import HongDongYoung_Visit_4 from "../assets/visit_Image/HongDongYoung_4.png";
+// import HongDongYoung_Visit_5 from "../assets/visit_Image/HongDongYoung_5.png";
+// import HongDongYoung_Visit_6 from "../assets/visit_Image/HongDongYoung_6.png";
+// import HongDongYoung_Visit_7 from "../assets/visit_Image/HongDongYoung_7.png";
+// import HongDongYoung_Visit_8 from "../assets/visit_Image/HongDongYoung_8.png";
+import KwonJiHye_Visit_1 from "../assets/visit_Image/KwonJiHye_1.png";
+import KwonJiHye_Visit_2 from "../assets/visit_Image/KwonJiHye_2.png";
+import KwonJiHye_Visit_3 from "../assets/visit_Image/KwonJiHye_3.png";
+import KwonJiHye_Visit_4 from "../assets/visit_Image/KwonJiHye_4.png";
+import KwonJiHye_Visit_5 from "../assets/visit_Image/KwonJiHye_5.png";
+import KwonJiHye_Visit_6 from "../assets/visit_Image/KwonJiHye_6.png";
+import KwonJiHye_Visit_7 from "../assets/visit_Image/KwonJiHye_7.png";
+import KwonJiHye_Visit_8 from "../assets/visit_Image/KwonJiHye_8.png";
+import KimMinJi_Visit_1 from "../assets/visit_Image/KimMinJi_1.png";
+import KimMinJi_Visit_2 from "../assets/visit_Image/KimMinJi_2.png";
+import KimMinJi_Visit_3 from "../assets/visit_Image/KimMinJi_3.png";
+import KimMinJi_Visit_4 from "../assets/visit_Image/KimMinJi_4.png";
+import KimMinJi_Visit_5 from "../assets/visit_Image/KimMinJi_5.png";
+import KimMinJi_Visit_6 from "../assets/visit_Image/KimMinJi_6.png";
+import KimMinJi_Visit_7 from "../assets/visit_Image/KimMinJi_7.png";
+import KimMinJi_Visit_8 from "../assets/visit_Image/KimMinJi_8.png";
+import KimSeRyung_Visit_1 from "../assets/visit_Image/KimSeRyung_1.png";
+import KimSeRyung_Visit_2 from "../assets/visit_Image/KimSeRyung_2.png";
+import KimSeRyung_Visit_3 from "../assets/visit_Image/KimSeRyung_3.png";
+import KimSeRyung_Visit_4 from "../assets/visit_Image/KimSeRyung_4.png";
+import KimSeRyung_Visit_5 from "../assets/visit_Image/KimSeRyung_5.png";
+import KimSeRyung_Visit_6 from "../assets/visit_Image/KimSeRyung_6.png";
+import KimSeRyung_Visit_7 from "../assets/visit_Image/KimSeRyung_7.png";
+import KimSeRyung_Visit_8 from "../assets/visit_Image/KimSeRyung_8.png";
+import NamHyoMin_Visit_1 from "../assets/visit_Image/NamHyoMin_1.png";
+import NamHyoMin_Visit_2 from "../assets/visit_Image/NamHyoMin_2.png";
+import NamHyoMin_Visit_3 from "../assets/visit_Image/NamHyoMin_3.png";
+import NamHyoMin_Visit_4 from "../assets/visit_Image/NamHyoMin_4.png";
+import NamHyoMin_Visit_5 from "../assets/visit_Image/NamHyoMin_5.png";
+import NamHyoMin_Visit_6 from "../assets/visit_Image/NamHyoMin_6.png";
+import NamHyoMin_Visit_7 from "../assets/visit_Image/NamHyoMin_7.png";
+import NamHyoMin_Visit_8 from "../assets/visit_Image/NamHyoMin_8.png";
+import ParkChangZun_Visit_1 from "../assets/visit_Image/ParkChangZun_1.png";
+import ParkChangZun_Visit_2 from "../assets/visit_Image/ParkChangZun_2.png";
+import ParkChangZun_Visit_3 from "../assets/visit_Image/ParkChangZun_3.png";
+import ParkChangZun_Visit_4 from "../assets/visit_Image/ParkChangZun_4.png";
+import ParkChangZun_Visit_5 from "../assets/visit_Image/ParkChangZun_5.png";
+import ParkChangZun_Visit_6 from "../assets/visit_Image/ParkChangZun_6.png";
+import ParkChangZun_Visit_7 from "../assets/visit_Image/ParkChangZun_7.png";
+import ParkChangZun_Visit_8 from "../assets/visit_Image/ParkChangZun_8.png";
+import SeoHeeJu_Visit_1 from "../assets/visit_Image/SeoHeeJu_1.png";
+import SeoHeeJu_Visit_2 from "../assets/visit_Image/SeoHeeJu_2.png";
+import SeoHeeJu_Visit_3 from "../assets/visit_Image/SeoHeeJu_3.png";
+import SeoHeeJu_Visit_4 from "../assets/visit_Image/SeoHeeJu_4.png";
+import SeoHeeJu_Visit_5 from "../assets/visit_Image/SeoHeeJu_5.png";
+import SeoHeeJu_Visit_6 from "../assets/visit_Image/SeoHeeJu_6.png";
+import SeoHeeJu_Visit_7 from "../assets/visit_Image/SeoHeeJu_7.png";
+import SeoHeeJu_Visit_8 from "../assets/visit_Image/SeoHeeJu_8.png";
+import OhGaYoung_Visit_1 from "../assets/visit_Image/OhGaYoung_1.png";
+import OhGaYoung_Visit_2 from "../assets/visit_Image/OhGaYoung_2.png";
+import OhGaYoung_Visit_3 from "../assets/visit_Image/OhGaYoung_3.png";
+import OhGaYoung_Visit_4 from "../assets/visit_Image/OhGaYoung_4.png";
+import OhGaYoung_Visit_5 from "../assets/visit_Image/OhGaYoung_5.png";
+import OhGaYoung_Visit_6 from "../assets/visit_Image/OhGaYoung_6.png";
+import OhGaYoung_Visit_7 from "../assets/visit_Image/OhGaYoung_7.png";
+import OhGaYoung_Visit_8 from "../assets/visit_Image/OhGaYoung_8.png";
+import YooJaeHyun_Visit_1 from "../assets/visit_Image/YooJaeHyun_1.png";
+import YooJaeHyun_Visit_2 from "../assets/visit_Image/YooJaeHyun_2.png";
+import YooJaeHyun_Visit_3 from "../assets/visit_Image/YooJaeHyun_3.png";
+import YooJaeHyun_Visit_4 from "../assets/visit_Image/YooJaeHyun_4.png";
+import YooJaeHyun_Visit_5 from "../assets/visit_Image/YooJaeHyun_5.png";
+import YooJaeHyun_Visit_6 from "../assets/visit_Image/YooJaeHyun_6.png";
+import YooJaeHyun_Visit_7 from "../assets/visit_Image/YooJaeHyun_7.png";
+import YooJaeHyun_Visit_8 from "../assets/visit_Image/YooJaeHyun_8.png";
+import LeeMinYoung_Visit_1 from "../assets/visit_Image/LeeMinYoung_1.png";
+import LeeMinYoung_Visit_2 from "../assets/visit_Image/LeeMinYoung_2.png";
+import LeeMinYoung_Visit_3 from "../assets/visit_Image/LeeMinYoung_3.png";
+import LeeMinYoung_Visit_4 from "../assets/visit_Image/LeeMinYoung_4.png";
+import LeeMinYoung_Visit_5 from "../assets/visit_Image/LeeMinYoung_5.png";
+import LeeMinYoung_Visit_6 from "../assets/visit_Image/LeeMinYoung_6.png";
+import LeeMinYoung_Visit_7 from "../assets/visit_Image/LeeMinYoung_7.png";
+import LeeMinYoung_Visit_8 from "../assets/visit_Image/LeeMinYoung_8.png";
+import LeeSoYun_Visit_1 from "../assets/visit_Image/LeeSoYun_1.png";
+import LeeSoYun_Visit_2 from "../assets/visit_Image/LeeSoYun_2.png";
+import LeeSoYun_Visit_3 from "../assets/visit_Image/LeeSoYun_3.png";
+import LeeSoYun_Visit_4 from "../assets/visit_Image/LeeSoYun_4.png";
+import LeeSoYun_Visit_5 from "../assets/visit_Image/LeeSoYun_5.png";
+import LeeSoYun_Visit_6 from "../assets/visit_Image/LeeSoYun_6.png";
+import LeeSoYun_Visit_7 from "../assets/visit_Image/LeeSoYun_7.png";
+import LeeSoYun_Visit_8 from "../assets/visit_Image/LeeSoYun_8.png";
+import LeeYuJin_Visit_1 from "../assets/visit_Image/LeeYuJin_1.png";
+import LeeYuJin_Visit_2 from "../assets/visit_Image/LeeYuJin_2.png";
+import LeeYuJin_Visit_3 from "../assets/visit_Image/LeeYuJin_3.png";
+import LeeYuJin_Visit_4 from "../assets/visit_Image/LeeYuJin_4.png";
+import LeeYuJin_Visit_5 from "../assets/visit_Image/LeeYuJin_5.png";
+import LeeYuJin_Visit_6 from "../assets/visit_Image/LeeYuJin_6.png";
+import LeeYuJin_Visit_7 from "../assets/visit_Image/LeeYuJin_7.png";
+import LeeYuJin_Visit_8 from "../assets/visit_Image/LeeYuJin_8.png";
+import LimJungHa_Visit_1 from "../assets/visit_Image/LimJungHa_1.png";
+import LimJungHa_Visit_2 from "../assets/visit_Image/LimJungHa_2.png";
+import LimJungHa_Visit_3 from "../assets/visit_Image/LimJungHa_3.png";
+import LimJungHa_Visit_4 from "../assets/visit_Image/LimJungHa_4.png";
+import LimJungHa_Visit_5 from "../assets/visit_Image/LimJungHa_5.png";
+import LimJungHa_Visit_6 from "../assets/visit_Image/LimJungHa_6.png";
+import LimJungHa_Visit_7 from "../assets/visit_Image/LimJungHa_7.png";
+import LimJungHa_Visit_8 from "../assets/visit_Image/LimJungHa_8.png";
+import ImJinJu_Visit_1 from "../assets/visit_Image/ImJinJu_1.png";
+import ImJinJu_Visit_2 from "../assets/visit_Image/ImJinJu_2.png";
+import ImJinJu_Visit_3 from "../assets/visit_Image/ImJinJu_3.png";
+import ImJinJu_Visit_4 from "../assets/visit_Image/ImJinJu_4.png";
+import ImJinJu_Visit_5 from "../assets/visit_Image/ImJinJu_5.png";
+import ImJinJu_Visit_6 from "../assets/visit_Image/ImJinJu_6.png";
+import ImJinJu_Visit_7 from "../assets/visit_Image/ImJinJu_7.png";
+import ImJinJu_Visit_8 from "../assets/visit_Image/ImJinJu_8.png";
 export const navLinks = [
   {
     id: "about",
@@ -1975,47 +2302,416 @@ const VisitCardIamge = {
     KimGeonRyeong_Visit_7,
     KimGeonRyeong_Visit_8,
   ],
-  KimGoEun: [],
-  KimDongJun: [],
-  KimYaeJu: [],
-  KimYunHa: [],
-  KimJiHwan: [],
-  NamMinJi: [],
-  ParkChangMin: [],
-  BakSeungEun: [],
-  SeoAReum: [],
-  ShinDongYeop: [],
-  ShinJiWoo: [],
-  SimMinSeop: [],
-  AnMyoungJi: [],
-  YangJiWon: [],
-  YangHyeSeon: [],
-  WonHanJu: [],
-  YooDongJae: [],
-  YuAJung: [],
-  YuJiHui: [],
-  LeeJongWon: [],
-  LeeHongKyu: [],
-  JangSeoJin: [],
-  JunSeWon: [],
-  JuYoonWoo: [],
-  ChoiDaIn: [],
-  ChoiJaeHo: [],
-  HwangJuHyeok: [],
-  HongDongYoung: [],
-  KwonJiHye: [],
-  KimMinJi: [],
-  KimSeRyung: [],
-  NamHyoMin: [],
-  ParkChangZun: [],
-  SeoHeeJu: [],
-  OhGaYoung: [],
-  YooJaeHyun: [],
-  LeeMinYoung: [],
-  LeeSoYun: [],
-  LeeYuJin: [],
-  LimJungHa: [],
-  ImJinJu: [],
+  KimGoEun: [
+    KimGoEun_Visit_1,
+    KimGoEun_Visit_2,
+    KimGoEun_Visit_3,
+    KimGoEun_Visit_4,
+    KimGoEun_Visit_5,
+    KimGoEun_Visit_6,
+    KimGoEun_Visit_7,
+    KimGoEun_Visit_8,
+  ],
+  KimDongJun: [
+    KimDongJun_Visit_1,
+    KimDongJun_Visit_2,
+    KimDongJun_Visit_3,
+    KimDongJun_Visit_4,
+    KimDongJun_Visit_5,
+    KimDongJun_Visit_6,
+    KimDongJun_Visit_7,
+    KimDongJun_Visit_8,
+  ],
+  KimYaeJu: [
+    KimYaeJu_Visit_1,
+    KimYaeJu_Visit_2,
+    KimYaeJu_Visit_3,
+    KimYaeJu_Visit_4,
+    KimYaeJu_Visit_5,
+    KimYaeJu_Visit_6,
+    KimYaeJu_Visit_7,
+    KimYaeJu_Visit_8,
+  ],
+  KimYunHa: [
+    KimYunHa_Visit_1,
+    KimYunHa_Visit_2,
+    KimYunHa_Visit_3,
+    KimYunHa_Visit_4,
+    KimYunHa_Visit_5,
+    KimYunHa_Visit_6,
+    KimYunHa_Visit_7,
+    KimYunHa_Visit_8,
+  ],
+  KimJiHwan: [
+    KimJiHwan_Visit_1,
+    KimJiHwan_Visit_2,
+    KimJiHwan_Visit_3,
+    KimJiHwan_Visit_4,
+    KimJiHwan_Visit_5,
+    KimJiHwan_Visit_6,
+    KimJiHwan_Visit_7,
+    KimJiHwan_Visit_8,
+  ],
+  NamMinJi: [
+    NamMinJi_Visit_1,
+    NamMinJi_Visit_2,
+    NamMinJi_Visit_3,
+    NamMinJi_Visit_4,
+    NamMinJi_Visit_5,
+    NamMinJi_Visit_6,
+    NamMinJi_Visit_7,
+    NamMinJi_Visit_8,
+  ],
+  ParkChangMin: [
+    ParkChangMin_Visit_1,
+    ParkChangMin_Visit_2,
+    ParkChangMin_Visit_3,
+    ParkChangMin_Visit_4,
+    ParkChangMin_Visit_5,
+    ParkChangMin_Visit_6,
+    ParkChangMin_Visit_7,
+    ParkChangMin_Visit_8,
+  ],
+  BakSeungEun: [
+    BakSeungEun_Visit_1,
+    BakSeungEun_Visit_2,
+    BakSeungEun_Visit_3,
+    BakSeungEun_Visit_4,
+    BakSeungEun_Visit_5,
+    BakSeungEun_Visit_6,
+    BakSeungEun_Visit_7,
+    BakSeungEun_Visit_8,
+  ],
+  SeoAReum: [
+    SeoAReum_Visit_1,
+    SeoAReum_Visit_2,
+    SeoAReum_Visit_3,
+    SeoAReum_Visit_4,
+    SeoAReum_Visit_5,
+    SeoAReum_Visit_6,
+    SeoAReum_Visit_7,
+    SeoAReum_Visit_8,
+  ],
+  ShinDongYeop: [
+    ShinDongYeop_Visit_1,
+    ShinDongYeop_Visit_2,
+    ShinDongYeop_Visit_3,
+    ShinDongYeop_Visit_4,
+    ShinDongYeop_Visit_5,
+    ShinDongYeop_Visit_6,
+    ShinDongYeop_Visit_7,
+    ShinDongYeop_Visit_8,
+  ],
+  ShinJiWoo: [
+    ShinJiWoo_Visit_1,
+    ShinJiWoo_Visit_2,
+    ShinJiWoo_Visit_3,
+    ShinJiWoo_Visit_4,
+    ShinJiWoo_Visit_5,
+    ShinJiWoo_Visit_6,
+    ShinJiWoo_Visit_7,
+    ShinJiWoo_Visit_8,
+  ],
+  SimMinSeop: [
+    SimMinSeop_Visit_1,
+    SimMinSeop_Visit_2,
+    SimMinSeop_Visit_3,
+    SimMinSeop_Visit_4,
+    SimMinSeop_Visit_5,
+    SimMinSeop_Visit_6,
+    SimMinSeop_Visit_7,
+    SimMinSeop_Visit_8,
+  ],
+  AnMyoungJi: [
+    AnMyoungJi_Visit_1,
+    AnMyoungJi_Visit_2,
+    AnMyoungJi_Visit_3,
+    AnMyoungJi_Visit_4,
+    AnMyoungJi_Visit_5,
+    AnMyoungJi_Visit_6,
+    AnMyoungJi_Visit_7,
+    AnMyoungJi_Visit_8,
+  ],
+  YangJiWon: [
+    YangJiWon_Visit_1,
+    YangJiWon_Visit_2,
+    YangJiWon_Visit_3,
+    YangJiWon_Visit_4,
+    YangJiWon_Visit_5,
+    YangJiWon_Visit_6,
+    YangJiWon_Visit_7,
+    YangJiWon_Visit_8,
+  ],
+  YangHyeSeon: [
+    YangHyeSeon_Visit_1,
+    YangHyeSeon_Visit_2,
+    YangHyeSeon_Visit_3,
+    YangHyeSeon_Visit_4,
+    YangHyeSeon_Visit_5,
+    YangHyeSeon_Visit_6,
+    YangHyeSeon_Visit_7,
+    YangHyeSeon_Visit_8,
+  ],
+  WonHanJu: [
+    WonHanJu_Visit_1,
+    WonHanJu_Visit_2,
+    WonHanJu_Visit_3,
+    WonHanJu_Visit_4,
+    WonHanJu_Visit_5,
+    WonHanJu_Visit_6,
+    WonHanJu_Visit_7,
+    WonHanJu_Visit_8,
+  ],
+  YooDongJae: [
+    YooDongJae_Visit_1,
+    YooDongJae_Visit_2,
+    YooDongJae_Visit_3,
+    YooDongJae_Visit_4,
+    YooDongJae_Visit_5,
+    YooDongJae_Visit_6,
+    YooDongJae_Visit_7,
+    YooDongJae_Visit_8,
+  ],
+  YuAJung: [
+    YuAJung_Visit_1,
+    YuAJung_Visit_2,
+    YuAJung_Visit_3,
+    YuAJung_Visit_4,
+    YuAJung_Visit_5,
+    YuAJung_Visit_6,
+    YuAJung_Visit_7,
+    YuAJung_Visit_8,
+  ],
+  YuJiHui: [
+    YuJiHui_Visit_1,
+    YuJiHui_Visit_2,
+    YuJiHui_Visit_3,
+    YuJiHui_Visit_4,
+    YuJiHui_Visit_5,
+    YuJiHui_Visit_6,
+    YuJiHui_Visit_7,
+    YuJiHui_Visit_8,
+  ],
+  LeeJongWon: [
+    LeeJongWon_Visit_1,
+    LeeJongWon_Visit_2,
+    LeeJongWon_Visit_3,
+    LeeJongWon_Visit_4,
+    LeeJongWon_Visit_5,
+    LeeJongWon_Visit_6,
+    LeeJongWon_Visit_7,
+    LeeJongWon_Visit_8,
+  ],
+  LeeHongKyu: [
+    LeeHongKyu_Visit_1,
+    LeeHongKyu_Visit_2,
+    LeeHongKyu_Visit_3,
+    LeeHongKyu_Visit_4,
+    LeeHongKyu_Visit_5,
+    LeeHongKyu_Visit_6,
+    LeeHongKyu_Visit_7,
+    LeeHongKyu_Visit_8,
+  ],
+  JangSeoJin: [
+    JangSeoJin_Visit_1,
+    JangSeoJin_Visit_2,
+    JangSeoJin_Visit_3,
+    JangSeoJin_Visit_4,
+    JangSeoJin_Visit_5,
+    JangSeoJin_Visit_6,
+    JangSeoJin_Visit_7,
+    JangSeoJin_Visit_8,
+  ],
+  JunSeWon: [
+    JunSeWon_Visit_1,
+    JunSeWon_Visit_2,
+    JunSeWon_Visit_3,
+    JunSeWon_Visit_4,
+    JunSeWon_Visit_5,
+    JunSeWon_Visit_6,
+    JunSeWon_Visit_7,
+    JunSeWon_Visit_8,
+  ],
+  JuYoonWoo: [
+    JuYoonWoo_Visit_1,
+    JuYoonWoo_Visit_2,
+    JuYoonWoo_Visit_3,
+    JuYoonWoo_Visit_4,
+    JuYoonWoo_Visit_5,
+    JuYoonWoo_Visit_6,
+    JuYoonWoo_Visit_7,
+    JuYoonWoo_Visit_8,
+  ],
+  ChoiDaIn: [
+    ChoiDaIn_Visit_1,
+    ChoiDaIn_Visit_2,
+    ChoiDaIn_Visit_3,
+    ChoiDaIn_Visit_4,
+    ChoiDaIn_Visit_5,
+    ChoiDaIn_Visit_6,
+    ChoiDaIn_Visit_7,
+    ChoiDaIn_Visit_8,
+  ],
+  ChoiJaeHo: [
+    ChoiJaeHo_Visit_1,
+    ChoiJaeHo_Visit_2,
+    ChoiJaeHo_Visit_3,
+    ChoiJaeHo_Visit_4,
+    ChoiJaeHo_Visit_5,
+    ChoiJaeHo_Visit_6,
+    ChoiJaeHo_Visit_7,
+    ChoiJaeHo_Visit_8,
+  ],
+  HwangJuHyeok: [
+    HwangJuHyeok_Visit_1,
+    HwangJuHyeok_Visit_2,
+    HwangJuHyeok_Visit_3,
+    HwangJuHyeok_Visit_4,
+    HwangJuHyeok_Visit_5,
+    HwangJuHyeok_Visit_6,
+    HwangJuHyeok_Visit_7,
+    HwangJuHyeok_Visit_8,
+  ],
+  // HongDongYoung: [
+  //   HongDongYoung_Visit_1,
+  //   HongDongYoung_Visit_2,
+  //   HongDongYoung_Visit_3,
+  //   HongDongYoung_Visit_4,
+  //   HongDongYoung_Visit_5,
+  //   HongDongYoung_Visit_6,
+  //   HongDongYoung_Visit_7,
+  //   HongDongYoung_Visit_8,
+  // ],
+  KwonJiHye: [
+    KwonJiHye_Visit_1,
+    KwonJiHye_Visit_2,
+    KwonJiHye_Visit_3,
+    KwonJiHye_Visit_4,
+    KwonJiHye_Visit_5,
+    KwonJiHye_Visit_6,
+    KwonJiHye_Visit_7,
+    KwonJiHye_Visit_8,
+  ],
+  KimMinJi: [
+    KimMinJi_Visit_1,
+    KimMinJi_Visit_2,
+    KimMinJi_Visit_3,
+    KimMinJi_Visit_4,
+    KimMinJi_Visit_5,
+    KimMinJi_Visit_6,
+    KimMinJi_Visit_7,
+    KimMinJi_Visit_8,
+  ],
+  KimSeRyung: [
+    KimSeRyung_Visit_1,
+    KimSeRyung_Visit_2,
+    KimSeRyung_Visit_3,
+    KimSeRyung_Visit_4,
+    KimSeRyung_Visit_5,
+    KimSeRyung_Visit_6,
+    KimSeRyung_Visit_7,
+    KimSeRyung_Visit_8,
+  ],
+  NamHyoMin: [
+    NamHyoMin_Visit_1,
+    NamHyoMin_Visit_2,
+    NamHyoMin_Visit_3,
+    NamHyoMin_Visit_4,
+    NamHyoMin_Visit_5,
+    NamHyoMin_Visit_6,
+    NamHyoMin_Visit_7,
+    NamHyoMin_Visit_8,
+  ],
+  ParkChangZun: [
+    ParkChangZun_Visit_1,
+    ParkChangZun_Visit_2,
+    ParkChangZun_Visit_3,
+    ParkChangZun_Visit_4,
+    ParkChangZun_Visit_5,
+    ParkChangZun_Visit_6,
+    ParkChangZun_Visit_7,
+    ParkChangZun_Visit_8,
+  ],
+  SeoHeeJu: [
+    SeoHeeJu_Visit_1,
+    SeoHeeJu_Visit_2,
+    SeoHeeJu_Visit_3,
+    SeoHeeJu_Visit_4,
+    SeoHeeJu_Visit_5,
+    SeoHeeJu_Visit_6,
+    SeoHeeJu_Visit_7,
+    SeoHeeJu_Visit_8,
+  ],
+  OhGaYoung: [
+    OhGaYoung_Visit_1,
+    OhGaYoung_Visit_2,
+    OhGaYoung_Visit_3,
+    OhGaYoung_Visit_4,
+    OhGaYoung_Visit_5,
+    OhGaYoung_Visit_6,
+    OhGaYoung_Visit_7,
+    OhGaYoung_Visit_8,
+  ],
+  YooJaeHyun: [
+    YooJaeHyun_Visit_1,
+    YooJaeHyun_Visit_2,
+    YooJaeHyun_Visit_3,
+    YooJaeHyun_Visit_4,
+    YooJaeHyun_Visit_5,
+    YooJaeHyun_Visit_6,
+    YooJaeHyun_Visit_7,
+    YooJaeHyun_Visit_8,
+  ],
+  LeeMinYoung: [
+    LeeMinYoung_Visit_1,
+    LeeMinYoung_Visit_2,
+    LeeMinYoung_Visit_3,
+    LeeMinYoung_Visit_4,
+    LeeMinYoung_Visit_5,
+    LeeMinYoung_Visit_6,
+    LeeMinYoung_Visit_7,
+    LeeMinYoung_Visit_8,
+  ],
+  LeeSoYun: [
+    LeeSoYun_Visit_1,
+    LeeSoYun_Visit_2,
+    LeeSoYun_Visit_3,
+    LeeSoYun_Visit_4,
+    LeeSoYun_Visit_5,
+    LeeSoYun_Visit_6,
+    LeeSoYun_Visit_7,
+    LeeSoYun_Visit_8,
+  ],
+  LeeYuJin: [
+    LeeYuJin_Visit_1,
+    LeeYuJin_Visit_2,
+    LeeYuJin_Visit_3,
+    LeeYuJin_Visit_4,
+    LeeYuJin_Visit_5,
+    LeeYuJin_Visit_6,
+    LeeYuJin_Visit_7,
+    LeeYuJin_Visit_8,
+  ],
+  LimJungHa: [
+    LimJungHa_Visit_1,
+    LimJungHa_Visit_2,
+    LimJungHa_Visit_3,
+    LimJungHa_Visit_4,
+    LimJungHa_Visit_5,
+    LimJungHa_Visit_6,
+    LimJungHa_Visit_7,
+    LimJungHa_Visit_8,
+  ],
+  ImJinJu: [
+    ImJinJu_Visit_1,
+    ImJinJu_Visit_2,
+    ImJinJu_Visit_3,
+    ImJinJu_Visit_4,
+    ImJinJu_Visit_5,
+    ImJinJu_Visit_6,
+    ImJinJu_Visit_7,
+    ImJinJu_Visit_8,
+  ],
 };
 
 const IconImages = [
