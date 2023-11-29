@@ -14,6 +14,7 @@ import { toPng } from "html-to-image";
 import download from "downloadjs";
 import VisitText from "../assets/visit_Image/Visit_Text.png";
 import CardBottom from "../assets/visit_Image/Card_Bottom.png";
+import SmallHeader from "../components/SmallHeader";
 
 const DesignerName = {
   KimGeonRyeong: "김건령",
@@ -146,8 +147,7 @@ const Visit = () => {
       ) : (
         <div className="relative z-0 bg-[#101010]">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <Navbar blackColor={true} />
-
+            <SmallHeader blackColor={true} />
             <section
               ref={section1}
               className="relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
