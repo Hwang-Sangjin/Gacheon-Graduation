@@ -140,6 +140,10 @@ const Visit = () => {
     setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
   }, [selectedDesigner]);
 
+  useEffect(() => {
+    setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
+  }, [randomIndex]);
+
   return (
     <div>
       {loading ? (
@@ -150,7 +154,7 @@ const Visit = () => {
             <SmallHeader blackColor={true} />
             <section
               ref={section1}
-              className="relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+              className="bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
               <div className="text-[#FFFFFF] font-[Hack-Regular] text-6xl">
                 Kudos on your stellar <br />
@@ -169,7 +173,7 @@ const Visit = () => {
             </section>
             <section
               ref={section2}
-              className=" bg-[#101010] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+              className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
               <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
                 받는 사람의 이름이 무엇인가요?{" "}
@@ -188,7 +192,7 @@ const Visit = () => {
             </section>
             <section
               ref={section3}
-              className=" bg-[#101010] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+              className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
               <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
                 축하의 아이콘을 선택해 주세요.
@@ -210,7 +214,7 @@ const Visit = () => {
             </section>
             <section
               ref={section4}
-              className=" bg-[#101010] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+              className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
               <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
                 응원 메시지를 작성해 주세요.
@@ -239,7 +243,7 @@ const Visit = () => {
             </section>
             <section
               ref={section5}
-              className=" bg-[#000000] relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+              className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
             >
               <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
                 {name}님을 위한 축하카드를 만드는 중이에요.
@@ -255,7 +259,7 @@ const Visit = () => {
 
             <section
               ref={section6}
-              className=" bg-[#101010] justify-evenly relative flex  flex-row h-screen  sm:px-2 px-2 w-full  py-5 fixed top-0  items-center"
+              className={`bg-${randomIndex} justify-evenly relative flex  flex-row h-screen  sm:px-2 px-2 w-full  py-5 fixed top-0  items-center`}
             >
               <div className="flex items-center flex-col grow">
                 <div className="flex flex-1 text-[#FFFFFF] font-[Hack-Bold] text-3xl">

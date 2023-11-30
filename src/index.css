@@ -347,3 +347,30 @@ input:focus {
 * {
   cursor: none;
 } */
+.bg-0 {
+  background-image: url("/Visit/0.jpg");
+}
+.bg-1 {
+  background-image: url("/Visit/1.jpg");
+}
+.bg-2 {
+  background-image: url("/Visit/2.jpg");
+}
+.bg-3 {
+  background-image: url("/Visit/3.jpg");
+}
+.bg-4 {
+  background-image: url("/Visit/4.jpg");
+}
+.bg-5 {
+  background-image: url("/Visit/5.jpg");
+}
+.bg-6 {
+  background-image: url("/Visit/6.jpg");
+}
+.bg-7 {
+  background-image: url("/Visit/7.jpg");
+}
+.bg-visit {
+  background-image: url("/Visit/background.jpg");
+}
