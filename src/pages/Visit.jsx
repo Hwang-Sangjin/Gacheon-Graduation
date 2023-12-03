@@ -133,6 +133,7 @@ const Visit = () => {
 
   useEffect(() => {
     const Icon_Src_string = selectedIcon.toString().split("/");
+
     setSelectedDesigner(Icon_Src_string[4]);
   }, [selectedIcon]);
 
