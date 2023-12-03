@@ -364,6 +364,49 @@ import LimJungHa_Comment_c from "../assets/designer/LimJungHa/LimJungHa_Comment_
 import ImJinJu_Comment_c from "../assets/designer/ImJinJu/ImJinJu_Comment_c.png";
 import LeeSoYun_Comment_c from "../assets/designer/LeeSoYun/LeeSoYun_Comment_c.png";
 
+import KimGeonRyeong_Modal from "../assets/designer_modal/KimGeonRyeong.png";
+import KimGoEun_Modal from "../assets/designer_modal/KimGoEun.png";
+import KimDongJun_Modal from "../assets/designer_modal/KimDongJun.png";
+import KimYaeJu_Modal from "../assets/designer_modal/KimYaeJu.png";
+import KimYunHa_Modal from "../assets/designer_modal/KimYunHa.png";
+import KimJiHwan_Modal from "../assets/designer_modal/KimJiHwan.png";
+import NamMinJi_Modal from "../assets/designer_modal/NamMinJi.png";
+import ParkChangMin_Modal from "../assets/designer_modal/ParkChangMin.png";
+import BakSeungEun_Modal from "../assets/designer_modal/BakSeungEun.png";
+import SeoAReum_Modal from "../assets/designer_modal/SeoAReum.png";
+import ShinDongYeop_Modal from "../assets/designer_modal/ShinDongYeop.png";
+import ShinJiWoo_Modal from "../assets/designer_modal/ShinJiWoo.png";
+import SimMinSeop_Modal from "../assets/designer_modal/SimMinSeop.png";
+import AnMyoungJi_Modal from "../assets/designer_modal/AnMyoungJi.png";
+import YangJiWon_Modal from "../assets/designer_modal/YangJiWon.png";
+import YangHyeSeon_Modal from "../assets/designer_modal/YangHyeSeon.png";
+import WonHanJu_Modal from "../assets/designer_modal/WonHanJu.png";
+import YooDongJae_Modal from "../assets/designer_modal/YooDongJae.png";
+import YuAJung_Modal from "../assets/designer_modal/YuAJung.png";
+import YuJiHui_Modal from "../assets/designer_modal/YuJiHui.png";
+import LeeJongWon_Modal from "../assets/designer_modal/LeeJongWon.png";
+import LeeHongKyu_Modal from "../assets/designer_modal/LeeHongKyu.png";
+import JangSeoJin_Modal from "../assets/designer_modal/JangSeoJin.png";
+import JunSeWon_Modal from "../assets/designer_modal/JunSeWon.png";
+import JuYoonWoo_Modal from "../assets/designer_modal/JuYoonWoo.png";
+import ChoiDaIn_Modal from "../assets/designer_modal/ChoiDaIn.png";
+import ChoiJaeHo_Modal from "../assets/designer_modal/ChoiJaeHo.png";
+import HwangJuHyeok_Modal from "../assets/designer_modal/HwangJuHyeok.png";
+import HongDongYoung_Modal from "../assets/designer_modal/HongDongYoung.png";
+import KwonJiHye_Modal from "../assets/designer_modal/KwonJiHye.png";
+import KimMinJi_Modal from "../assets/designer_modal/KimMinJi.png";
+import KimSeRyung_Modal from "../assets/designer_modal/KimSeRyung.png";
+import NamHyoMin_Modal from "../assets/designer_modal/NamHyoMin.png";
+import ParkChangZun_Modal from "../assets/designer_modal/ParkChangZun.png";
+import SeoHeeJu_Modal from "../assets/designer_modal/SeoHeeJu.png";
+import OhGaYoung_Modal from "../assets/designer_modal/OhGaYoung.png";
+import YooJaeHyun_Modal from "../assets/designer_modal/YooJaeHyun.png";
+import LeeMinYoung_Modal from "../assets/designer_modal/LeeMinYoung.png";
+import LeeYuJin_Modal from "../assets/designer_modal/LeeYuJin.png";
+import LimJungHa_Modal from "../assets/designer_modal/LimJungHa.png";
+import ImJinJu_Modal from "../assets/designer_modal/ImJinJu.png";
+import LeeSoYun_Modal from "../assets/designer_modal/LeeSoYun.png";
+
 import InputImage from "../assets/about_card_image/Input.png";
 import LogImage from "../assets/about_card_image/Log.png";
 import OutputImage from "../assets/about_card_image/Output.png";
@@ -798,6 +841,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimGeonRyeong_Color,
     Image_Full: KimGeonRyeong_Full,
+    Image_Modal: KimGeonRyeong_Modal,
     Image_Icon: KimGeonRyeong_Icon,
     Image_Project_Product: KimGeonRyeong_Project1,
     Image_Project_Space: KimGeonRyeong_Project2,
@@ -821,6 +865,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimGoEun_Color,
     Image_Full: KimGoEun_Full,
+    Image_Modal: KimGoEun_Modal,
     Image_Icon: KimGoEun_Icon,
     Image_Project_Product: KimGoEun_Project1,
     Image_Project_Space: KimGoEun_Project2,
@@ -844,6 +889,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimDongJun_Color,
     Image_Full: KimDongJun_Full,
+    Image_Modal: KimDongJun_Modal,
     Image_Icon: KimDongJun_Icon,
     Image_Project_Product: KimDongJun_Project1,
     Image_Project_Space: KimDongJun_Project2,
@@ -867,6 +913,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimYaeJu_Color,
     Image_Full: KimYaeJu_Full,
+    Image_Modal: KimYaeJu_Modal,
     Image_Icon: KimYaeJu_Icon,
     Image_Project_Product: KimYaeJu_Project1,
     Image_Project_Space: KimYaeJu_Project2,
@@ -890,6 +937,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimYunHa_Color,
     Image_Full: KimYunHa_Full,
+    Image_Modal: KimYunHa_Modal,
     Image_Icon: KimYunHa_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -913,6 +961,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimJiHwan_Color,
     Image_Full: KimJiHwan_Full,
+    Image_Modal: KimJiHwan_Modal,
     Image_Icon: KimJiHwan_Icon,
     Image_Project_Product: KimJiHwan_Project1,
     Image_Project_Space: KimJiHwan_Project2,
@@ -936,6 +985,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: NamMinJi_Color,
     Image_Full: NamMinJi_Full,
+    Image_Modal: NamMinJi_Modal,
     Image_Icon: NamMinJi_Icon,
     Image_Project_Product: NamMinJi_Project1,
     Image_Project_Space: NamMinJi_Project2,
@@ -959,6 +1009,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: ParkChangMin_Color,
     Image_Full: ParkChangMin_Full,
+    Image_Modal: ParkChangMin_Modal,
     Image_Icon: ParkChangMin_Icon,
     Image_Project_Product: "",
     Image_Project_Space: ParkChangMin_Project1,
@@ -982,6 +1033,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: BakSeungEun_Color,
     Image_Full: BakSeungEun_Full,
+    Image_Modal: BakSeungEun_Modal,
     Image_Icon: BakSeungEun_Icon,
     Image_Project_Product: BakSeungEun_Project1,
     Image_Project_Space: BakSeungEun_Project2,
@@ -1004,6 +1056,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: SeoAReum_Color,
     Image_Full: SeoAReum_Full,
+    Image_Modal: SeoAReum_Modal,
     Image_Icon: SeoAReum_Icon,
     Image_Project_Product: SeoAReum_Project1,
     Image_Project_Space: SeoAReum_Project2,
@@ -1027,6 +1080,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: ShinDongYeop_Color,
     Image_Full: ShinDongYeop_Full,
+    Image_Modal: ShinDongYeop_Modal,
     Image_Icon: ShinDongYeop_Icon,
     Image_Project_Product: ShinDongYeop_Project1,
     Image_Project_Space: ShinDongYeop_Project2,
@@ -1050,6 +1104,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: ShinJiWoo_Color,
     Image_Full: ShinJiWoo_Full,
+    Image_Modal: ShinJiWoo_Modal,
     Image_Icon: ShinJiWoo_Icon,
     Image_Project_Product: ShinJiWoo_Project1,
     Image_Project_Space: ShinJiWoo_Project2,
@@ -1073,6 +1128,7 @@ const DesignersData = {
     Link_Blog: "https://www.owlfactory.co.kr/",
     Image_Color: SimMinSeop_Color,
     Image_Full: SimMinSeop_Full,
+    Image_Modal: SimMinSeop_Modal,
     Image_Icon: SimMinSeop_Icon,
     Image_Project_Product: SimMinSeop_Project1,
     Image_Project_Space: SimMinSeop_Project2,
@@ -1096,6 +1152,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: AnMyoungJi_Color,
     Image_Full: AnMyoungJi_Full,
+    Image_Modal: AnMyoungJi_Modal,
     Image_Icon: AnMyoungJi_Icon,
     Image_Project_Product: AnMyoungJi_Project1,
     Image_Project_Space: AnMyoungJi_Project2,
@@ -1118,6 +1175,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: YangJiWon_Color,
     Image_Full: YangJiWon_Full,
+    Image_Modal: YangJiWon_Modal,
     Image_Icon: YangJiWon_Icon,
     Image_Project_Product: YangJiWon_Project1,
     Image_Project_Space: YangJiWon_Project2,
@@ -1141,6 +1199,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: YangHyeSeon_Color,
     Image_Full: YangHyeSeon_Full,
+    Image_Modal: YangHyeSeon_Modal,
     Image_Icon: YangHyeSeon_Icon,
     Image_Project_Product: YangHyeSeon_Project1,
     Image_Project_Space: YangHyeSeon_Project2,
@@ -1164,6 +1223,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: WonHanJu_Color,
     Image_Full: WonHanJu_Full,
+    Image_Modal: WonHanJu_Modal,
     Image_Icon: WonHanJu_Icon,
     Image_Project_Product: WonHanJu_Project1,
     Image_Project_Space: WonHanJu_Project2,
@@ -1187,6 +1247,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: YooDongJae_Color,
     Image_Full: YooDongJae_Full,
+    Image_Modal: YooDongJae_Modal,
     Image_Icon: YooDongJae_Icon,
     Image_Project_Product: YooDongJae_Project1,
     Image_Project_Space: YooDongJae_Project2,
@@ -1210,6 +1271,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: YuAJung_Color,
     Image_Full: YuAJung_Full,
+    Image_Modal: YuAJung_Modal,
     Image_Icon: YuAJung_Icon,
     Image_Project_Product: YuAJung_Project1,
     Image_Project_Space: YuAJung_Project2,
@@ -1233,6 +1295,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: YuJiHui_Color,
     Image_Full: YuJiHui_Full,
+    Image_Modal: YuJiHui_Modal,
     Image_Icon: YuJiHui_Icon,
     Image_Project_Product: YuJiHui_Project1,
     Image_Project_Space: YuJiHui_Project2,
@@ -1255,6 +1318,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: LeeJongWon_Color,
     Image_Full: LeeJongWon_Full,
+    Image_Modal: LeeJongWon_Modal,
     Image_Icon: LeeJongWon_Icon,
     Image_Project_Product: LeeJongWon_Project1,
     Image_Project_Space: LeeJongWon_Project2,
@@ -1278,6 +1342,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: LeeHongKyu_Color,
     Image_Full: LeeHongKyu_Full,
+    Image_Modal: LeeHongKyu_Modal,
     Image_Icon: LeeHongKyu_Icon,
     Image_Project_Product: LeeHongKyu_Project1,
     Image_Project_Space: LeeHongKyu_Project2,
@@ -1301,6 +1366,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: JangSeoJin_Color,
     Image_Full: JangSeoJin_Full,
+    Image_Modal: JangSeoJin_Modal,
     Image_Icon: JangSeoJin_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1324,6 +1390,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: JunSeWon_Color,
     Image_Full: JunSeWon_Full,
+    Image_Modal: JunSeWon_Modal,
     Image_Icon: JunSeWon_Icon,
     Image_Project_Product: JunSeWon_Project1,
     Image_Project_Space: JunSeWon_Project2,
@@ -1347,6 +1414,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: JuYoonWoo_Color,
     Image_Full: JuYoonWoo_Full,
+    Image_Modal: JuYoonWoo_Modal,
     Image_Icon: JuYoonWoo_Icon,
     Image_Project_Product: JuYoonWoo_Project1,
     Image_Project_Space: JuYoonWoo_Project2,
@@ -1370,6 +1438,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: ChoiDaIn_Color,
     Image_Full: ChoiDaIn_Full,
+    Image_Modal: ChoiDaIn_Modal,
     Image_Icon: ChoiDaIn_Icon,
     Image_Project_Product: ChoiDaIn_Project1,
     Image_Project_Space: ChoiDaIn_Project2,
@@ -1393,6 +1462,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: ChoiJaeHo_Color,
     Image_Full: ChoiJaeHo_Full,
+    Image_Modal: ChoiJaeHo_Modal,
     Image_Icon: ChoiJaeHo_Icon,
     Image_Project_Product: ChoiJaeHo_Project1,
     Image_Project_Space: ChoiJaeHo_Project2,
@@ -1416,6 +1486,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: HwangJuHyeok_Color,
     Image_Full: HwangJuHyeok_Full,
+    Image_Modal: HwangJuHyeok_Modal,
     Image_Icon: HwangJuHyeok_Icon,
     Image_Project_Product: HwangJuHyeok_Project1,
     Image_Project_Space: HwangJuHyeok_Project2,
@@ -1439,6 +1510,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: HongDongYoung_Color,
     Image_Full: HongDongYoung_Full,
+    Image_Modal: HongDongYoung_Modal,
     Image_Icon: HongDongYoung_Icon,
     Image_Project_Product: HongDongYoung_Project1,
     Image_Project_Space: HongDongYoung_Project2,
@@ -1462,6 +1534,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KwonJiHye_Color,
     Image_Full: KwonJiHye_Full,
+    Image_Modal: KwonJiHye_Modal,
     Image_Icon: KwonJiHye_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1485,6 +1558,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimMinJi_Color,
     Image_Full: KimMinJi_Full,
+    Image_Modal: KimMinJi_Modal,
     Image_Icon: KimMinJi_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1508,6 +1582,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: KimSeRyung_Color,
     Image_Full: KimSeRyung_Full,
+    Image_Modal: KimSeRyung_Modal,
     Image_Icon: KimSeRyung_Icon,
     Image_Project_Product: "",
     Image_Project_Space: KimSeRyung_Project1,
@@ -1532,6 +1607,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: NamHyoMin_Color,
     Image_Full: NamHyoMin_Full,
+    Image_Modal: NamHyoMin_Modal,
     Image_Icon: NamHyoMin_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1554,6 +1630,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: ParkChangZun_Color,
     Image_Full: ParkChangZun_Full,
+    Image_Modal: ParkChangZun_Modal,
     Image_Icon: ParkChangZun_Icon,
     Image_Project_Product: ParkChangZun_Project1,
     Image_Project_Space: "",
@@ -1577,6 +1654,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: SeoHeeJu_Color,
     Image_Full: SeoHeeJu_Full,
+    Image_Modal: SeoHeeJu_Modal,
     Image_Icon: SeoHeeJu_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1600,6 +1678,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: OhGaYoung_Color,
     Image_Full: OhGaYoung_Full,
+    Image_Modal: OhGaYoung_Modal,
     Image_Icon: OhGaYoung_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1624,6 +1703,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: YooJaeHyun_Color,
     Image_Full: YooJaeHyun_Full,
+    Image_Modal: YooJaeHyun_Modal,
     Image_Icon: YooJaeHyun_Icon,
     Image_Project_Product: YooJaeHyun_Project1,
     Image_Project_Space: "",
@@ -1648,6 +1728,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: LeeMinYoung_Color,
     Image_Full: LeeMinYoung_Full,
+    Image_Modal: LeeMinYoung_Modal,
     Image_Icon: LeeMinYoung_Icon,
     Image_Project_Product: LeeMinYoung_Project1,
     Image_Project_Space: "",
@@ -1672,6 +1753,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: LeeSoYun_Color,
     Image_Full: LeeSoYun_FULL,
+    Image_Modal: LeeSoYun_Modal,
     Image_Icon: LeeSoYun_Icon,
     Image_Project_Product: "",
     Image_Project_Space: LeeSoYun_Project1,
@@ -1695,6 +1777,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: LeeYuJin_Color,
     Image_Full: LeeYuJin_Full,
+    Image_Modal: LeeYuJin_Modal,
     Image_Icon: LeeYuJin_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1719,6 +1802,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: LimJungHa_Color,
     Image_Full: LimJungHa_Full,
+    Image_Modal: LimJungHa_Modal,
     Image_Icon: LimJungHa_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",
@@ -1742,6 +1826,7 @@ const DesignersData = {
     Link_Blog: "",
     Image_Color: ImJinJu_Color,
     Image_Full: ImJinJu_Full,
+    Image_Modal: ImJinJu_Modal,
     Image_Icon: ImJinJu_Icon,
     Image_Project_Product: "",
     Image_Project_Space: "",

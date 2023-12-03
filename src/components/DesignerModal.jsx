@@ -26,8 +26,6 @@ const dropIn = {
 };
 
 const DesignerModal = ({ data }) => {
-  console.log(data);
-  console.log(data.Image_Project1 === "", data.Image_Project2 === "");
   return (
     <motion.div
       onClick={(e) => e.stopPropagation()}
