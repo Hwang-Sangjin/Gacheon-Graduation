@@ -103,7 +103,7 @@ const About = () => {
         <div className="relative z-0 bg-[#000000]">
           <Navbar blackColor={true} />
           <Controller>
-            <Scene duration="400%" triggerHook="onLeave" pin>
+            <Scene duration="100%" triggerHook="onLeave" pin>
               {(progress) => (
                 <div style={{ height: "100vh", position: "relative" }}>
                   <AboutImageSequence ref={ref} progress={progress} />

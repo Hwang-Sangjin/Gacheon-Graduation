@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Preloader from "./components/Preloader";
 import Personal from "./pages/Personal";
+import KimGeonRyeongProductPage from "./PersonalPage/Product/KimGeonRyeong-Product-Page";
 
 const router = createBrowserRouter([
   {
@@ -40,9 +41,9 @@ const router = createBrowserRouter([
     element: <Preloader />,
   },
   {
-    path: "/personal",
-    element: <Personal/>
-  }
+    path: "/KimGeonRyeongProduct",
+    element: <KimGeonRyeongProductPage />,
+  },
 ]);
 
 const App = () => {
