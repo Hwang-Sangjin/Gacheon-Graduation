@@ -32,10 +32,11 @@ const Main = () => {
         <Preloader />
       ) : (
         <div className="relative z-0 bg-[#000000] h-full">
+          <Navbar blackColor={true} />
           <Controller>
             <Scene
               className="scrollmagic-pin-spacer-main"
-              duration="100%"
+              duration="10000"
               triggerHook="onLeave"
               pin={{ pushFollowers: false }}
             >
@@ -46,7 +47,6 @@ const Main = () => {
               )}
             </Scene>
           </Controller>
-          <Navbar blackColor={true} />
           <div className="h-full w-full justify-center items-center">
             <img className="m-auto block mt-20" src={MainTitle} />
             <div className="grid grid-cols-2 sm:grid-cols-4 m-20 mx-48">

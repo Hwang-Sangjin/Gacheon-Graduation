@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 import { styles } from "../styles";
@@ -6,15 +6,41 @@ import { logo, menu, close, logo_white } from "../assets";
 import { navLinks } from "../constants";
 import Marquee from "react-fast-marquee";
 
-const Navbar = ({blackColor}) => {
+const Navbar = ({ blackColor }) => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const navigate = useNavigate();
+  const header = useRef();
 
-  return (
-    blackColor?
-    (<nav
-      className={`${styles.paddingX} w-full flex items-center py-8 sticky top-0 z-20 bg-[#101010]`}
+  let oldScrollY = 0;
+
+  const controlDirection = () => {
+    if (window.scrollY > oldScrollY) {
+      addClass();
+    } else {
+      removeClass();
+    }
+    oldScrollY = window.scrollY;
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlDirection);
+    return () => {
+      window.removeEventListener("scroll", controlDirection);
+    };
+  }, []);
+
+  function addClass() {
+    header.current.classList.add("-top-24");
+  }
+  function removeClass() {
+    header.current.classList.remove("-top-24");
+  }
+
+  return blackColor ? (
+    <nav
+      ref={header}
+      className={`transition-[height] ${styles.paddingX} w-full flex items-center py-8 fixed z-20 bg-[#000000] transition ease-in-out`}
     >
       <div className="w-full flex justify-between items-center px-2 sm:px-12 mx-auto">
         <img
@@ -26,7 +52,11 @@ const Navbar = ({blackColor}) => {
           }}
         />
         <div className="mx-5 hidden sm:flex sm:flex-[2_2_0%]">
-          <Marquee direction="right" speed={100} className="text-[#F3F3F3] tracking-wider font-['Hack-Regular']">
+          <Marquee
+            direction="right"
+            speed={100}
+            className="text-[#F3F3F3] tracking-wider font-['Hack-Regular']"
+          >
             2023 Gachon University Industrial Design Dept. Graduation Exhibition
           </Marquee>
         </div>
@@ -75,9 +105,10 @@ const Navbar = ({blackColor}) => {
           </div>
         </div>
       </div>
-    </nav>):
-    ( <nav
-      className={`${styles.paddingX} w-full flex items-center py-8 sticky top-0 z-20 bg-primary`}
+    </nav>
+  ) : (
+    <nav
+      className={`transition-[height] ${styles.paddingX} w-full flex items-center py-8 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center px-2 sm:px-12 mx-auto">
         <img
@@ -89,7 +120,11 @@ const Navbar = ({blackColor}) => {
           }}
         />
         <div className="mx-5 hidden sm:flex sm:flex-[2_2_0%]">
-          <Marquee direction="right" speed={100} className="tracking-wider font-['Hack-Regular']">
+          <Marquee
+            direction="right"
+            speed={100}
+            className="tracking-wider font-['Hack-Regular']"
+          >
             2023 Gachon University Industrial Design Dept. Graduation Exhibition
           </Marquee>
         </div>
@@ -138,7 +173,7 @@ const Navbar = ({blackColor}) => {
           </div>
         </div>
       </div>
-    </nav>)
+    </nav>
   );
 };
 

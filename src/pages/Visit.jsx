@@ -152,7 +152,7 @@ const Visit = () => {
       ) : (
         <div className="relative z-0 bg-[#101010]">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <SmallHeader blackColor={true} />
+            <Navbar blackColor={true} />
             <section
               ref={section1}
               className="bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"

@@ -1,6 +1,6 @@
 import KimGeonRyeong_Color from "../assets/designer/KimGeonRyeong/KimGeonRyeong_color.jpg";
 import KimGoEun_Color from "../assets/designer/KimGoEun/KimGoEun_color.jpg";
-import KimDongJun_Color from "../assets/designer/KimDongJun/KimDongJun_color.jpg";
+import KimDongJun_Color from "../assets/designer/KimDongJun/KimDongJun_Color.jpg";
 import KimYaeJu_Color from "../assets/designer/KimYaeJu/KimYaeJu_color.jpg";
 import KimYunHa_Color from "../assets/designer/KimYunHa/KimYunHa_color.jpg";
 import KimJiHwan_Color from "../assets/designer/KimJiHwan/KimJiHwan_color.jpg";
@@ -366,7 +366,7 @@ import LeeSoYun_Comment_c from "../assets/designer/LeeSoYun/LeeSoYun_Comment_c.p
 
 import KimGeonRyeong_Modal from "../assets/designer_modal/KimGeonRyeong.png";
 import KimGoEun_Modal from "../assets/designer_modal/KimGoEun.png";
-import KimDongJun_Modal from "../assets/designer_modal/KimDongJun.png";
+import KimDongJun_Modal from "../assets/designer/KimDongJun/KimDongJun.png";
 import KimYaeJu_Modal from "../assets/designer_modal/KimYaeJu.png";
 import KimYunHa_Modal from "../assets/designer_modal/KimYunHa.png";
 import KimJiHwan_Modal from "../assets/designer_modal/KimJiHwan.png";
