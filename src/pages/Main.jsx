@@ -35,7 +35,7 @@ const Main = () => {
           <Controller>
             <Scene
               className="scrollmagic-pin-spacer-main"
-              duration="400%"
+              duration="300%"
               triggerHook="onLeave"
               pin={{ pushFollowers: false }}
             >
