@@ -9,6 +9,7 @@ import Marquee from "react-fast-marquee";
 const Navbar = ({ blackColor }) => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [headerDown, setHeaderDown] = useState(true);
   const navigate = useNavigate();
   const header = useRef();
 
@@ -16,9 +17,9 @@ const Navbar = ({ blackColor }) => {
 
   const controlDirection = () => {
     if (window.scrollY > oldScrollY) {
-      addClass();
+      setHeaderDown(false);
     } else {
-      removeClass();
+      setHeaderDown(true);
     }
     oldScrollY = window.scrollY;
   };
@@ -30,17 +31,12 @@ const Navbar = ({ blackColor }) => {
     };
   }, []);
 
-  function addClass() {
-    header.current.classList.add("-top-24");
-  }
-  function removeClass() {
-    header.current.classList.remove("-top-24");
-  }
-
   return blackColor ? (
     <nav
       ref={header}
-      className={`transition-[height] ${styles.paddingX} w-full flex items-center py-8 fixed z-20 bg-[#000000] transition ease-in-out`}
+      className={`${styles.paddingX} ${
+        headerDown ? "top-0" : "-top-28"
+      } w-full flex items-center py-8 fixed z-20 bg-[#000000] duration-300 ease-in-out`}
     >
       <div className="w-full flex justify-between items-center px-2 sm:px-12 mx-auto">
         <img
@@ -108,7 +104,10 @@ const Navbar = ({ blackColor }) => {
     </nav>
   ) : (
     <nav
-      className={`transition-[height] ${styles.paddingX} w-full flex items-center py-8 fixed top-0 z-20 bg-primary`}
+      ref={header}
+      className={`${styles.paddingX} ${
+        headerDown ? "top-0" : "-top-28"
+      } w-full flex items-center py-8 fixed z-20 bg-primary duration-300 ease-in-out`}
     >
       <div className="w-full flex justify-between items-center px-2 sm:px-12 mx-auto">
         <img
