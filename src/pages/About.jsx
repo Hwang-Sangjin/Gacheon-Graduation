@@ -1,5 +1,4 @@
 import { Navbar } from "../components/index";
-import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { useState, useEffect, ref } from "react";
@@ -15,40 +14,12 @@ import About_1 from "../assets/about/About_1.png";
 import About_2 from "../assets/about/About_2.png";
 import About_3 from "../assets/about/about -2.png";
 import About_4 from "../assets/about/about-3.png";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
-const spring = {
-  type: "spring",
-  stiffness: 300,
-  damping: 40,
-};
-
-const About1 = () => {
-  return (
-    <TypeAnimation
-      sequence={[
-        "준비가 된 상태 (狀態)", // Types 'One'
-        2000, // Waits 1s
-        () => {},
-      ]}
-      wrapper="span"
-      cursor={true}
-      repeat={Infinity}
-    />
-  );
-};
-const About2 = () => {
-  return (
-    <TypeAnimation
-      sequence={[
-        "Steps of Prompt", // Types 'One'
-        2000, // Waits 1s
-        () => {},
-      ]}
-      wrapper="span"
-      cursor={true}
-      repeat={Infinity}
-    />
-  );
+const boxVariant = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  hidden: { opacity: 0, scale: 0 },
 };
 
 const ServiceCard = ({ index, Title, Image, Text }) => (
@@ -80,6 +51,31 @@ const ServiceCardBack = ({ index, Title, ImageBack, Text }) => (
   </Tilt>
 );
 
+const ImageCard = ({ imageSrc }) => {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
+  return (
+    <motion.div
+      className="box"
+      ref={ref}
+      variants={boxVariant}
+      initial="hidden"
+      animate={control}
+    >
+      <h1>Box {num} </h1>
+    </motion.div>
+  );
+};
+
 const About = () => {
   const [loading, setLoading] = useState(false);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -95,6 +91,7 @@ const About = () => {
       setLoading(false);
     }, 2000);
   }, []);
+
   return (
     <div>
       {loading ? (
