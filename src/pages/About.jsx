@@ -12,14 +12,14 @@ import { Tilt } from "react-tilt";
 import ReactCardFlip from "react-card-flip";
 import About_1 from "../assets/about/About_1.png";
 import About_2 from "../assets/about/About_2.png";
-import About_3 from "../assets/about/about -2.png";
+
 import About_4 from "../assets/about/about-3.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const boxVariant = {
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-  hidden: { opacity: 0, scale: 0 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.3 } },
+  hidden: { opacity: 0, scale: 0.5 },
 };
 
 const ServiceCard = ({ index, Title, Image, Text }) => (
@@ -65,13 +65,13 @@ const ImageCard = ({ imageSrc }) => {
 
   return (
     <motion.div
-      className="box"
+      className="flex flex-row flex-1 "
       ref={ref}
       variants={boxVariant}
       initial="hidden"
       animate={control}
     >
-      <h1>Box {num} </h1>
+      <img className="flex flex-row flex-1 " src={imageSrc} />
     </motion.div>
   );
 };
@@ -109,14 +109,18 @@ const About = () => {
             </Scene>
           </Controller>
           <div className="flex flex-row flex-1   bg-primary ">
-            <img src={About_1} />
+            <ImageCard imageSrc={About_1} />
           </div>
           <video controls loop>
-            <source src="./about_main.mp4" type="video/mp4" />
+            <source
+              className="flex flex-row flex-1 "
+              src="./about_main.mp4"
+              type="video/mp4"
+            />
           </video>
 
           <div className="flex flex-row flex-1 bg-[#000000] ">
-            <img src={About_2} />
+            <ImageCard imageSrc={About_2} />
           </div>
           <div className="px-12 mt-20 flex flex-wrap gap-12 justify-center align-center">
             {AboutCardData.map((service, index) => (
@@ -135,7 +139,7 @@ const About = () => {
               </ReactCardFlip>
             ))}
           </div>
-          <video muted autoPlay loop>
+          <video className="flex flex-row flex-1 " muted autoPlay loop>
             <source src="./about_gif.mp4" type="video/mp4" />
           </video>
           {AboutPictureImage.map((pic, index) => {
@@ -144,11 +148,10 @@ const About = () => {
                 <Tilt className="w-2/3 flex-3">
                   <img src={pic} key={index} />
                 </Tilt>
-
-                <img className="mt-20" src={About_4} />
+                <ImageCard className="mt-20" imageSrc={About_4} />
               </div>
             ) : (
-              <img className="" src={pic} key={index} />
+              <ImageCard imageSrc={pic} key={index} />
             );
           })}
         </div>
