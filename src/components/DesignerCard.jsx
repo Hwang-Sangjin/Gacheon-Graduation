@@ -36,7 +36,7 @@ const DesignerCard = ({ title, data, index }) => {
   const handleClose = () => setOpen(false);
 
   return (
-    <div className="w-full mb-8 mr-20">
+    <div className="md:w-[100%] mb-8 mr-56">
       <div className="h-[2rem] text-sm sm:text-3xl mb-4 font-['Hack-Bold']">
         {title}
       </div>
@@ -49,8 +49,8 @@ const DesignerCard = ({ title, data, index }) => {
           className="w-full rounded-[20px] "
           onClick={handleOpen}
         >
-          <div className=" sm:w-1/7 ">
-            <img className="designer-card " src={data.Image_Color} />
+          <div className="md:w-[100%] sm:w-1/7 ">
+            <img className="md:w-[90%] designer-card " src={data.Image_Color} />
           </div>
         </motion.div>
       </Tilt>
