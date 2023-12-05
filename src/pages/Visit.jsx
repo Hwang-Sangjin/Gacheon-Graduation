@@ -138,7 +138,9 @@ const Visit = () => {
   }, [selectedIcon]);
 
   useEffect(() => {
-    setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
+    if (VisitCardIamge[`${selectedDesigner}`] !== undefined) {
+      setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
+    }
   }, [selectedDesigner]);
 
   useEffect(() => {

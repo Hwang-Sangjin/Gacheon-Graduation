@@ -12,7 +12,6 @@ import { slideIn } from "../utils/motion";
 import EarthCanvas from "../components/Earth";
 import { Canvas } from "react-three-fiber";
 import { BoxGeometry, MeshStandardMaterial } from "three";
-import Main3D from "../components/Main3D";
 import MainTitle from "../assets/Main_Title.png";
 import { MainAllDesigners, DesignersData } from "../constants";
 import { Tilt } from "react-tilt";
