@@ -148,7 +148,7 @@ const About = () => {
                 <Tilt className="w-2/3 flex-3">
                   <img src={pic} key={index} />
                 </Tilt>
-                <ImageCard className="mt-20" imageSrc={About_4} />
+                <img className="mt-20" src={About_4} />
               </div>
             ) : (
               <ImageCard imageSrc={pic} key={index} />
