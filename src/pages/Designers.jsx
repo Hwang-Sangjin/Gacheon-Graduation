@@ -10,7 +10,6 @@ import MainProduct from "../components/MainProductDesigners";
 import SpaceDesigners from "../components/SpaceDesigners";
 import Preloader from "../components/Preloader";
 
-
 const Designers = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [loading, setLoading] = useState(false);
@@ -29,7 +28,7 @@ const Designers = () => {
       ) : (
         <div className="relative z-0 bg-primary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <Navbar blackColor={false}/>
+            <Navbar blackColor={false} />
             <section className="relative h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 ">
               <div
                 className={`px-2 sm:px-12 relative inset-0 top-[120px]  mx-auto flex flex-col items-start gap-5`}
@@ -59,7 +58,6 @@ const Designers = () => {
               </div>
             </section>
           </div>
-          
         </div>
       )}
     </div>
