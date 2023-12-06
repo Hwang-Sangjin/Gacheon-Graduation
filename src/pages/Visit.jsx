@@ -128,7 +128,7 @@ const Visit = () => {
       setLoading(false);
     }, 2000);
 
-    setRandomIndex(getRandomInt());
+    setRandomIndex(parseInt(getRandomInt()));
   }, []);
 
   useEffect(() => {
@@ -138,12 +138,14 @@ const Visit = () => {
 
   useEffect(() => {
     if (selectedDesigner !== undefined) {
-      setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
+      setVisitorCardSrc(
+        VisitCardIamge[`${selectedDesigner}`][`${randomIndex}`]
+      );
     }
   }, [selectedDesigner]);
 
   useEffect(() => {
-    setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
+    setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][`${randomIndex}`]);
   }, [randomIndex]);
 
   return (

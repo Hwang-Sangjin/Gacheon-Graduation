@@ -30,19 +30,14 @@ const ProjectCard = ({ type, data, index }) => {
           {type === "product" ? (
             <img
               className="project-card w-full h-full"
-              src={data.Image_Product}
+              src={text ? data.Image_Product_Hover : data.Image_Product}
             />
           ) : (
             <img
               className="project-card w-full h-full"
-              src={data.Image_Space}
+              src={text ? data.Image_Space_Hover : data.Image_Space}
             />
           )}
-          {text ? (
-            <div className="text-[#FFFFFF] text-2xl font-['Hack-Regular'] project-card-text">
-              {type === "product" ? data.Title_Product : data.Title_Space}
-            </div>
-          ) : null}
         </div>
       </motion.div>
     </Tilt>

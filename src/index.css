@@ -198,12 +198,6 @@
   filter: grayscale(0%);
 }
 
-.project-card:hover {
-  transform: scale(1.05);
-  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
-  filter: blur(4px);
-}
-
 .backdrop {
   position: absolute;
   top: 0;
@@ -234,12 +228,6 @@ hr {
   width: 80%;
   background-color: #ffff00;
   height: 1px;
-}
-.project-card-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .main-canvas {
