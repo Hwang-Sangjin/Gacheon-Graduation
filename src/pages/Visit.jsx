@@ -133,12 +133,11 @@ const Visit = () => {
 
   useEffect(() => {
     const Icon_Src_string = selectedIcon.toString().split("/");
-
     setSelectedDesigner(Icon_Src_string[4]);
   }, [selectedIcon]);
 
   useEffect(() => {
-    if (VisitCardIamge[`${selectedDesigner}`] !== undefined) {
+    if (selectedDesigner !== undefined) {
       setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][randomIndex]);
     }
   }, [selectedDesigner]);
@@ -287,7 +286,12 @@ const Visit = () => {
 
               <div className="flex justify-center grow" ref={CardImage}>
                 <div className="flex relative">
-                  <img className="flex h-auto max-w-lg" src={visitorCardSrc} />
+                  {visitorCardSrc && (
+                    <img
+                      className="flex h-auto max-w-lg"
+                      src={visitorCardSrc}
+                    />
+                  )}
                   <div className="flex flex-row absolute p-11 justify-end w-full">
                     <div className="text-[#000000] font-[Pretendard-Bold] text-2xl">
                       {DesignerName[`${selectedDesigner}`]}
