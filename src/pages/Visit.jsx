@@ -62,6 +62,8 @@ const DesignerName = {
 };
 
 const Visit = () => {
+
+  const [level, setLevel] = useState(1);
   const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
   const [selectedIcon, setSelectedIcon] = useState(IconImages[0]);
@@ -306,6 +308,10 @@ const Visit = () => {
     setRandomIndex(parseInt(getRandomInt()));
   }, []);
 
+  useEffect(()=> {
+    console.log(level, level ===1,Page1)
+  },[level])
+
   useEffect(() => {
     const Icon_Src_string = selectedIcon.toString().split("/");
     setSelectedDesigner(Icon_Src_string[4]);
@@ -331,6 +337,7 @@ const Visit = () => {
         <div className="relative z-0 bg-[#101010]">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar blackColor={true} />
+            {level===1?(Page1):(level===2?(Page2):(level===3?(Page3):(level===4?(Page4):(level===5?(Page5):Page6))))}
           </div>
           <Footer blackColor={true} Visit={true} />
         </div>

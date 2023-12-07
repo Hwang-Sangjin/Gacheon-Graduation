@@ -26,6 +26,7 @@ const dropIn = {
 };
 
 const DesignerModal = ({ data }) => {
+  console.log(data.Image_Project_Product)
   return (
     <motion.div
       onClick={(e) => e.stopPropagation()}
@@ -39,9 +40,12 @@ const DesignerModal = ({ data }) => {
       <Tilt className="absolute left-[51%] top-[62%] w-[20%]">
         <img src={data.Image_Project_Product} />
       </Tilt>
-      <Tilt className="absolute left-[75%] top-[62%] w-[20%]">
+      {data.Image_Project_Product===""? (<Tilt className="absolute left-[51%] top-[62%] w-[20%]">
         <img src={data.Image_Project_Space} />
-      </Tilt>
+      </Tilt>):(<Tilt className="absolute left-[75%] top-[62%] w-[20%]">
+        <img src={data.Image_Project_Space} />
+      </Tilt>)}
+      
     </motion.div>
   );
 };

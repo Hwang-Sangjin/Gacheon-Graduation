@@ -35,7 +35,7 @@ const Projects = () => {
                   <h2 className="font-['Hack-Bold'] font-black text-[60px]">
                     Project
                   </h2>
-                  <p className="text-[12px] text-secondary font-['Hack-Regular']">
+                  <p className="text-[16px] text-secondary font-['Pretendard-Regular']">
                     {selectedCategory === "Product"
                       ? "제품 디자인 지도 교수님 - 강현석"
                       : "공간 디자인 지도 교수님 - 지환수"}

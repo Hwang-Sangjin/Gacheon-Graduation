@@ -18,8 +18,8 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const boxVariant = {
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.3 } },
-  hidden: { opacity: 0, scale: 0.5 },
+  visible: { opacity: 1,  transition: { duration: 0.3 }, y:0},
+  hidden: { opacity: 0.8,  y: 300 },
 };
 
 const ServiceCard = ({ index, Title, Image, Text }) => (
