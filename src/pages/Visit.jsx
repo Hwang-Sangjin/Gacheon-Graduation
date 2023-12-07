@@ -321,9 +321,7 @@ const Visit = () => {
     setRandomIndex(parseInt(getRandomInt()));
   }, []);
 
-  useEffect(()=> {
-    console.log(level, level ===1,Page1)
-  },[level])
+
 
   useEffect(() => {
     const Icon_Src_string = selectedIcon.toString().split("/");
@@ -350,6 +348,7 @@ const Visit = () => {
         <div className="relative z-0 bg-[#101010]">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar blackColor={true} />
+            <Page/>
           </div>
         </div>
       )}
