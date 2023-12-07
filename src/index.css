@@ -362,3 +362,7 @@ input:focus {
 .bg-visit {
   background-image: url("/Visit/background.jpg");
 }
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}

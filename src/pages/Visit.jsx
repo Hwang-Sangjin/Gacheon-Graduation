@@ -1,5 +1,5 @@
 import { Navbar } from "../components/index";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence, usePresence } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { useState, useEffect, useRef, useCallback } from "react";
@@ -15,6 +15,7 @@ import download from "downloadjs";
 import VisitText from "../assets/visit_Image/Visit_Text.png";
 import CardBottom from "../assets/visit_Image/Card_Bottom.png";
 import SmallHeader from "../components/SmallHeader";
+import { gsap } from "gsap";
 
 const DesignerName = {
   KimGeonRyeong: "김건령",
@@ -62,7 +63,6 @@ const DesignerName = {
 };
 
 const Visit = () => {
-
   const [level, setLevel] = useState(1);
   const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
@@ -76,186 +76,196 @@ const Visit = () => {
     VisitCardIamge["KimGeonRyeong"][0]
   );
 
-  const section1 = useRef();
-  const section2 = useRef();
-  const section3 = useRef();
-  const section4 = useRef();
-  const section5 = useRef();
-  const section6 = useRef();
   const CardImage = useRef();
 
-  const Page1 = () => {
-    return (
-      <section
-        ref={section1}
-        className="bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
-      >
-        <div className="text-[#FFFFFF] font-[Hack-Regular] text-6xl">
-          Kudos on your stellar <br />
-          graduation showcase
-        </div>
-        <div className="text-[#FFFFFF] font-[Pretendard-Regular] text-l my-11">
-          1년 동안 졸업전시를 준비하며 고생했을 소중한 사람에게 축하의 메시지를
-          전달해 보세요.
-        </div>
-        <Button
-          onClick={() => scrollHandler(section2)}
-          className="mt-11 font-[Hack-Regular] text-2xl bg-[#FFF16F] p-2 px-3 rounded-3xl "
-        >
-          Start
-        </Button>
-      </section>
-    );
-  };
+  const Page = () => {
+    const ref = useRef(null);
+    const [isPresent, safeToRemove] = usePresence();
 
-  const Page2 = () => {
-    <section
-      ref={section2}
-      className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
-    >
-      <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
-        받는 사람의 이름이 무엇인가요?{" "}
-      </div>
-      <input
-        className="text-[#FFFFFF] text-center text-2xl m-8 p-6 w-1/4 h-11 bg-[#101010] border-[#FFFFFF] border-2 rounded-3xl"
-        onChange={onChangeName}
-        value={name}
-      />
-      <Button
-        onClick={() => scrollHandler(section3)}
-        className="mt-11 font-[Hack-Regular] text-2xl bg-[#FFF16F] p-2 px-3 rounded-3xl "
-      >
-        Next
-      </Button>
-    </section>;
-  };
+    useEffect(() => {
+      if (!isPresent) {
+        gsap.to(ref.current, {
+          opacity: 0,
+          onComplete: () => safeToRemove?.(),
+        });
+      }
+    }, [isPresent, safeToRemove]);
 
-  const Page3 = () => {
     return (
-      <section
-        ref={section3}
-        className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
-      >
-        <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
-          축하의 아이콘을 선택해 주세요.
-        </div>
-        <div className="w-3/4 grid grid-cols-11 m-11">
-          {IconImages.map((e) => {
-            return (
-              <img
-                onClick={() => {
-                  setSelectedIcon(e);
-                  scrollHandler(section4);
-                }}
-                className="m-3"
-                src={e}
-              />
-            );
-          })}
-        </div>
-      </section>
-    );
-  };
-
-  const Page4 = () => {
-    return (
-      <section
-        ref={section4}
-        className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
-      >
-        <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
-          응원 메시지를 작성해 주세요.
-        </div>
-        <input
-          className="text-[#FFFFFF] text-center text-2xl m-3 p-8 w-1/2 max-w-lg min-w-[30%] h-11 bg-[#101010] border-[#FFFFFF] border-b-2 "
-          onChange={onChangeMessage1}
-          value={message1}
-        />
-        <input
-          className="text-[#FFFFFF] text-center text-2xl m-3 p-8 w-1/2 min-w-[30%] max-w-lg h-11 bg-[#101010] border-[#FFFFFF] border-b-2"
-          onChange={onChangeMessage2}
-          value={message2}
-        />
-        <input
-          className="text-[#FFFFFF] text-center text-2xl m-3 p-8 w-1/2 min-w-[30%] max-w-lg h-11 bg-[#101010] border-[#FFFFFF] border-b-2"
-          onChange={onChangeMessage3}
-          value={message3}
-        />
-        <Button
-          onClick={() => scrollHandler(section5)}
-          className="mt-11 font-[Hack-Regular] text-2xl bg-[#FFF16F] p-2 px-3 rounded-3xl "
-        >
-          Next
-        </Button>
-      </section>
-    );
-  };
-
-  const Page5 = () => {
-    return (
-      <section
-        ref={section5}
-        className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
-      >
-        <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
-          {name}님을 위한 축하카드를 만드는 중이에요.
-        </div>
-        <video
-          className="w-50%"
-          muted
-          autoPlay
-          onEnded={() => scrollHandler(section6)}
-          src={VisitorLoadingSrc}
-        />
-      </section>
-    );
-  };
-
-  const Page6 = () => {
-    return (
-      <section
-        ref={section6}
-        className={`bg-${randomIndex} justify-evenly relative flex  flex-row h-screen  sm:px-2 px-2 w-full  py-5 fixed top-0  items-center`}
-      >
-        <div className="flex items-center flex-col grow">
-          <div className="flex flex-1 text-[#FFFFFF] font-[Hack-Bold] text-3xl">
-            {name}님을 위한 축하카드
-          </div>
-          <img className="m-5" src={VisitText} />
-          <div className="flex flex-row">
-            <button
-              className="mx-8 my-20 border-2 border-[#FFFFFF] text-[#FFFFFF] font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
-              onClick={() => scrollHandler(section1)}
+      <AnimatePresence>
+        {level === 1 ? (
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            ref={ref}
+            className="bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+          >
+            <div className="text-[#FFFFFF] font-[Hack-Regular] text-6xl">
+              Kudos on your stellar <br />
+              graduation showcase
+            </div>
+            <div className="text-[#FFFFFF] font-[Pretendard-Regular] text-l my-11">
+              1년 동안 졸업전시를 준비하며 고생했을 소중한 사람에게 축하의
+              메시지를 전달해 보세요.
+            </div>
+            <Button
+              onClick={() => nextPage()}
+              className="mt-11 font-[Hack-Regular] text-2xl bg-[#FFF16F] p-2 px-3 rounded-3xl "
             >
-              다시하기
-            </button>
-            <button
-              className="mx-8 my-20 bg-[#FFF16F]  font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
-              onClick={onButtonClick}
+              Start
+            </Button>
+          </motion.span>
+        ) : level === 2 ? (
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            ref={ref}
+            className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+          >
+            <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
+              받는 사람의 이름이 무엇인가요?{" "}
+            </div>
+            <input
+              className="text-[#FFFFFF] text-center text-2xl m-8 p-6 w-1/4 h-11 bg-[#101010] border-[#FFFFFF] border-2 rounded-3xl"
+              onChange={onChangeName}
+              value={name}
+            />
+            <Button
+              onClick={() => nextPage()}
+              className="mt-11 font-[Hack-Regular] text-2xl bg-[#FFF16F] p-2 px-3 rounded-3xl "
             >
-              이미지 저장
-            </button>
-          </div>
-        </div>
-
-        <div className="flex justify-center grow" ref={CardImage}>
-          <div className="flex relative">
-            {visitorCardSrc && (
-              <img className="flex h-auto max-w-lg" src={visitorCardSrc} />
-            )}
-            <div className="flex flex-row absolute p-11 justify-end w-full">
-              <div className="text-[#000000] font-[Pretendard-Bold] text-2xl">
-                {DesignerName[`${selectedDesigner}`]}
+              Next
+            </Button>
+          </motion.span>
+        ) : level === 3 ? (
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            ref={ref}
+            className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+          >
+            <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
+              축하의 아이콘을 선택해 주세요.
+            </div>
+            <div className="w-3/4 grid grid-cols-11 m-11">
+              {IconImages.map((e) => {
+                return (
+                  <img
+                    onClick={() => {
+                      setSelectedIcon(e);
+                      nextPage();
+                    }}
+                    className="m-3"
+                    src={e}
+                  />
+                );
+              })}
+            </div>
+          </motion.span>
+        ) : level === 4 ? (
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            ref={ref}
+            className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+          >
+            <div className="text-[#FFFFFF] font-[Hack-Bold] text-2xl">
+              응원 메시지를 작성해 주세요.
+            </div>
+            <input
+              className="text-[#FFFFFF] text-center text-2xl m-3 p-8 w-1/2 max-w-lg min-w-[30%] h-11 bg-[#101010] border-[#FFFFFF] border-b-2 "
+              onChange={onChangeMessage1}
+              value={message1}
+            />
+            <input
+              className="text-[#FFFFFF] text-center text-2xl m-3 p-8 w-1/2 min-w-[30%] max-w-lg h-11 bg-[#101010] border-[#FFFFFF] border-b-2"
+              onChange={onChangeMessage2}
+              value={message2}
+            />
+            <input
+              className="text-[#FFFFFF] text-center text-2xl m-3 p-8 w-1/2 min-w-[30%] max-w-lg h-11 bg-[#101010] border-[#FFFFFF] border-b-2"
+              onChange={onChangeMessage3}
+              value={message3}
+            />
+            <Button
+              onClick={() => nextPage()}
+              className="mt-11 font-[Hack-Regular] text-2xl bg-[#FFF16F] p-2 px-3 rounded-3xl "
+            >
+              Next
+            </Button>
+          </motion.span>
+        ) : level === 5 ? (
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            ref={ref}
+            className=" bg-visit relative flex flex-col h-screen sm:px-2 px-2 w-full  py-5 fixed top-0 justify-center items-center"
+          >
+            <div className="text-[#FFFFFF] font-[Pretendard-SemiBold] text-[29px]">
+              {name}님을 위한 축하카드를 만드는 중이에요.
+            </div>
+            <video
+              className="w-50%"
+              muted
+              autoPlay
+              onEnded={() => nextPage()}
+              src={VisitorLoadingSrc}
+            />
+          </motion.span>
+        ) : (
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            ref={ref}
+            className={`bg-${randomIndex} justify-evenly relative flex  flex-row h-screen  sm:px-2 px-2 w-full  py-5 fixed top-0  items-center`}
+          >
+            <div className="flex items-center flex-col grow">
+              <div className="flex flex-1 text-[#FFFFFF] font-[Hack-Bold] text-3xl">
+                {name}님을 위한 축하카드
+              </div>
+              <img className="m-5" src={VisitText} />
+              <div className="flex flex-row">
+                <button
+                  className="mx-8 my-20 border-2 border-[#FFFFFF] text-[#FFFFFF] font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
+                  onClick={() => resetPage()}
+                >
+                  다시하기
+                </button>
+                <button
+                  className="mx-8 my-20 bg-[#FFF16F]  font-[Hack-Bold] text-2xl py-2 px-5 rounded-full font-extrabold"
+                  onClick={onButtonClick}
+                >
+                  이미지 저장
+                </button>
               </div>
             </div>
-            <div className="flex flex-col w-full absolute text-[#000000] font-[Pretendard-Bold]  text-2xl top-[70%] items-center">
-              <div className="my-4 h-5">{message1}</div>
-              <div className="my-4 h-5">{message2}</div>
-              <div className="my-4 h-5">{message3}</div>
+
+            <div className="flex justify-center grow" ref={CardImage}>
+              <div className="flex relative">
+                {visitorCardSrc && (
+                  <img className="flex h-auto max-w-lg" src={visitorCardSrc} />
+                )}
+                <div className="flex flex-row absolute p-11 justify-end w-full">
+                  <div className="text-[#000000] font-[Pretendard-Bold] text-2xl">
+                    {DesignerName[`${selectedDesigner}`]}
+                  </div>
+                </div>
+                <div className="flex flex-col w-full absolute text-[#000000] font-[Pretendard-Bold]  text-2xl top-[70%] items-center">
+                  <div className="my-4 h-5">{message1}</div>
+                  <div className="my-4 h-5">{message2}</div>
+                  <div className="my-4 h-5">{message3}</div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </motion.span>
+        )}
+      </AnimatePresence>
     );
   };
 
@@ -272,8 +282,11 @@ const Visit = () => {
     setMessage3(e.target.value);
   };
 
-  const scrollHandler = (eleRef) => {
-    window.scrollTo({ top: eleRef.current.offsetTop, behavior: "smooth" });
+  const nextPage = () => {
+    setLevel((prev) => prev + 1);
+  };
+  const resetPage = () => {
+    setLevel(1);
   };
 
   const getRandomInt = () => {
@@ -337,9 +350,7 @@ const Visit = () => {
         <div className="relative z-0 bg-[#101010]">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar blackColor={true} />
-            {level===1?(Page1):(level===2?(Page2):(level===3?(Page3):(level===4?(Page4):(level===5?(Page5):Page6))))}
           </div>
-          <Footer blackColor={true} Visit={true} />
         </div>
       )}
     </div>
