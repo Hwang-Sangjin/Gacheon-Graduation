@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import { motion, AnimatePresence } from "framer-motion";
 import { ProjectData, ProductData } from "../constants";
-import React, { useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import DesignerVideo from "./DesignerVideo";
 import Footer from "../components/Footer";
 import ProjectVideoCard from "./ProjectVideoCard";
@@ -19,6 +19,18 @@ const style = {
 };
 
 const ProductProject = () => {
+  let images = [];
+  const hoverImgPreload = () => {
+    ProductData.map(({ e, i }) => {
+      images[i] = new Image();
+      images.src = ProjectData[e];
+    });
+  };
+
+  useLayoutEffect(() => {
+    hoverImgPreload();
+  }, []);
+
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
       <div className="grid grid-cols-2 sm:grid-cols-4">
