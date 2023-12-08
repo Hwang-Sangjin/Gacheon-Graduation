@@ -5,6 +5,7 @@ import React, { useLayoutEffect, useState } from "react";
 import DesignerVideo from "./DesignerVideo";
 import Footer from "../components/Footer";
 import ProjectVideoCard from "./ProjectVideoCard";
+import { useNavigate } from "react-router-dom";
 
 const style = {
   position: "absolute",
@@ -36,7 +37,9 @@ const ProductProject = () => {
       <div className="grid grid-cols-2 sm:grid-cols-4">
         {ProductData.map((name, index) => {
           if (name === " ") return <ProjectVideoCard />;
-          return <ProjectCard type="product" data={ProjectData[name]} />;
+          return (
+            <ProjectCard name={name} type="product" data={ProjectData[name]} />
+          );
         })}
       </div>
       <Footer />

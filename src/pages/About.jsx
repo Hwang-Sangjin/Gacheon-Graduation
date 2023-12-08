@@ -18,8 +18,8 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const boxVariant = {
-  visible: { opacity: 1,  transition: { duration: 0.3 }, y:0},
-  hidden: { opacity: 0.8,  y: 300 },
+  visible: { opacity: 1, transition: { duration: 0.3 }, y: 0 },
+  hidden: { opacity: 0.8, y: 300 },
 };
 
 const ServiceCard = ({ index, Title, Image, Text }) => (
@@ -139,7 +139,7 @@ const About = () => {
               </ReactCardFlip>
             ))}
           </div>
-          <video className="flex flex-row flex-1 " muted autoPlay loop>
+          <video className="flex flex-row flex-1 w-full" muted autoPlay loop>
             <source src="./about_gif.mp4" type="video/mp4" />
           </video>
           {AboutPictureImage.map((pic, index) => {

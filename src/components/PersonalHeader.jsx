@@ -6,11 +6,11 @@ const PersonalHeader = ({ IsBlack }) => {
   const navigate = useNavigate();
 
   return IsBlack ? (
-    <div className="absolute">
+    <div className=" sticky top-0">
       <img onClick={() => navigate(-1)} src={Back_Gray} />
     </div>
   ) : (
-    <div className="absolute">
+    <div className=" sticky top-0">
       <img onClick={() => navigate(-1)} src={Back_White} />
     </div>
   );

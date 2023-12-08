@@ -4,7 +4,7 @@ import { Tilt } from "react-tilt";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const ProjectCard = ({ type, data, index }) => {
+const ProjectCard = ({ type, data, index, name }) => {
   const [text, setText] = useState(false);
   const navigate = useNavigate();
   return (
@@ -17,14 +17,6 @@ const ProjectCard = ({ type, data, index }) => {
         className="w-full rounded-[20px]"
         whileHover={() => setText(true)}
         onHoverEnd={() => setText(false)}
-        onClick={() => {
-          navigate("/personal", {
-            state: {
-              data: data,
-              type: type,
-            },
-          });
-        }}
       >
         <div className="md:w-[90%] sm:w-1/7  relative text-center">
           {type === "product" ? (
@@ -32,13 +24,16 @@ const ProjectCard = ({ type, data, index }) => {
               className="project-card w-full h-full"
               src={text ? data.Image_Product_Hover : data.Image_Product}
               onClick={() => {
-                navigate("/");
+                navigate(`/${name}Product`);
               }}
             />
           ) : (
             <img
               className="project-card w-full h-full"
               src={text ? data.Image_Space_Hover : data.Image_Space}
+              onClick={() => {
+                navigate(`/${name}Space`);
+              }}
             />
           )}
         </div>
