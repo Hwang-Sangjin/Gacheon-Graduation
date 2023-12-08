@@ -15,6 +15,7 @@ import Preloader from "./components/Preloader";
 import Personal from "./pages/Personal";
 import KimGeonRyeongProductPage from "./PersonalPage/Product/KimGeonRyeong-Product-Page";
 import AnMyoungJiProductPage from "./PersonalPage/Product/AnMyoungJi-Product-Page";
+import KimGoEunProductPage from "./PersonalPage/Product/KimGoEun-Product-Page";
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: "/AnMyoungJiProduct",
     element: <AnMyoungJiProductPage />,
+  },
+  {
+    path: "/KimGoEunProduct",
+    element: <KimGoEunProductPage />,
   },
 ]);
 
