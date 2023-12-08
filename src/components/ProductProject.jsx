@@ -21,7 +21,7 @@ const style = {
 const ProductProject = () => {
   let images = [];
   const hoverImgPreload = () => {
-    ProductData.map(({ e, i }) => {
+    ProductData.map((e, i) => {
       images[i] = new Image();
       images.src = ProjectData[e];
     });

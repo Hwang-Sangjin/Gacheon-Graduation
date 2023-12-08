@@ -6,12 +6,12 @@ const PersonalHeader = ({ IsBlack }) => {
   const navigate = useNavigate();
 
   return IsBlack ? (
-    <div onClick={() => navigate(-1)}>
-      <img src={Back_Gray} />
+    <div className="absolute">
+      <img onClick={() => navigate(-1)} src={Back_Gray} />
     </div>
   ) : (
-    <div onClick={() => navigate(-1)}>
-      <img src={Back_White} />
+    <div className="absolute">
+      <img onClick={() => navigate(-1)} src={Back_White} />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import Modal from "@mui/material/Modal";
 import Preloader from "./Preloader";
 import Footer from "../components/Footer";
 import DesignerVideo from "./DesignerVideo";
+import { useLayoutEffect } from "react";
 
 const style = {
   position: "absolute",
@@ -23,6 +24,18 @@ const style = {
 };
 
 const AllDesigners = () => {
+  let images = [];
+  const hoverImgPreload = () => {
+    AllDesignersData.map((e, i) => {
+      images[i] = new Image();
+      images.src = DesignersData[`${e}`];
+    });
+  };
+
+  useLayoutEffect(() => {
+    hoverImgPreload();
+  }, []);
+
   return (
     <div className="mt-10 flex  flex-wrap gap-7">
       <div className="grid grid-cols-2 sm:grid-cols-4">

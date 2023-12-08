@@ -321,8 +321,6 @@ const Visit = () => {
     setRandomIndex(parseInt(getRandomInt()));
   }, []);
 
-
-
   useEffect(() => {
     const Icon_Src_string = selectedIcon.toString().split("/");
     setSelectedDesigner(Icon_Src_string[4]);
@@ -337,7 +335,11 @@ const Visit = () => {
   }, [selectedDesigner]);
 
   useEffect(() => {
-    setVisitorCardSrc(VisitCardIamge[`${selectedDesigner}`][`${randomIndex}`]);
+    if (selectedDesigner !== undefined) {
+      setVisitorCardSrc(
+        VisitCardIamge[`${selectedDesigner}`][`${randomIndex}`]
+      );
+    }
   }, [randomIndex]);
 
   return (
@@ -348,7 +350,7 @@ const Visit = () => {
         <div className="relative z-0 bg-[#101010]">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar blackColor={true} />
-            <Page/>
+            <Page />
           </div>
         </div>
       )}
